@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>@MMK_L_R</key>
+	<array>
+		<string>R</string>
+	</array>
+	<key>@MMK_R_C</key>
+	<array>
+		<string>C</string>
+		<string>Ccedilla</string>
+		<string>G</string>
+		<string>O</string>
+		<string>Oacute</string>
+		<string>Ocircumflex</string>
+		<string>Odieresis</string>
+		<string>Ograve</string>
+		<string>Oslash</string>
+		<string>Otilde</string>
+		<string>OE</string>
+		<string>Q</string>
+	</array>
+</dict>
+</plist>
