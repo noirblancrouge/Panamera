@@ -3,7 +3,7 @@
 Panamera, a sans-serif typeface in three weights.
 
 ## Specimen
-![Specimen 1](https://raw.github.com/bsozoo/Panamera/master/documentation/images/sample.jpg)
+![Specimen 1](https://raw.github.com/uplaod/Panamera/master/documentation/images/sample.jpg)
 
 ## License
 
