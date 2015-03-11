@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oe" format="1">
+  <advance width="953"/>
+  <unicode hex="0153"/>
+  <outline>
+    <component base="o"/>
+    <component base="e" xOffset="396"/>
+    <contour>
+      <point x="543" y="491" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

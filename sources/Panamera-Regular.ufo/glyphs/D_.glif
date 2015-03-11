@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="D" format="1">
+  <advance width="626"/>
+  <unicode hex="0044"/>
+  <outline>
+    <contour>
+      <point x="71" y="700" type="line"/>
+      <point x="71" y="602" type="line"/>
+      <point x="220" y="602" type="line"/>
+      <point x="373" y="602"/>
+      <point x="488" y="537"/>
+      <point x="488" y="351" type="curve" smooth="yes"/>
+      <point x="488" y="169"/>
+      <point x="392" y="98"/>
+      <point x="236" y="98" type="curve"/>
+      <point x="69" y="98" type="line"/>
+      <point x="69" y="0" type="line"/>
+      <point x="236" y="0" type="line"/>
+      <point x="439" y="0"/>
+      <point x="601" y="105"/>
+      <point x="601" y="351" type="curve" smooth="yes"/>
+      <point x="601" y="602"/>
+      <point x="418" y="700"/>
+      <point x="220" y="700" type="curve"/>
+    </contour>
+    <contour>
+      <point x="40" y="700" type="line"/>
+      <point x="40" y="0" type="line"/>
+      <point x="148" y="0" type="line"/>
+      <point x="148" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="311" y="350" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="311" y="700" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

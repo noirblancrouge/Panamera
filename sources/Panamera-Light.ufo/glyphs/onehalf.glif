@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onehalf" format="1">
+  <advance width="882"/>
+  <unicode hex="00BD"/>
+  <outline>
+    <contour>
+      <point x="83" y="-9" type="line"/>
+      <point x="116" y="-9" type="line"/>
+      <point x="698" y="745" type="line"/>
+      <point x="665" y="745" type="line"/>
+    </contour>
+    <component base="onesuperior"/>
+    <component base="twosuperior" xOffset="419" yOffset="-409"/>
+  </outline>
+</glyph>

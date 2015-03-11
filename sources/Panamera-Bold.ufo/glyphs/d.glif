@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="d" format="1">
+  <advance width="638"/>
+  <unicode hex="0064"/>
+  <outline>
+    <component base="b" xOffset="638" xScale="-1"/>
+    <contour>
+      <point x="312" y="254" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="563" y="494" type="move" name="topright"/>
+    </contour>
+  </outline>
+</glyph>
