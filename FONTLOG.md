@@ -29,7 +29,10 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this 
 
-9 Mar 2015 (Bastien Sozoo)
+04 Feb 2019 (Bastien Sozeau)
+- Update License, add real sources
+
+9 Mar 2015 (Bastien Sozeau)
 - Initital release.
 
 
@@ -40,7 +43,7 @@ When you make modifications, be sure to add your name (N), email (E),
 web-address (W) and description (D). This list is sorted by last name in
 alphabetical order.
 
-  N: Bastien Sozoo
-  E: contact@sozoo.fr
-  W: www.uplaod.fr
+  N: Bastien Sozeau
+  E: contact@noirblancrouge.com
+  W: noirblancrouge.com
   D: Designer

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lslash" format="2">
+  <advance width="697.0"/>
+  <unicode hex="0141"/>
+  <note>
+Lslash
+</note>
+  <outline>
+    <contour>
+      <point x="171.0" y="0.0" type="line"/>
+      <point x="650.0" y="0.0" type="line"/>
+      <point x="650.0" y="30.0" type="line"/>
+      <point x="213.0" y="30.0" type="line"/>
+      <point x="213.0" y="391.5" type="line"/>
+      <point x="344.0" y="429.0" type="line"/>
+      <point x="344.0" y="465.0" type="line"/>
+      <point x="213.0" y="427.5" type="line"/>
+      <point x="213.0" y="700.0" type="line"/>
+      <point x="171.0" y="700.0" type="line"/>
+      <point x="171.0" y="415.48" type="line"/>
+      <point x="54.0" y="382.0" type="line"/>
+      <point x="54.0" y="346.0" type="line"/>
+      <point x="171.0" y="379.48" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>0.0</real>
+            <real>30.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>171.0</real>
+            <real>42.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

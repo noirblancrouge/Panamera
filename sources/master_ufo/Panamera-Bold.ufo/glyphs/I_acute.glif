@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iacute" format="2">
+  <advance width="294.0"/>
+  <unicode hex="00CD"/>
+  <note>
+Iacute
+</note>
+  <outline>
+    <contour>
+      <point x="290.0" y="848.0" type="line"/>
+      <point x="213.0" y="976.0" type="line"/>
+      <point x="0.0" y="777.0" type="line"/>
+      <point x="118.0" y="741.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="70.0" y="0.0" type="line"/>
+      <point x="224.0" y="0.0" type="line"/>
+      <point x="224.0" y="700.0" type="line"/>
+      <point x="70.0" y="700.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>0.0</real>
+            <real>976.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>70.0</real>
+            <real>154.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lessequal" format="2">
+  <advance width="600.0"/>
+  <unicode hex="2264"/>
+  <note>
+lessequal
+</note>
+  <outline>
+    <contour>
+      <point x="557.0" y="119.0" type="line"/>
+      <point x="557.0" y="243.0" type="line"/>
+      <point x="224.0" y="412.0" type="line"/>
+      <point x="557.0" y="581.0" type="line"/>
+      <point x="557.0" y="704.0" type="line"/>
+      <point x="25.0" y="412.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="555.0" y="0.0" type="line"/>
+      <point x="555.0" y="100.0" type="line"/>
+      <point x="24.0" y="100.0" type="line"/>
+      <point x="24.0" y="0.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>0.0</real>
+            <real>100.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>24.0</real>
+            <real>533.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

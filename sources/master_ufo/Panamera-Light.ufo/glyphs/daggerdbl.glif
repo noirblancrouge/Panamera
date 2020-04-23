@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="daggerdbl" format="2">
+  <advance width="600.0"/>
+  <unicode hex="2021"/>
+  <note>
+daggerdbl
+</note>
+  <outline>
+    <contour>
+      <point x="530.0" y="103.0" type="line"/>
+      <point x="530.0" y="148.0" type="line"/>
+      <point x="309.0" y="134.55" type="line"/>
+      <point x="309.0" y="459.49" type="line"/>
+      <point x="530.0" y="447.0" type="line"/>
+      <point x="530.0" y="492.0" type="line"/>
+      <point x="309.47" y="479.54" type="line"/>
+      <point x="323.0" y="754.0" type="line"/>
+      <point x="277.0" y="754.0" type="line"/>
+      <point x="290.53" y="479.54" type="line"/>
+      <point x="70.0" y="492.0" type="line"/>
+      <point x="70.0" y="447.0" type="line"/>
+      <point x="291.0" y="459.49" type="line"/>
+      <point x="291.0" y="134.55" type="line"/>
+      <point x="70.0" y="148.0" type="line"/>
+      <point x="70.0" y="103.0" type="line"/>
+      <point x="290.63" y="115.47" type="line"/>
+      <point x="277.0" y="-161.0" type="line"/>
+      <point x="323.0" y="-161.0" type="line"/>
+      <point x="309.37" y="115.47" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>109.24</real>
+            <real>32.04</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>453.25</real>
+            <real>32.52</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>291.0</real>
+            <real>18.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>283.76</real>
+            <real>32.47</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

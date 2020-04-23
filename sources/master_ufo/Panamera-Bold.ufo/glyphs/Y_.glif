@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Y" format="2">
+  <advance width="703.0"/>
+  <unicode hex="0059"/>
+  <note>
+Y
+</note>
+  <outline>
+    <contour>
+      <point x="274.0" y="306.89" type="line"/>
+      <point x="274.0" y="0.0" type="line"/>
+      <point x="428.0" y="0.0" type="line"/>
+      <point x="428.0" y="306.86" type="line"/>
+      <point x="683.0" y="700.0" type="line"/>
+      <point x="525.0" y="700.0" type="line"/>
+      <point x="351.37" y="420.77" type="line"/>
+      <point x="178.0" y="700.0" type="line"/>
+      <point x="20.0" y="700.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>0.0</real>
+            <real>700.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>274.0</real>
+            <real>154.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

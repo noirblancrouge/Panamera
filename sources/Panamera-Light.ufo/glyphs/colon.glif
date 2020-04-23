@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="colon" format="1">
-  <advance width="270"/>
-  <unicode hex="003A"/>
-  <outline>
-    <component base="period" yOffset="398"/>
-    <component base="period" xOffset="-1" yOffset="-1" xScale="1.008" yScale="1.008"/>
-  </outline>
-</glyph>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="icircumflex" format="2">
+  <advance width="248.0"/>
+  <unicode hex="00EE"/>
+  <note>
+icircumflex
+</note>
+  <outline>
+    <contour>
+      <point x="-59.0" y="606.0" type="line"/>
+      <point x="29.0" y="579.0" type="line"/>
+      <point x="125.0" y="669.12" type="line"/>
+      <point x="221.0" y="579.0" type="line"/>
+      <point x="309.0" y="606.0" type="line"/>
+      <point x="125.0" y="768.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="178.0" y="0.0" type="line"/>
+      <point x="178.0" y="500.0" type="line"/>
+      <point x="70.0" y="500.0" type="line"/>
+      <point x="70.0" y="0.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>0.0</real>
+            <real>768.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>70.0</real>
+            <real>108.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

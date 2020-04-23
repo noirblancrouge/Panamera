@@ -1,1 +1,1 @@
-Copyright (c) 2015, Bastien Sozeau | http://sozoo.fr | http://uplaod.fr | <contact@sozoo.fr>, Panamera.
+Copyright (c) 2019 by Noir Blanc Rouge. https://noirblancrouge.com | <contact@noirblancrouge.com> | Panamera.

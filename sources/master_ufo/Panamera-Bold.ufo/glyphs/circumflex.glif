@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflex" format="2">
+  <advance width="600.0"/>
+  <unicode hex="02C6"/>
+  <note>
+circumflex
+</note>
+  <outline>
+    <contour>
+      <point x="273.46" y="773.46" type="line"/>
+      <point x="75.0" y="599.0" type="line"/>
+      <point x="197.0" y="561.0" type="line"/>
+      <point x="289.0" y="647.42" type="line"/>
+      <point x="381.0" y="561.0" type="line"/>
+      <point x="503.0" y="599.0" type="line"/>
+      <point x="304.54" y="773.46" type="line"/>
+      <point x="290.0" y="788.0" type="line"/>
+      <point x="289.0" y="787.12" type="line"/>
+      <point x="288.0" y="788.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>561.0</real>
+            <real>227.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>75.0</real>
+            <real>428.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

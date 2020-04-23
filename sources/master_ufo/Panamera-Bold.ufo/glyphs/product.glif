@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="product" format="2">
+  <advance width="687.0"/>
+  <unicode hex="220F"/>
+  <note>
+product
+</note>
+  <outline>
+    <contour>
+      <point x="424.0" y="567.0" type="line"/>
+      <point x="424.0" y="-110.0" type="line"/>
+      <point x="584.0" y="-110.0" type="line"/>
+      <point x="584.0" y="567.0" type="line"/>
+      <point x="687.0" y="567.0" type="line"/>
+      <point x="687.0" y="699.0" type="line"/>
+      <point x="1.0" y="699.0" type="line"/>
+      <point x="1.0" y="567.0" type="line"/>
+      <point x="100.0" y="567.0" type="line"/>
+      <point x="100.0" y="-110.0" type="line"/>
+      <point x="260.0" y="-110.0" type="line"/>
+      <point x="260.0" y="567.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>567.0</real>
+            <real>132.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>100.0</real>
+            <real>160.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>424.0</real>
+            <real>160.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

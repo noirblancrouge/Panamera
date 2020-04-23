@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="numbersign" format="2">
+  <advance width="823.0"/>
+  <unicode hex="0023"/>
+  <note>
+numbersign
+</note>
+  <outline>
+    <contour>
+      <point x="580.14" y="169.0" type="line"/>
+      <point x="750.0" y="169.0" type="line"/>
+      <point x="750.0" y="289.0" type="line"/>
+      <point x="620.25" y="289.0" type="line"/>
+      <point x="672.06" y="444.0" type="line"/>
+      <point x="820.0" y="444.0" type="line"/>
+      <point x="820.0" y="564.0" type="line"/>
+      <point x="712.16" y="564.0" type="line"/>
+      <point x="775.0" y="752.0" type="line"/>
+      <point x="619.0" y="752.0" type="line"/>
+      <point x="555.92" y="564.0" type="line"/>
+      <point x="407.92" y="564.0" type="line"/>
+      <point x="471.0" y="752.0" type="line"/>
+      <point x="315.0" y="752.0" type="line"/>
+      <point x="251.92" y="564.0" type="line"/>
+      <point x="81.0" y="564.0" type="line"/>
+      <point x="81.0" y="444.0" type="line"/>
+      <point x="211.65" y="444.0" type="line"/>
+      <point x="159.64" y="289.0" type="line"/>
+      <point x="20.99" y="289.0" type="line"/>
+      <point x="20.99" y="169.0" type="line"/>
+      <point x="119.37" y="169.0" type="line"/>
+      <point x="61.99" y="-2.0" type="line"/>
+      <point x="217.99" y="-2.0" type="line"/>
+      <point x="275.37" y="169.0" type="line"/>
+      <point x="423.37" y="169.0" type="line"/>
+      <point x="365.99" y="-2.0" type="line"/>
+      <point x="522.99" y="-2.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="515.64" y="444.0" type="line"/>
+      <point x="463.63" y="289.0" type="line"/>
+      <point x="315.63" y="289.0" type="line"/>
+      <point x="367.64" y="444.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>169.0</real>
+            <real>120.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>444.0</real>
+            <real>120.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>20.99</real>
+            <real>799.01</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

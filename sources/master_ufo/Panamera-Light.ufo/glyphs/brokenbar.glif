@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brokenbar" format="2">
+  <advance width="314.0"/>
+  <unicode hex="00A6"/>
+  <note>
+brokenbar
+</note>
+  <outline>
+    <contour>
+      <point x="182.0" y="420.67" type="line"/>
+      <point x="182.0" y="819.85" type="line"/>
+      <point x="133.0" y="819.85" type="line"/>
+      <point x="133.0" y="420.67" type="line"/>
+    </contour>
+    <contour>
+      <point x="182.0" y="-152.33" type="line"/>
+      <point x="182.0" y="246.85" type="line"/>
+      <point x="133.0" y="246.85" type="line"/>
+      <point x="133.0" y="-152.33" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>-152.33</real>
+            <real>972.18</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>133.0</real>
+            <real>49.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

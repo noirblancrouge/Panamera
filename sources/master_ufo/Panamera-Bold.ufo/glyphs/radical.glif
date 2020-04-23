@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="radical" format="2">
+  <advance width="497.0"/>
+  <unicode hex="221A"/>
+  <note>
+radical
+</note>
+  <outline>
+    <contour>
+      <point x="18.0" y="212.0" type="line"/>
+      <point x="70.0" y="149.0" type="line"/>
+      <point x="122.37" y="191.55" type="line"/>
+      <point x="193.0" y="-14.17" type="line"/>
+      <point x="302.5" y="-12.73" type="line"/>
+      <point x="487.0" y="523.0" type="line"/>
+      <point x="377.0" y="523.0" type="line"/>
+      <point x="247.93" y="146.21" type="line"/>
+      <point x="202.0" y="280.0" type="line"/>
+      <point x="107.42" y="280.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>-14.17</real>
+            <real>537.17</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>18.0</real>
+            <real>469.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guillemotright" format="2">
+  <advance width="526.0"/>
+  <unicode hex="00BB"/>
+  <note>
+guillemotright
+</note>
+  <outline>
+    <contour>
+      <point x="469.23" y="268.0" type="line"/>
+      <point x="307.0" y="452.0" type="line"/>
+      <point x="297.0" y="446.0" type="line"/>
+      <point x="398.43" y="267.0" type="line"/>
+      <point x="297.0" y="88.0" type="line"/>
+      <point x="307.0" y="81.0" type="line"/>
+      <point x="469.24" y="266.0" type="line"/>
+      <point x="471.0" y="266.0" type="line"/>
+      <point x="470.12" y="266.99" type="line"/>
+      <point x="471.0" y="268.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="245.03" y="267.61" type="line"/>
+      <point x="97.56" y="434.87" type="line"/>
+      <point x="88.47" y="429.41" type="line"/>
+      <point x="180.67" y="266.7" type="line"/>
+      <point x="88.47" y="103.99" type="line"/>
+      <point x="97.56" y="97.63" type="line"/>
+      <point x="245.04" y="265.79" type="line"/>
+      <point x="246.63" y="265.79" type="line"/>
+      <point x="245.83" y="266.7" type="line"/>
+      <point x="246.63" y="267.61" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>81.0</real>
+            <real>371.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>88.47</real>
+            <real>382.53</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
