@@ -1,71 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="guillemotleft" format="2">
-  <advance width="527.0"/>
+  <advance width="506"/>
   <unicode hex="00AB"/>
-  <note>
-guillemotleft
-</note>
   <outline>
-    <contour>
-      <point x="56.75" y="266.0" type="line"/>
-      <point x="219.0" y="81.0" type="line"/>
-      <point x="229.0" y="88.0" type="line"/>
-      <point x="127.56" y="267.0" type="line"/>
-      <point x="229.0" y="446.0" type="line"/>
-      <point x="219.0" y="452.0" type="line"/>
-      <point x="56.76" y="268.0" type="line"/>
-      <point x="55.0" y="268.0" type="line"/>
-      <point x="55.88" y="266.99" type="line"/>
-      <point x="55.0" y="266.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="280.95" y="265.8" type="line"/>
-      <point x="428.43" y="97.63" type="line"/>
-      <point x="437.52" y="103.99" type="line"/>
-      <point x="345.32" y="266.7" type="line"/>
-      <point x="437.52" y="429.41" type="line"/>
-      <point x="428.43" y="434.87" type="line"/>
-      <point x="280.96" y="267.61" type="line"/>
-      <point x="279.35" y="267.61" type="line"/>
-      <point x="280.15" y="266.7" type="line"/>
-      <point x="279.35" y="265.8" type="line"/>
-    </contour>
+    <component base="guillemotright" xScale="-1" xOffset="506"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>81.0</real>
-            <real>371.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>55.0</real>
-            <real>382.52</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

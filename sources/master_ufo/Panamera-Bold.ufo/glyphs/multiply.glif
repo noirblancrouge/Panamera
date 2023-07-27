@@ -1,61 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="multiply" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="00D7"/>
-  <note>
-multiply
-</note>
   <outline>
     <contour>
-      <point x="217.7" y="282.7" type="line"/>
-      <point x="15.0" y="80.0" type="line"/>
-      <point x="105.0" y="-14.0" type="line"/>
+      <point x="105" y="-14" type="line"/>
       <point x="309.79" y="190.79" type="line"/>
-      <point x="512.0" y="-11.0" type="line"/>
-      <point x="606.0" y="80.0" type="line"/>
+      <point x="512" y="-11" type="line"/>
+      <point x="606" y="80" type="line"/>
       <point x="402.5" y="283.5" type="line"/>
-      <point x="605.0" y="486.0" type="line"/>
-      <point x="515.0" y="580.0" type="line"/>
+      <point x="605" y="486" type="line"/>
+      <point x="515" y="580" type="line"/>
       <point x="310.5" y="375.5" type="line"/>
-      <point x="106.0" y="580.0" type="line"/>
-      <point x="14.0" y="486.0" type="line"/>
+      <point x="106" y="580" type="line"/>
+      <point x="14" y="486" type="line"/>
+      <point x="217.7" y="282.7" type="line"/>
+      <point x="15" y="80" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>-14.0</real>
-            <real>594.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>14.0</real>
-            <real>592.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

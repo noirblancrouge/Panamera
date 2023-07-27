@@ -1,61 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="breve" format="2">
-  <advance width="600.0"/>
+  <advance width="786"/>
   <unicode hex="02D8"/>
-  <note>
-breve
-</note>
   <outline>
-    <contour>
-      <point x="514.0" y="725.0" type="curve"/>
-      <point x="379.0" y="724.0" type="line"/>
-      <point x="343.0" y="642.0"/>
-      <point x="317.0" y="632.0"/>
-      <point x="288.0" y="630.0" type="curve"/>
-      <point x="259.0" y="632.0"/>
-      <point x="233.0" y="642.0"/>
-      <point x="197.0" y="724.0" type="curve"/>
-      <point x="62.0" y="725.0" type="line"/>
-      <point x="131.0" y="562.0"/>
-      <point x="207.0" y="524.0"/>
-      <point x="288.0" y="522.0" type="curve"/>
-      <point x="369.0" y="524.0"/>
-      <point x="445.0" y="562.0"/>
-    </contour>
+    <component base="brevecomb"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
           <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>522.0</real>
-            <real>108.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>62.0</real>
-            <real>452.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>name</key>
+          <string>brevecomb</string>
         </dict>
       </array>
     </dict>

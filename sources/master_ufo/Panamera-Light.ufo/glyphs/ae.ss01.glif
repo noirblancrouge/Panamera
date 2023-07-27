@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ae.ss01" format="2">
+  <advance width="1043"/>
+  <anchor x="554" y="500" name="top"/>
+  <anchor x="301" y="0" name="bottom_1"/>
+  <anchor x="778" y="0" name="bottom_2"/>
+  <anchor x="491" y="0" name="ogonek_1"/>
+  <anchor x="802" y="0" name="ogonek_2"/>
+  <outline>
+    <component base="a.ss01"/>
+    <component base="e" xOffset="476"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>e</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

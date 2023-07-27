@@ -1,49 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="partialdiff" format="2">
-  <advance width="573.0"/>
+  <advance width="573"/>
   <unicode hex="2202"/>
-  <note>
-partialdiff
-</note>
   <outline>
     <contour>
-      <point x="529.99" y="383.39" type="curve" smooth="yes"/>
-      <point x="510.19" y="581.48"/>
-      <point x="376.48" y="772.1"/>
+      <point x="260.42" y="-9.19" type="curve" smooth="yes"/>
+      <point x="425" y="-9"/>
+      <point x="533" y="126"/>
+      <point x="533.27" y="320.96" type="curve" smooth="yes"/>
+      <point x="533" y="552"/>
+      <point x="393" y="772"/>
       <point x="157.42" y="772.1" type="curve" smooth="yes"/>
-      <point x="144.25" y="772.1"/>
-      <point x="130.77" y="771.41"/>
-      <point x="116.99" y="769.99" type="curve" smooth="yes"/>
-      <point x="106.99" y="768.99"/>
-      <point x="92.99" y="766.99"/>
+      <point x="146" y="772"/>
+      <point x="99" y="770"/>
       <point x="88.99" y="764.99" type="curve"/>
-      <point x="100.99" y="726.99" type="line"/>
-      <point x="118.71" y="728.79"/>
+      <point x="101" y="725" type="line"/>
+      <point x="121" y="729"/>
       <point x="135.79" y="729.67"/>
       <point x="152.24" y="729.67" type="curve" smooth="yes"/>
       <point x="365.02" y="729.67"/>
       <point x="472.14" y="581.7"/>
       <point x="499.99" y="341.12" type="curve"/>
-      <point x="467.38" y="459.55"/>
-      <point x="375.11" y="492.46"/>
-      <point x="285.76" y="492.46" type="curve" smooth="yes"/>
-      <point x="271.0" y="492.46"/>
-      <point x="256.31" y="491.56"/>
-      <point x="241.99" y="490.0" type="curve" smooth="yes"/>
-      <point x="105.47" y="476.07"/>
-      <point x="27.6" y="347.43"/>
+      <point x="455" y="453"/>
+      <point x="357" y="492"/>
+      <point x="278" y="492" type="curve" smooth="yes"/>
+      <point x="99" y="493"/>
+      <point x="28" y="355"/>
       <point x="27.6" y="225.03" type="curve" smooth="yes"/>
       <point x="27.6" y="78.8"/>
       <point x="142.92" y="-9.19"/>
-      <point x="260.42" y="-9.19" type="curve" smooth="yes"/>
-      <point x="268.29" y="-9.19"/>
-      <point x="276.16" y="-8.8"/>
-      <point x="283.99" y="-8.0" type="curve" smooth="yes"/>
-      <point x="428.96" y="6.74"/>
-      <point x="533.27" y="123.65"/>
-      <point x="533.27" y="320.96" type="curve" smooth="yes"/>
-      <point x="533.27" y="340.95"/>
-      <point x="532.2" y="361.77"/>
     </contour>
     <contour>
       <point x="265.05" y="17.79" type="curve" smooth="yes"/>
@@ -53,96 +38,11 @@ partialdiff
       <point x="68.71" y="328.16"/>
       <point x="146.95" y="461.89"/>
       <point x="277.34" y="461.89" type="curve" smooth="yes"/>
-      <point x="369.13" y="461.89"/>
-      <point x="469.72" y="388.89"/>
-      <point x="481.0" y="276.99" type="curve" smooth="yes"/>
-      <point x="481.88" y="268.38"/>
-      <point x="482.31" y="259.81"/>
+      <point x="373" y="462"/>
+      <point x="482" y="384"/>
       <point x="482.31" y="251.31" type="curve" smooth="yes"/>
       <point x="482.31" y="126.46"/>
       <point x="389.42" y="17.79"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>-9.19</real>
-            <real>26.98</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>461.89</real>
-            <real>30.57</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>729.67</real>
-            <real>42.43</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>27.6</real>
-            <real>41.11</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>482.31</real>
-            <real>50.96</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -1,53 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="backslash" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="005C"/>
-  <note>
-backslash
-</note>
   <outline>
     <contour>
-      <point x="214.0" y="722.0" type="line"/>
-      <point x="94.0" y="722.0" type="line"/>
-      <point x="343.0" y="-117.0" type="line"/>
-      <point x="463.0" y="-117.0" type="line"/>
+      <point x="343" y="-117" type="line"/>
+      <point x="463" y="-117" type="line"/>
+      <point x="214" y="722" type="line"/>
+      <point x="94" y="722" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>-117.0</real>
-            <real>839.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>94.0</real>
-            <real>369.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

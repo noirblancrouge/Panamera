@@ -1,72 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresis" format="2">
-  <advance width="556.0"/>
+  <advance width="752"/>
   <unicode hex="00A8"/>
-  <note>
-dieresis
-</note>
   <outline>
-    <contour>
-      <point x="175.0" y="615.0" type="line"/>
-      <point x="175.0" y="657.0" type="line"/>
-      <point x="133.0" y="657.0" type="line"/>
-      <point x="133.0" y="615.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="423.0" y="615.0" type="line"/>
-      <point x="423.0" y="657.0" type="line"/>
-      <point x="381.0" y="657.0" type="line"/>
-      <point x="381.0" y="615.0" type="line"/>
-    </contour>
+    <component base="dieresiscomb"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
           <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>615.0</real>
-            <real>42.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>133.0</real>
-            <real>42.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>381.0</real>
-            <real>42.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>name</key>
+          <string>dieresiscomb</string>
         </dict>
       </array>
     </dict>

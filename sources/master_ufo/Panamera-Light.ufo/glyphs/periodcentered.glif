@@ -1,53 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="periodcentered" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="00B7"/>
-  <note>
-periodcentered
-</note>
   <outline>
     <contour>
-      <point x="334.0" y="224.0" type="line"/>
-      <point x="334.0" y="292.0" type="line"/>
-      <point x="266.0" y="292.0" type="line"/>
-      <point x="266.0" y="224.0" type="line"/>
+      <point x="266" y="224" type="line"/>
+      <point x="334" y="224" type="line"/>
+      <point x="334" y="292" type="line"/>
+      <point x="266" y="292" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>224.0</real>
-            <real>68.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>266.0</real>
-            <real>68.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -1,59 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="igrave" format="2">
-  <advance width="248.0"/>
+  <advance width="312"/>
   <unicode hex="00EC"/>
-  <note>
-igrave
-</note>
+  <anchor x="156" y="0" name="bottom"/>
+  <anchor x="80" y="0" name="ogonek"/>
+  <anchor x="156" y="500" name="top"/>
   <outline>
-    <contour>
-      <point x="267.0" y="578.0" type="line"/>
-      <point x="54.0" y="777.0" type="line"/>
-      <point x="-23.0" y="649.0" type="line"/>
-      <point x="149.0" y="542.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="48.0" y="0.0" type="line"/>
-      <point x="200.0" y="0.0" type="line"/>
-      <point x="200.0" y="500.0" type="line"/>
-      <point x="48.0" y="500.0" type="line"/>
-    </contour>
+    <component base="dotlessi"/>
+    <component base="gravecomb" xOffset="-172"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>777.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>48.0</real>
-            <real>152.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

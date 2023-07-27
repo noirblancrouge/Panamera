@@ -1,53 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="emdash" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="2014"/>
-  <note>
-emdash
-</note>
   <outline>
     <contour>
-      <point x="578.0" y="293.0" type="line"/>
-      <point x="578.0" y="327.0" type="line"/>
-      <point x="21.0" y="327.0" type="line"/>
-      <point x="21.0" y="293.0" type="line"/>
+      <point x="21" y="293" type="line"/>
+      <point x="578" y="293" type="line"/>
+      <point x="578" y="327" type="line"/>
+      <point x="21" y="327" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>293.0</real>
-            <real>34.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>21.0</real>
-            <real>557.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

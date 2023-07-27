@@ -1,59 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lozenge" format="2">
-  <advance width="754.0"/>
+  <advance width="652"/>
   <unicode hex="25CA"/>
-  <note>
-lozenge
-</note>
   <outline>
     <contour>
-      <point x="377.0" y="-19.77" type="line"/>
-      <point x="723.68" y="286.98" type="line"/>
-      <point x="377.0" y="592.82" type="line"/>
-      <point x="30.32" y="286.98" type="line"/>
+      <point x="326" y="4" type="line"/>
+      <point x="602" y="280" type="line"/>
+      <point x="326" y="556" type="line"/>
+      <point x="50" y="280" type="line"/>
     </contour>
     <contour>
-      <point x="377.0" y="428.78" type="line"/>
-      <point x="530.19" y="287.0" type="line"/>
-      <point x="377.0" y="145.21" type="line"/>
-      <point x="223.8" y="287.0" type="line"/>
+      <point x="326" y="117" type="line"/>
+      <point x="163" y="280" type="line"/>
+      <point x="326" y="443" type="line"/>
+      <point x="489" y="280" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>-19.77</real>
-            <real>612.59</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>30.32</real>
-            <real>693.36</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero.dnom.zero" format="2">
+  <advance width="421"/>
+  <outline>
+    <contour>
+      <point x="218" y="401" type="line"/>
+      <point x="107" y="53" type="line"/>
+      <point x="201" y="21" type="line"/>
+      <point x="313" y="370" type="line"/>
+    </contour>
+    <component base="zero.dnom"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

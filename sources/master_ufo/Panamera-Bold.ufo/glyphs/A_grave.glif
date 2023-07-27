@@ -1,68 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Agrave" format="2">
-  <advance width="813.0"/>
+  <advance width="813"/>
   <unicode hex="00C0"/>
-  <note>
-Agrave
-</note>
+  <anchor x="406" y="0" name="bottom"/>
+  <anchor x="611" y="0" name="ogonek"/>
+  <anchor x="407" y="700" name="top"/>
   <outline>
-    <contour>
-      <point x="565.92" y="777.0" type="line"/>
-      <point x="352.92" y="976.0" type="line"/>
-      <point x="275.92" y="848.0" type="line"/>
-      <point x="447.92" y="741.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="40.0" y="0.0" type="line"/>
-      <point x="202.0" y="0.0" type="line"/>
-      <point x="274.55" y="177.0" type="line"/>
-      <point x="538.37" y="177.0" type="line"/>
-      <point x="610.92" y="0.0" type="line"/>
-      <point x="772.92" y="0.0" type="line"/>
-      <point x="488.92" y="700.0" type="line"/>
-      <point x="324.0" y="700.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="492.87" y="288.0" type="line"/>
-      <point x="320.04" y="288.0" type="line"/>
-      <point x="406.46" y="498.82" type="line"/>
-    </contour>
+    <component base="A"/>
+    <component base="gravecomb" xOffset="79" yOffset="200"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>177.0</real>
-            <real>111.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>40.0</real>
-            <real>732.92</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

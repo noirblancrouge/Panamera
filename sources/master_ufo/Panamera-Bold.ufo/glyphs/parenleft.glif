@@ -1,63 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="parenleft" format="2">
-  <advance width="373.0"/>
+  <advance width="373"/>
   <unicode hex="0028"/>
-  <note>
-parenleft
-</note>
   <outline>
     <contour>
-      <point x="372.0" y="766.0" type="curve"/>
-      <point x="223.0" y="766.0" type="line"/>
-      <point x="157.0" y="681.0"/>
-      <point x="61.0" y="530.0"/>
-      <point x="58.0" y="311.0" type="curve" smooth="yes"/>
-      <point x="61.0" y="101.0"/>
-      <point x="157.0" y="-49.0"/>
-      <point x="222.0" y="-144.0" type="curve"/>
-      <point x="371.0" y="-144.0" type="line"/>
-      <point x="313.0" y="-64.0"/>
-      <point x="231.0" y="88.0"/>
-      <point x="228.0" y="309.0" type="curve"/>
-      <point x="231.0" y="543.0"/>
-      <point x="317.0" y="701.0"/>
+      <point x="222" y="-144" type="curve"/>
+      <point x="371" y="-144" type="line"/>
+      <point x="313" y="-64"/>
+      <point x="231" y="88"/>
+      <point x="228" y="309" type="curve"/>
+      <point x="231" y="543"/>
+      <point x="317" y="701"/>
+      <point x="372" y="766" type="curve"/>
+      <point x="223" y="766" type="line"/>
+      <point x="157" y="681"/>
+      <point x="61" y="530"/>
+      <point x="58" y="311" type="curve" smooth="yes"/>
+      <point x="61" y="101"/>
+      <point x="157" y="-49"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>-144.0</real>
-            <real>910.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>58.0</real>
-            <real>170.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

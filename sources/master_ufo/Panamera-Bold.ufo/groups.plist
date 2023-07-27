@@ -5,22 +5,6 @@
     <key>public.kern1.A</key>
     <array>
       <string>A</string>
-      <string>Aacute</string>
-      <string>Acircumflex</string>
-      <string>Adieresis</string>
-      <string>Agrave</string>
-      <string>Aring</string>
-      <string>Atilde</string>
-    </array>
-    <key>public.kern1.AE</key>
-    <array>
-      <string>AE</string>
-      <string>E</string>
-      <string>Eacute</string>
-      <string>Ecircumflex</string>
-      <string>Edieresis</string>
-      <string>Egrave</string>
-      <string>OE</string>
     </array>
     <key>public.kern1.B</key>
     <array>
@@ -29,12 +13,17 @@
     <key>public.kern1.C</key>
     <array>
       <string>C</string>
-      <string>Ccedilla</string>
     </array>
     <key>public.kern1.D</key>
     <array>
       <string>D</string>
       <string>Eth</string>
+    </array>
+    <key>public.kern1.E</key>
+    <array>
+      <string>AE</string>
+      <string>E</string>
+      <string>OE</string>
     </array>
     <key>public.kern1.F</key>
     <array>
@@ -54,9 +43,6 @@
     <array>
       <string>I</string>
       <string>Iacute</string>
-      <string>Icircumflex</string>
-      <string>Idieresis</string>
-      <string>Igrave</string>
     </array>
     <key>public.kern1.J</key>
     <array>
@@ -73,12 +59,7 @@
     <key>public.kern1.O</key>
     <array>
       <string>O</string>
-      <string>Oacute</string>
-      <string>Ocircumflex</string>
-      <string>Odieresis</string>
-      <string>Ograve</string>
       <string>Oslash</string>
-      <string>Otilde</string>
     </array>
     <key>public.kern1.P</key>
     <array>
@@ -95,7 +76,6 @@
     <key>public.kern1.S</key>
     <array>
       <string>S</string>
-      <string>Scaron</string>
     </array>
     <key>public.kern1.T</key>
     <array>
@@ -104,10 +84,6 @@
     <key>public.kern1.U</key>
     <array>
       <string>U</string>
-      <string>Uacute</string>
-      <string>Ucircumflex</string>
-      <string>Udieresis</string>
-      <string>Ugrave</string>
     </array>
     <key>public.kern1.V</key>
     <array>
@@ -124,13 +100,10 @@
     <key>public.kern1.Y</key>
     <array>
       <string>Y</string>
-      <string>Yacute</string>
-      <string>Ydieresis</string>
     </array>
     <key>public.kern1.Z</key>
     <array>
       <string>Z</string>
-      <string>Zcaron</string>
     </array>
     <key>public.kern1.a</key>
     <array>
@@ -139,31 +112,16 @@
       <string>h</string>
       <string>m</string>
       <string>n</string>
-      <string>ntilde</string>
       <string>u</string>
     </array>
     <key>public.kern1.aacute</key>
     <array>
-      <string>aacute</string>
-      <string>acircumflex</string>
-      <string>adieresis</string>
-      <string>agrave</string>
-      <string>aring</string>
-      <string>atilde</string>
       <string>q</string>
-      <string>uacute</string>
-      <string>ucircumflex</string>
-      <string>udieresis</string>
-      <string>ugrave</string>
     </array>
     <key>public.kern1.ae</key>
     <array>
       <string>ae</string>
       <string>e</string>
-      <string>eacute</string>
-      <string>ecircumflex</string>
-      <string>edieresis</string>
-      <string>egrave</string>
       <string>oe</string>
     </array>
     <key>public.kern1.b</key>
@@ -185,7 +143,6 @@
     <key>public.kern1.c</key>
     <array>
       <string>c</string>
-      <string>ccedilla</string>
     </array>
     <key>public.kern1.d</key>
     <array>
@@ -195,6 +152,16 @@
     <array>
       <string>eight</string>
     </array>
+    <key>public.kern1.eight.dnom</key>
+    <array>
+      <string>eight.dnom</string>
+      <string>eightinferior</string>
+    </array>
+    <key>public.kern1.eight.numr</key>
+    <array>
+      <string>eight.numr</string>
+      <string>eightsuperior</string>
+    </array>
     <key>public.kern1.f</key>
     <array>
       <string>f</string>
@@ -203,9 +170,29 @@
     <array>
       <string>five</string>
     </array>
+    <key>public.kern1.five.dnom</key>
+    <array>
+      <string>five.dnom</string>
+      <string>fiveinferior</string>
+    </array>
+    <key>public.kern1.five.numr</key>
+    <array>
+      <string>five.numr</string>
+      <string>fivesuperior</string>
+    </array>
     <key>public.kern1.four</key>
     <array>
       <string>four</string>
+    </array>
+    <key>public.kern1.four.dnom</key>
+    <array>
+      <string>four.dnom</string>
+      <string>fourinferior</string>
+    </array>
+    <key>public.kern1.four.numr</key>
+    <array>
+      <string>four.numr</string>
+      <string>foursuperior</string>
     </array>
     <key>public.kern1.germandbls</key>
     <array>
@@ -215,11 +202,6 @@
     <array>
       <string>i</string>
       <string>dotlessi</string>
-      <string>iacute</string>
-      <string>icircumflex</string>
-      <string>idieresis</string>
-      <string>igrave</string>
-      <string>fi</string>
     </array>
     <key>public.kern1.j</key>
     <array>
@@ -232,23 +214,38 @@
     <key>public.kern1.l</key>
     <array>
       <string>l</string>
-      <string>fl</string>
     </array>
     <key>public.kern1.nine</key>
     <array>
       <string>nine</string>
     </array>
+    <key>public.kern1.nine.dnom</key>
+    <array>
+      <string>nine.dnom</string>
+      <string>nineinferior</string>
+    </array>
+    <key>public.kern1.nine.numr</key>
+    <array>
+      <string>nine.numr</string>
+      <string>ninesuperior</string>
+    </array>
     <key>public.kern1.o</key>
     <array>
       <string>o</string>
-      <string>oacute</string>
-      <string>ocircumflex</string>
-      <string>odieresis</string>
-      <string>ograve</string>
     </array>
     <key>public.kern1.one</key>
     <array>
       <string>one</string>
+    </array>
+    <key>public.kern1.one.dnom</key>
+    <array>
+      <string>one.dnom</string>
+      <string>oneinferior</string>
+    </array>
+    <key>public.kern1.one.numr</key>
+    <array>
+      <string>one.numr</string>
+      <string>onesuperior</string>
     </array>
     <key>public.kern1.p</key>
     <array>
@@ -289,11 +286,30 @@
     <key>public.kern1.s</key>
     <array>
       <string>s</string>
-      <string>scaron</string>
     </array>
     <key>public.kern1.seven</key>
     <array>
       <string>seven</string>
+    </array>
+    <key>public.kern1.seven.dnom</key>
+    <array>
+      <string>seven.dnom</string>
+      <string>seveninferior</string>
+    </array>
+    <key>public.kern1.seven.numr</key>
+    <array>
+      <string>seven.numr</string>
+      <string>sevensuperior</string>
+    </array>
+    <key>public.kern1.six.dnom</key>
+    <array>
+      <string>six.dnom</string>
+      <string>sixinferior</string>
+    </array>
+    <key>public.kern1.six.numr</key>
+    <array>
+      <string>six.numr</string>
+      <string>sixsuperior</string>
     </array>
     <key>public.kern1.space</key>
     <array>
@@ -306,6 +322,26 @@
     <key>public.kern1.three</key>
     <array>
       <string>three</string>
+    </array>
+    <key>public.kern1.three.dnom</key>
+    <array>
+      <string>three.dnom</string>
+      <string>threeinferior</string>
+    </array>
+    <key>public.kern1.three.numr</key>
+    <array>
+      <string>three.numr</string>
+      <string>threesuperior</string>
+    </array>
+    <key>public.kern1.two.dnom</key>
+    <array>
+      <string>two.dnom</string>
+      <string>twoinferior</string>
+    </array>
+    <key>public.kern1.two.numr</key>
+    <array>
+      <string>two.numr</string>
+      <string>twosuperior</string>
     </array>
     <key>public.kern1.underscore</key>
     <array>
@@ -326,27 +362,31 @@
     <key>public.kern1.y</key>
     <array>
       <string>y</string>
-      <string>yacute</string>
-      <string>ydieresis</string>
     </array>
     <key>public.kern1.z</key>
     <array>
       <string>z</string>
-      <string>zcaron</string>
     </array>
     <key>public.kern1.zero</key>
     <array>
       <string>zero</string>
     </array>
+    <key>public.kern1.zero.dnom</key>
+    <array>
+      <string>zero.dnom</string>
+      <string>zero.dnom.zero</string>
+      <string>zeroinferior</string>
+    </array>
+    <key>public.kern1.zero.numr</key>
+    <array>
+      <string>zero.numr</string>
+      <string>zero.numr.zero</string>
+      <string>zerosuperior</string>
+    </array>
     <key>public.kern2.A</key>
     <array>
       <string>A</string>
-      <string>Aacute</string>
-      <string>Acircumflex</string>
-      <string>Adieresis</string>
-      <string>Agrave</string>
-      <string>Aring</string>
-      <string>Atilde</string>
+      <string>AE</string>
     </array>
     <key>public.kern2.B</key>
     <array>
@@ -359,22 +399,15 @@
       <string>L</string>
       <string>M</string>
       <string>N</string>
-      <string>Ntilde</string>
       <string>P</string>
       <string>R</string>
     </array>
     <key>public.kern2.C</key>
     <array>
       <string>C</string>
-      <string>Ccedilla</string>
       <string>G</string>
       <string>O</string>
-      <string>Oacute</string>
-      <string>Ocircumflex</string>
-      <string>Odieresis</string>
-      <string>Ograve</string>
       <string>Oslash</string>
-      <string>Otilde</string>
       <string>OE</string>
       <string>Q</string>
     </array>
@@ -386,9 +419,6 @@
     <array>
       <string>I</string>
       <string>Iacute</string>
-      <string>Icircumflex</string>
-      <string>Idieresis</string>
-      <string>Igrave</string>
     </array>
     <key>public.kern2.J</key>
     <array>
@@ -397,7 +427,6 @@
     <key>public.kern2.S</key>
     <array>
       <string>S</string>
-      <string>Scaron</string>
     </array>
     <key>public.kern2.T</key>
     <array>
@@ -406,10 +435,6 @@
     <key>public.kern2.U</key>
     <array>
       <string>U</string>
-      <string>Uacute</string>
-      <string>Ucircumflex</string>
-      <string>Udieresis</string>
-      <string>Ugrave</string>
     </array>
     <key>public.kern2.V</key>
     <array>
@@ -426,39 +451,20 @@
     <key>public.kern2.Y</key>
     <array>
       <string>Y</string>
-      <string>Yacute</string>
-      <string>Ydieresis</string>
     </array>
     <key>public.kern2.Z</key>
     <array>
       <string>Z</string>
-      <string>Zcaron</string>
     </array>
     <key>public.kern2.a</key>
     <array>
       <string>a</string>
-      <string>aacute</string>
-      <string>acircumflex</string>
-      <string>adieresis</string>
-      <string>agrave</string>
-      <string>aring</string>
-      <string>atilde</string>
       <string>ae</string>
       <string>c</string>
-      <string>ccedilla</string>
       <string>d</string>
       <string>e</string>
-      <string>eacute</string>
-      <string>ecircumflex</string>
-      <string>edieresis</string>
-      <string>egrave</string>
       <string>g</string>
       <string>o</string>
-      <string>oacute</string>
-      <string>ocircumflex</string>
-      <string>odieresis</string>
-      <string>ograve</string>
-      <string>otilde</string>
       <string>oe</string>
       <string>q</string>
     </array>
@@ -475,9 +481,19 @@
     </array>
     <key>public.kern2.comma</key>
     <array>
+      <string>period</string>
       <string>comma</string>
       <string>ellipsis</string>
-      <string>period</string>
+    </array>
+    <key>public.kern2.eight.dnom</key>
+    <array>
+      <string>eight.dnom</string>
+      <string>eightinferior</string>
+    </array>
+    <key>public.kern2.eight.numr</key>
+    <array>
+      <string>eight.numr</string>
+      <string>eightsuperior</string>
     </array>
     <key>public.kern2.exclam</key>
     <array>
@@ -486,8 +502,26 @@
     <key>public.kern2.f</key>
     <array>
       <string>f</string>
-      <string>fi</string>
-      <string>fl</string>
+    </array>
+    <key>public.kern2.five.dnom</key>
+    <array>
+      <string>five.dnom</string>
+      <string>fiveinferior</string>
+    </array>
+    <key>public.kern2.five.numr</key>
+    <array>
+      <string>five.numr</string>
+      <string>fivesuperior</string>
+    </array>
+    <key>public.kern2.four.dnom</key>
+    <array>
+      <string>four.dnom</string>
+      <string>fourinferior</string>
+    </array>
+    <key>public.kern2.four.numr</key>
+    <array>
+      <string>four.numr</string>
+      <string>foursuperior</string>
     </array>
     <key>public.kern2.germandbls</key>
     <array>
@@ -497,10 +531,6 @@
     <array>
       <string>i</string>
       <string>dotlessi</string>
-      <string>iacute</string>
-      <string>icircumflex</string>
-      <string>idieresis</string>
-      <string>igrave</string>
     </array>
     <key>public.kern2.j</key>
     <array>
@@ -510,13 +540,28 @@
     <array>
       <string>m</string>
       <string>n</string>
-      <string>ntilde</string>
       <string>r</string>
       <string>u</string>
-      <string>uacute</string>
-      <string>ucircumflex</string>
-      <string>udieresis</string>
-      <string>ugrave</string>
+    </array>
+    <key>public.kern2.nine.dnom</key>
+    <array>
+      <string>nine.dnom</string>
+      <string>nineinferior</string>
+    </array>
+    <key>public.kern2.nine.numr</key>
+    <array>
+      <string>nine.numr</string>
+      <string>ninesuperior</string>
+    </array>
+    <key>public.kern2.one.dnom</key>
+    <array>
+      <string>one.dnom</string>
+      <string>oneinferior</string>
+    </array>
+    <key>public.kern2.one.numr</key>
+    <array>
+      <string>one.numr</string>
+      <string>onesuperior</string>
     </array>
     <key>public.kern2.p</key>
     <array>
@@ -545,7 +590,26 @@
     <key>public.kern2.s</key>
     <array>
       <string>s</string>
-      <string>scaron</string>
+    </array>
+    <key>public.kern2.seven.dnom</key>
+    <array>
+      <string>seven.dnom</string>
+      <string>seveninferior</string>
+    </array>
+    <key>public.kern2.seven.numr</key>
+    <array>
+      <string>seven.numr</string>
+      <string>sevensuperior</string>
+    </array>
+    <key>public.kern2.six.dnom</key>
+    <array>
+      <string>six.dnom</string>
+      <string>sixinferior</string>
+    </array>
+    <key>public.kern2.six.numr</key>
+    <array>
+      <string>six.numr</string>
+      <string>sixsuperior</string>
     </array>
     <key>public.kern2.space</key>
     <array>
@@ -554,6 +618,26 @@
     <key>public.kern2.t</key>
     <array>
       <string>t</string>
+    </array>
+    <key>public.kern2.three.dnom</key>
+    <array>
+      <string>three.dnom</string>
+      <string>threeinferior</string>
+    </array>
+    <key>public.kern2.three.numr</key>
+    <array>
+      <string>three.numr</string>
+      <string>threesuperior</string>
+    </array>
+    <key>public.kern2.two.dnom</key>
+    <array>
+      <string>two.dnom</string>
+      <string>twoinferior</string>
+    </array>
+    <key>public.kern2.two.numr</key>
+    <array>
+      <string>two.numr</string>
+      <string>twosuperior</string>
     </array>
     <key>public.kern2.v</key>
     <array>
@@ -570,13 +654,22 @@
     <key>public.kern2.y</key>
     <array>
       <string>y</string>
-      <string>yacute</string>
-      <string>ydieresis</string>
     </array>
     <key>public.kern2.z</key>
     <array>
       <string>z</string>
-      <string>zcaron</string>
+    </array>
+    <key>public.kern2.zero.dnom</key>
+    <array>
+      <string>zero.dnom</string>
+      <string>zero.dnom.zero</string>
+      <string>zeroinferior</string>
+    </array>
+    <key>public.kern2.zero.numr</key>
+    <array>
+      <string>zero.numr</string>
+      <string>zero.numr.zero</string>
+      <string>zerosuperior</string>
     </array>
   </dict>
 </plist>

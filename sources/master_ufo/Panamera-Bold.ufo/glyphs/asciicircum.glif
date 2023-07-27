@@ -1,55 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="asciicircum" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="005E"/>
-  <note>
-asciicircum
-</note>
   <outline>
     <contour>
-      <point x="304.0" y="714.28" type="line"/>
-      <point x="59.0" y="233.0" type="line"/>
-      <point x="202.0" y="233.0" type="line"/>
-      <point x="304.0" y="437.65" type="line"/>
-      <point x="406.0" y="233.0" type="line"/>
-      <point x="549.0" y="233.0" type="line"/>
+      <point x="59" y="233" type="line"/>
+      <point x="202" y="233" type="line"/>
+      <point x="304" y="437.65" type="line"/>
+      <point x="406" y="233" type="line"/>
+      <point x="549" y="233" type="line"/>
+      <point x="304" y="714.28" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>233.0</real>
-            <real>481.28</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>59.0</real>
-            <real>490.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

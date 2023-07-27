@@ -1,63 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Lslash" format="2">
-  <advance width="697.0"/>
+  <advance width="697"/>
   <unicode hex="0141"/>
-  <note>
-Lslash
-</note>
   <outline>
     <contour>
-      <point x="165.0" y="0.0" type="line"/>
-      <point x="700.0" y="0.0" type="line"/>
-      <point x="700.0" y="124.0" type="line"/>
-      <point x="318.0" y="124.0" type="line"/>
-      <point x="318.0" y="363.85" type="line"/>
-      <point x="406.0" y="389.0" type="line"/>
-      <point x="404.0" y="514.0" type="line"/>
-      <point x="318.0" y="489.36" type="line"/>
-      <point x="318.0" y="700.0" type="line"/>
-      <point x="165.0" y="700.0" type="line"/>
-      <point x="165.0" y="445.53" type="line"/>
-      <point x="34.0" y="408.0" type="line"/>
-      <point x="35.0" y="283.0" type="line"/>
-      <point x="165.0" y="320.14" type="line"/>
+      <point x="165" y="0" type="line"/>
+      <point x="700" y="0" type="line"/>
+      <point x="700" y="124" type="line"/>
+      <point x="318" y="124" type="line"/>
+      <point x="318" y="363.85" type="line"/>
+      <point x="406" y="389" type="line"/>
+      <point x="404" y="514" type="line"/>
+      <point x="318" y="489.36" type="line"/>
+      <point x="318" y="700" type="line"/>
+      <point x="165" y="700" type="line"/>
+      <point x="165" y="445.53" type="line"/>
+      <point x="34" y="408" type="line"/>
+      <point x="35" y="283" type="line"/>
+      <point x="165" y="320.14" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>124.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>165.0</real>
-            <real>153.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

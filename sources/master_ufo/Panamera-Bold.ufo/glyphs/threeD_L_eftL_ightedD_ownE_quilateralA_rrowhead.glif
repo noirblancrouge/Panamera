@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threeDLeftLightedDownEquilateralArrowhead" format="2">
+  <advance width="734"/>
+  <unicode hex="2B9B"/>
+  <outline>
+    <contour>
+      <point x="367" y="-54" type="line"/>
+      <point x="367" y="346" type="line"/>
+      <point x="50" y="488" type="line"/>
+    </contour>
+    <contour>
+      <point x="367" y="-54" type="line"/>
+      <point x="684" y="488" type="line"/>
+      <point x="367" y="346" type="line"/>
+    </contour>
+    <contour>
+      <point x="367" y="53" type="line"/>
+      <point x="187" y="360" type="line"/>
+      <point x="367" y="279" type="line"/>
+    </contour>
+  </outline>
+</glyph>

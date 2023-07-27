@@ -1,12 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="currency" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="00A4"/>
-  <note>
-currency
-</note>
   <outline>
     <contour>
+      <point x="116.27" y="121.83" type="line"/>
+      <point x="173.48" y="180.24" type="line"/>
+      <point x="210.16" y="151.43"/>
+      <point x="257.8" y="133.58"/>
+      <point x="313.31" y="133.58" type="curve" smooth="yes"/>
+      <point x="364.79" y="133.58"/>
+      <point x="411.61" y="150.29"/>
       <point x="448.76" y="178.14" type="curve"/>
       <point x="505.24" y="121.95" type="line"/>
       <point x="544.14" y="161.93" type="line"/>
@@ -36,13 +40,6 @@ currency
       <point x="107.46" y="256.43"/>
       <point x="134.57" y="220.13" type="curve"/>
       <point x="77.53" y="161.9" type="line"/>
-      <point x="116.27" y="121.83" type="line"/>
-      <point x="173.48" y="180.24" type="line"/>
-      <point x="210.16" y="151.43"/>
-      <point x="257.8" y="133.58"/>
-      <point x="313.31" y="133.58" type="curve" smooth="yes"/>
-      <point x="364.79" y="133.58"/>
-      <point x="411.61" y="150.29"/>
     </contour>
     <contour>
       <point x="313.31" y="160.26" type="curve" smooth="yes"/>
@@ -59,71 +56,4 @@ currency
       <point x="409.61" y="160.26"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>133.58</real>
-            <real>26.68</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>532.73</real>
-            <real>26.7</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>92.39</real>
-            <real>43.44</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>490.8</real>
-            <real>43.43</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

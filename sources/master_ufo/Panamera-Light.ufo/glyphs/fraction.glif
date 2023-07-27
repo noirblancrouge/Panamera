@@ -1,53 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fraction" format="2">
-  <advance width="784.0"/>
+  <advance width="784"/>
   <unicode hex="2044"/>
-  <note>
-fraction
-</note>
   <outline>
     <contour>
-      <point x="670.0" y="751.0" type="line"/>
-      <point x="89.0" y="-2.0" type="line"/>
-      <point x="122.0" y="-2.0" type="line"/>
-      <point x="703.0" y="751.0" type="line"/>
+      <point x="89" y="-2" type="line"/>
+      <point x="127" y="-2" type="line"/>
+      <point x="708" y="751" type="line"/>
+      <point x="670" y="751" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>-2.0</real>
-            <real>753.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>89.0</real>
-            <real>614.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

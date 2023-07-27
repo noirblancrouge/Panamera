@@ -1,59 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Iacute" format="2">
-  <advance width="208.0"/>
+  <advance width="208"/>
   <unicode hex="00CD"/>
-  <note>
-Iacute
-</note>
   <outline>
     <contour>
-      <point x="164.0" y="933.0" type="line"/>
-      <point x="44.0" y="820.0" type="line"/>
-      <point x="61.0" y="815.0" type="line"/>
-      <point x="187.0" y="894.0" type="line"/>
+      <point x="83" y="0" type="line"/>
+      <point x="125" y="0" type="line"/>
+      <point x="125" y="700" type="line"/>
+      <point x="83" y="700" type="line"/>
     </contour>
     <contour>
-      <point x="125.0" y="0.0" type="line"/>
-      <point x="125.0" y="700.0" type="line"/>
-      <point x="83.0" y="700.0" type="line"/>
-      <point x="83.0" y="0.0" type="line"/>
+      <point x="61" y="815" type="line"/>
+      <point x="187" y="894" type="line"/>
+      <point x="164" y="933" type="line"/>
+      <point x="44" y="820" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>933.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>83.0</real>
-            <real>42.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

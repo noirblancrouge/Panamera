@@ -1,55 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="caron" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="02C7"/>
-  <note>
-caron
-</note>
   <outline>
-    <contour>
-      <point x="134.0" y="719.0" type="line"/>
-      <point x="288.0" y="582.0" type="line"/>
-      <point x="289.0" y="583.0" type="line"/>
-      <point x="290.0" y="582.0" type="line"/>
-      <point x="444.0" y="719.0" type="line"/>
-      <point x="402.0" y="733.0" type="line"/>
-      <point x="289.0" y="627.48" type="line"/>
-      <point x="176.0" y="733.0" type="line"/>
-    </contour>
+    <component base="caroncomb"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
           <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>582.0</real>
-            <real>151.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>134.0</real>
-            <real>310.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>name</key>
+          <string>caroncomb</string>
         </dict>
       </array>
     </dict>

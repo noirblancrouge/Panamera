@@ -1,119 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Adieresis" format="2">
-  <advance width="678.0"/>
+  <advance width="678"/>
   <unicode hex="00C4"/>
-  <note>
-Adieresis
-</note>
+  <anchor x="329" y="0" name="bottom"/>
+  <anchor x="591" y="0" name="ogonek"/>
+  <anchor x="329" y="926" name="top"/>
   <outline>
-    <contour>
-      <point x="236.0" y="831.0" type="line"/>
-      <point x="236.0" y="873.0" type="line"/>
-      <point x="194.0" y="873.0" type="line"/>
-      <point x="194.0" y="831.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="484.0" y="831.0" type="line"/>
-      <point x="484.0" y="873.0" type="line"/>
-      <point x="442.0" y="873.0" type="line"/>
-      <point x="442.0" y="831.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="20.0" y="0.0" type="line"/>
-      <point x="67.0" y="0.0" type="line"/>
-      <point x="155.27" y="219.12" type="line"/>
-      <point x="522.72" y="219.12" type="line"/>
-      <point x="611.0" y="0.0" type="line"/>
-      <point x="658.0" y="0.0" type="line"/>
-      <point x="374.0" y="700.0" type="line"/>
-      <point x="304.0" y="700.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="511.85" y="246.12" type="line"/>
-      <point x="166.15" y="246.12" type="line"/>
-      <point x="339.0" y="675.17" type="line"/>
-    </contour>
+    <component base="A"/>
+    <component base="dieresiscomb" xOffset="-47" yOffset="200"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>219.12</real>
-            <real>27.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>675.17</real>
-            <real>24.83</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>831.0</real>
-            <real>42.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>194.0</real>
-            <real>42.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>442.0</real>
-            <real>42.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

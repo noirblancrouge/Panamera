@@ -1,100 +1,61 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name=".notdef" format="2">
-  <advance width="500.0"/>
-  <note>
-.notdef
-</note>
+  <advance width="1006"/>
+  <anchor x="647.0" y="-16.882000000000005" name="bottom_1"/>
+  <anchor x="646.0" y="550.2047" name="bottom_2"/>
+  <anchor x="344.11" y="-16.882000000000005" name="top_1"/>
+  <anchor x="343.11" y="527.2716" name="top_2"/>
   <outline>
-    <contour>
-      <point x="0.0" y="700.0" type="line"/>
-      <point x="0.0" y="0.0" type="line"/>
-      <point x="500.0" y="0.0" type="line"/>
-      <point x="500.0" y="700.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="420.0" y="650.0" type="line"/>
-      <point x="250.0" y="395.0" type="line"/>
-      <point x="80.0" y="650.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="450.0" y="95.0" type="line"/>
-      <point x="280.0" y="350.0" type="line"/>
-      <point x="450.0" y="605.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="420.0" y="50.0" type="line"/>
-      <point x="80.0" y="50.0" type="line"/>
-      <point x="250.0" y="305.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="50.0" y="95.0" type="line"/>
-      <point x="50.0" y="605.0" type="line"/>
-      <point x="220.0" y="350.0" type="line"/>
-    </contour>
+    <component base="N" xScale="0" xyScale="0.4327" yxScale="-0.4327" yScale="0" xOffset="647" yOffset="-164"/>
+    <component base="B" xScale="0" xyScale="0.4327" yxScale="-0.4327" yScale="0" xOffset="646" yOffset="130"/>
+    <component base="R" xScale="0" xyScale="0.4327" yxScale="-0.4327" yScale="0" xOffset="646" yOffset="394"/>
+    <component base="braceleft" xOffset="-108"/>
+    <component base="braceright" xOffset="602"/>
+    <component base="period" xScale="0" xyScale="0.432" yxScale="-0.432" yScale="0" xOffset="645" yOffset="685"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
           <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>50.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>name</key>
+          <string>N</string>
         </dict>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>650.0</real>
-            <real>50.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>B</string>
         </dict>
         <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>50.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>R</string>
         </dict>
         <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>450.0</real>
-            <real>50.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>3</integer>
+          <key>name</key>
+          <string>braceleft</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>4</integer>
+          <key>name</key>
+          <string>braceright</string>
         </dict>
       </array>
     </dict>

@@ -1,82 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="plusminus" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="00B1"/>
-  <note>
-plusminus
-</note>
   <outline>
     <contour>
-      <point x="317.0" y="191.0" type="line"/>
-      <point x="317.0" y="406.0" type="line"/>
-      <point x="533.0" y="406.0" type="line"/>
-      <point x="533.0" y="439.0" type="line"/>
-      <point x="317.0" y="439.0" type="line"/>
-      <point x="317.0" y="654.0" type="line"/>
-      <point x="283.0" y="654.0" type="line"/>
-      <point x="283.0" y="439.0" type="line"/>
-      <point x="66.0" y="439.0" type="line"/>
-      <point x="66.0" y="406.0" type="line"/>
-      <point x="283.0" y="406.0" type="line"/>
-      <point x="283.0" y="191.0" type="line"/>
+      <point x="283" y="191" type="line"/>
+      <point x="317" y="191" type="line"/>
+      <point x="317" y="406" type="line"/>
+      <point x="533" y="406" type="line"/>
+      <point x="533" y="439" type="line"/>
+      <point x="317" y="439" type="line"/>
+      <point x="317" y="654" type="line"/>
+      <point x="283" y="654" type="line"/>
+      <point x="283" y="439" type="line"/>
+      <point x="66" y="439" type="line"/>
+      <point x="66" y="406" type="line"/>
+      <point x="283" y="406" type="line"/>
     </contour>
     <contour>
-      <point x="66.0" y="3.0" type="line"/>
-      <point x="533.0" y="3.0" type="line"/>
-      <point x="533.0" y="36.0" type="line"/>
-      <point x="66.0" y="36.0" type="line"/>
+      <point x="66" y="3" type="line"/>
+      <point x="533" y="3" type="line"/>
+      <point x="533" y="36" type="line"/>
+      <point x="66" y="36" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>3.0</real>
-            <real>33.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>406.0</real>
-            <real>33.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>283.0</real>
-            <real>34.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

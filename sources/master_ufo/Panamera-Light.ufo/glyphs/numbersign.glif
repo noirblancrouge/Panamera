@@ -1,98 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="numbersign" format="2">
-  <advance width="823.0"/>
+  <advance width="823"/>
   <unicode hex="0023"/>
-  <note>
-numbersign
-</note>
   <outline>
     <contour>
-      <point x="729.99" y="190.0" type="line"/>
-      <point x="730.0" y="227.0" type="line"/>
-      <point x="562.97" y="227.0" type="line"/>
-      <point x="655.66" y="504.0" type="line"/>
-      <point x="809.99" y="504.0" type="line"/>
-      <point x="809.99" y="540.0" type="line"/>
-      <point x="667.71" y="540.0" type="line"/>
-      <point x="739.99" y="756.0" type="line"/>
-      <point x="698.99" y="756.0" type="line"/>
-      <point x="626.71" y="540.0" type="line"/>
-      <point x="320.71" y="540.0" type="line"/>
-      <point x="392.99" y="756.0" type="line"/>
-      <point x="350.99" y="756.0" type="line"/>
-      <point x="278.99" y="540.0" type="line"/>
-      <point x="98.99" y="540.0" type="line"/>
-      <point x="98.99" y="504.0" type="line"/>
-      <point x="266.99" y="504.0" type="line"/>
-      <point x="174.66" y="227.0" type="line"/>
-      <point x="30.99" y="227.0" type="line"/>
-      <point x="30.99" y="190.0" type="line"/>
-      <point x="162.33" y="190.0" type="line"/>
-      <point x="96.99" y="-6.0" type="line"/>
-      <point x="137.99" y="-6.0" type="line"/>
-      <point x="203.58" y="190.0" type="line"/>
-      <point x="509.58" y="190.0" type="line"/>
-      <point x="443.99" y="-6.0" type="line"/>
-      <point x="484.99" y="-6.0" type="line"/>
-      <point x="550.58" y="190.0" type="line"/>
+      <point x="730" y="227" type="line"/>
+      <point x="30.99" y="227" type="line"/>
+      <point x="30.99" y="190" type="line"/>
+      <point x="729.99" y="190" type="line"/>
     </contour>
     <contour>
-      <point x="521.96" y="227.0" type="line"/>
-      <point x="215.96" y="227.0" type="line"/>
-      <point x="308.66" y="504.0" type="line"/>
-      <point x="614.66" y="504.0" type="line"/>
+      <point x="98.99" y="504" type="line"/>
+      <point x="809.99" y="504" type="line"/>
+      <point x="809.99" y="540" type="line"/>
+      <point x="98.99" y="540" type="line"/>
+    </contour>
+    <contour>
+      <point x="350.99" y="756" type="line"/>
+      <point x="96.99" y="-6" type="line"/>
+      <point x="137.99" y="-6" type="line"/>
+      <point x="392.99" y="756" type="line"/>
+    </contour>
+    <contour>
+      <point x="484.99" y="-6" type="line"/>
+      <point x="739.99" y="756" type="line"/>
+      <point x="698.99" y="756" type="line"/>
+      <point x="443.99" y="-6" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>190.0</real>
-            <real>37.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>504.0</real>
-            <real>36.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>30.99</real>
-            <real>779.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

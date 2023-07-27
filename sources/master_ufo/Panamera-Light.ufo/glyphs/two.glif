@@ -1,87 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="two" format="2">
-  <advance width="537.0"/>
+  <advance width="537"/>
   <unicode hex="0032"/>
-  <note>
-two
-</note>
   <outline>
     <contour>
-      <point x="67.0" y="587.0" type="curve"/>
-      <point x="114.0" y="592.0" type="line"/>
-      <point x="128.0" y="645.0"/>
-      <point x="176.0" y="689.0"/>
-      <point x="268.0" y="689.0" type="curve" smooth="yes"/>
-      <point x="368.63" y="689.0"/>
-      <point x="441.04" y="622.81"/>
-      <point x="441.04" y="519.24" type="curve" smooth="yes"/>
-      <point x="441.04" y="331.28"/>
-      <point x="190.09" y="245.57"/>
-      <point x="43.0" y="34.0" type="curve"/>
-      <point x="43.0" y="0.0" type="line"/>
-      <point x="494.0" y="0.0" type="line"/>
-      <point x="494.0" y="40.0" type="line"/>
-      <point x="84.0" y="40.0" type="line"/>
-      <point x="233.4" y="243.19"/>
+      <point x="43" y="0" type="line"/>
+      <point x="494" y="0" type="line"/>
+      <point x="494" y="40" type="line"/>
+      <point x="94" y="40" type="line"/>
+      <point x="243" y="243"/>
       <point x="483.01" y="316.42"/>
       <point x="483.01" y="525.5" type="curve" smooth="yes"/>
       <point x="483.01" y="647.02"/>
-      <point x="407.03" y="713.0"/>
-      <point x="268.0" y="713.0" type="curve" smooth="yes"/>
-      <point x="155.0" y="713.0"/>
-      <point x="81.0" y="660.0"/>
+      <point x="407.03" y="713"/>
+      <point x="268" y="713" type="curve" smooth="yes"/>
+      <point x="173" y="713"/>
+      <point x="83" y="668"/>
+      <point x="60" y="556" type="curve"/>
+      <point x="107" y="561" type="line"/>
+      <point x="121" y="634"/>
+      <point x="186" y="685"/>
+      <point x="268" y="685" type="curve" smooth="yes"/>
+      <point x="369" y="685"/>
+      <point x="441" y="633"/>
+      <point x="441.04" y="519.24" type="curve" smooth="yes"/>
+      <point x="441" y="331"/>
+      <point x="190" y="246"/>
+      <point x="43" y="34" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>40.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>689.0</real>
-            <real>24.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>441.04</real>
-            <real>41.97</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

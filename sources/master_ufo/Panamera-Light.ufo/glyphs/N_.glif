@@ -1,76 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="N" format="2">
-  <advance width="599.0"/>
+  <advance width="599"/>
   <unicode hex="004E"/>
-  <note>
-N
-</note>
+  <anchor x="300" y="0" name="bottom"/>
+  <anchor x="300" y="700" name="top"/>
   <outline>
     <contour>
-      <point x="99.0" y="624.4" type="line"/>
-      <point x="498.0" y="0.0" type="line"/>
-      <point x="543.0" y="0.0" type="line"/>
-      <point x="543.0" y="700.0" type="line"/>
-      <point x="500.0" y="700.0" type="line"/>
-      <point x="500.0" y="69.84" type="line"/>
-      <point x="100.0" y="700.0" type="line"/>
-      <point x="99.0" y="699.68" type="line"/>
-      <point x="99.0" y="700.0" type="line"/>
-      <point x="56.0" y="700.0" type="line"/>
-      <point x="56.0" y="0.0" type="line"/>
-      <point x="99.0" y="0.0" type="line"/>
+      <point x="56" y="0" type="line"/>
+      <point x="99" y="0" type="line"/>
+      <point x="99" y="624.4" type="line"/>
+      <point x="498" y="0" type="line"/>
+      <point x="543" y="0" type="line"/>
+      <point x="543" y="700" type="line"/>
+      <point x="500" y="700" type="line"/>
+      <point x="500" y="69.84" type="line"/>
+      <point x="100" y="700" type="line"/>
+      <point x="56" y="700" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>700.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>56.0</real>
-            <real>43.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>500.0</real>
-            <real>43.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

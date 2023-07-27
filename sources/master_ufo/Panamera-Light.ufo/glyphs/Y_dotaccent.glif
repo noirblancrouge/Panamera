@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ydotaccent" format="2">
+  <advance width="573"/>
+  <unicode hex="1E8E"/>
+  <anchor x="287" y="0" name="bottom"/>
+  <anchor x="287" y="869" name="top"/>
+  <outline>
+    <component base="Y"/>
+    <component base="dotaccentcomb" xOffset="65" yOffset="200"/>
+  </outline>
+</glyph>

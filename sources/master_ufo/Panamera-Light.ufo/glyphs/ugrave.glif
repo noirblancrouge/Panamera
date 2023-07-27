@@ -1,90 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ugrave" format="2">
-  <advance width="570.0"/>
+  <advance width="570"/>
   <unicode hex="00F9"/>
-  <note>
-ugrave
-</note>
+  <anchor x="293" y="0" name="bottom"/>
+  <anchor x="476" y="1" name="ogonek"/>
+  <anchor x="293" y="500" name="top"/>
   <outline>
-    <contour>
-      <point x="326.0" y="656.0" type="line"/>
-      <point x="343.0" y="661.0" type="line"/>
-      <point x="223.0" y="774.0" type="line"/>
-      <point x="200.0" y="735.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="476.0" y="145.72" type="curve"/>
-      <point x="476.0" y="1.0" type="line"/>
-      <point x="520.0" y="1.0" type="line"/>
-      <point x="520.0" y="500.0" type="line"/>
-      <point x="476.0" y="500.0" type="line"/>
-      <point x="476.0" y="224.0" type="line"/>
-      <point x="461.0" y="55.0"/>
-      <point x="350.0" y="18.0"/>
-      <point x="264.0" y="18.0" type="curve" smooth="yes"/>
-      <point x="139.0" y="18.0"/>
-      <point x="94.0" y="103.0"/>
-      <point x="94.0" y="197.0" type="curve" smooth="yes"/>
-      <point x="94.0" y="500.0" type="line"/>
-      <point x="50.0" y="500.0" type="line"/>
-      <point x="50.0" y="197.0" type="line" smooth="yes"/>
-      <point x="50.0" y="92.0"/>
-      <point x="89.0" y="-7.0"/>
-      <point x="251.0" y="-7.0" type="curve" smooth="yes"/>
-      <point x="351.58" y="-7.0"/>
-      <point x="449.52" y="44.97"/>
-    </contour>
+    <component base="u"/>
+    <component base="gravecomb" xOffset="-42"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>-7.0</real>
-            <real>25.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>50.0</real>
-            <real>44.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>476.0</real>
-            <real>44.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -1,53 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l" format="2">
-  <advance width="144.0"/>
+  <advance width="204"/>
   <unicode hex="006C"/>
-  <note>
-l
-</note>
+  <anchor x="102" y="0" name="bottom"/>
+  <anchor x="102" y="700" name="top"/>
   <outline>
     <contour>
-      <point x="94.0" y="0.0" type="line"/>
-      <point x="94.0" y="700.0" type="line"/>
-      <point x="50.0" y="700.0" type="line"/>
-      <point x="50.0" y="0.0" type="line"/>
+      <point x="80" y="0" type="line"/>
+      <point x="124" y="0" type="line"/>
+      <point x="124" y="700" type="line"/>
+      <point x="80" y="700" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>700.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>50.0</real>
-            <real>44.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

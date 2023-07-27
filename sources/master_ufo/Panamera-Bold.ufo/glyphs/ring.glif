@@ -1,103 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ring" format="2">
-  <advance width="600.0"/>
+  <advance width="686"/>
   <unicode hex="02DA"/>
-  <note>
-ring
-</note>
   <outline>
-    <contour>
-      <point x="277.0" y="539.0" type="curve" smooth="yes"/>
-      <point x="354.0" y="539.0"/>
-      <point x="420.0" y="605.0"/>
-      <point x="420.0" y="682.0" type="curve" smooth="yes"/>
-      <point x="420.0" y="759.0"/>
-      <point x="354.0" y="825.0"/>
-      <point x="277.0" y="825.0" type="curve" smooth="yes"/>
-      <point x="200.0" y="825.0"/>
-      <point x="134.0" y="759.0"/>
-      <point x="134.0" y="682.0" type="curve" smooth="yes"/>
-      <point x="134.0" y="605.0"/>
-      <point x="200.0" y="539.0"/>
-    </contour>
-    <contour>
-      <point x="277.0" y="629.0" type="curve" smooth="yes"/>
-      <point x="247.0" y="629.0"/>
-      <point x="224.0" y="652.0"/>
-      <point x="224.0" y="682.0" type="curve" smooth="yes"/>
-      <point x="224.0" y="712.0"/>
-      <point x="247.0" y="735.0"/>
-      <point x="277.0" y="735.0" type="curve" smooth="yes"/>
-      <point x="307.0" y="735.0"/>
-      <point x="330.0" y="712.0"/>
-      <point x="330.0" y="682.0" type="curve" smooth="yes"/>
-      <point x="330.0" y="652.0"/>
-      <point x="307.0" y="629.0"/>
-    </contour>
+    <component base="ringcomb"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
           <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>539.0</real>
-            <real>90.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>735.0</real>
-            <real>90.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>134.0</real>
-            <real>90.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>330.0</real>
-            <real>90.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>name</key>
+          <string>ringcomb</string>
         </dict>
       </array>
     </dict>

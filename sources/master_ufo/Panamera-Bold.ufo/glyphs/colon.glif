@@ -1,74 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="colon" format="2">
-  <advance width="270.0"/>
+  <advance width="270"/>
   <unicode hex="003A"/>
-  <note>
-colon
-</note>
   <outline>
     <contour>
-      <point x="46.0" y="398.0" type="line"/>
-      <point x="224.0" y="398.0" type="line"/>
-      <point x="224.0" y="546.0" type="line"/>
-      <point x="46.0" y="546.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="45.36" y="-1.0" type="line"/>
-      <point x="224.79" y="-1.0" type="line"/>
+      <point x="45.36" y="-1" type="line"/>
+      <point x="224.79" y="-1" type="line"/>
       <point x="224.79" y="148.18" type="line"/>
       <point x="45.36" y="148.18" type="line"/>
     </contour>
+    <contour>
+      <point x="46" y="398" type="line"/>
+      <point x="224" y="398" type="line"/>
+      <point x="224" y="546" type="line"/>
+      <point x="46" y="546" type="line"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>-1.0</real>
-            <real>149.18</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>398.0</real>
-            <real>148.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>46.0</real>
-            <real>178.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

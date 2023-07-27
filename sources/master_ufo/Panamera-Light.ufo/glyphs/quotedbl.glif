@@ -1,74 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotedbl" format="2">
-  <advance width="644.0"/>
+  <advance width="644"/>
   <unicode hex="0022"/>
-  <note>
-quotedbl
-</note>
   <outline>
     <contour>
-      <point x="239.0" y="502.0" type="line"/>
-      <point x="248.0" y="726.0" type="line"/>
-      <point x="182.0" y="726.0" type="line"/>
-      <point x="191.0" y="502.0" type="line"/>
+      <point x="405" y="502" type="line"/>
+      <point x="453" y="502" type="line"/>
+      <point x="462" y="726" type="line"/>
+      <point x="396" y="726" type="line"/>
     </contour>
     <contour>
-      <point x="453.0" y="502.0" type="line"/>
-      <point x="462.0" y="726.0" type="line"/>
-      <point x="396.0" y="726.0" type="line"/>
-      <point x="405.0" y="502.0" type="line"/>
+      <point x="191" y="502" type="line"/>
+      <point x="239" y="502" type="line"/>
+      <point x="248" y="726" type="line"/>
+      <point x="182" y="726" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>502.0</real>
-            <real>224.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>186.5</real>
-            <real>57.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>400.5</real>
-            <real>57.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

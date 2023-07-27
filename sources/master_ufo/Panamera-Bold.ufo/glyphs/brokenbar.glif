@@ -1,59 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brokenbar" format="2">
-  <advance width="314.0"/>
+  <advance width="314"/>
   <unicode hex="00A6"/>
-  <note>
-brokenbar
-</note>
   <outline>
     <contour>
-      <point x="77.0" y="427.5" type="line"/>
-      <point x="238.0" y="427.5" type="line"/>
-      <point x="238.0" y="813.02" type="line"/>
-      <point x="77.0" y="813.02" type="line"/>
+      <point x="77" y="427.5" type="line"/>
+      <point x="238" y="427.5" type="line"/>
+      <point x="238" y="813.02" type="line"/>
+      <point x="77" y="813.02" type="line"/>
     </contour>
     <contour>
-      <point x="77.0" y="-145.5" type="line"/>
-      <point x="238.0" y="-145.5" type="line"/>
-      <point x="238.0" y="240.02" type="line"/>
-      <point x="77.0" y="240.02" type="line"/>
+      <point x="77" y="-145.5" type="line"/>
+      <point x="238" y="-145.5" type="line"/>
+      <point x="238" y="240.02" type="line"/>
+      <point x="77" y="240.02" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>-145.5</real>
-            <real>958.52</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>77.0</real>
-            <real>161.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

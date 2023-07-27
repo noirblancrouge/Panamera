@@ -1,50 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tilde" format="2">
-  <advance width="600.0"/>
+  <advance width="781"/>
   <unicode hex="02DC"/>
-  <note>
-tilde
-</note>
   <outline>
-    <contour>
-      <point x="450.0" y="751.0" type="curve"/>
-      <point x="337.0" y="751.0" type="line"/>
-      <point x="379.74" y="726.57"/>
-      <point x="394.86" y="694.33"/>
-      <point x="394.86" y="676.11" type="curve" smooth="yes"/>
-      <point x="394.86" y="667.48"/>
-      <point x="391.46" y="662.0"/>
-      <point x="386.0" y="662.0" type="curve" smooth="yes"/>
-      <point x="363.0" y="662.0"/>
-      <point x="342.0" y="691.0"/>
-      <point x="318.0" y="708.0" type="curve" smooth="yes"/>
-      <point x="274.0" y="739.0"/>
-      <point x="251.0" y="751.0"/>
-      <point x="209.0" y="751.0" type="curve" smooth="yes"/>
-      <point x="144.28" y="751.0"/>
-      <point x="113.86" y="710.37"/>
-      <point x="113.86" y="664.84" type="curve" smooth="yes"/>
-      <point x="113.86" y="635.79"/>
-      <point x="126.24" y="604.75"/>
-      <point x="150.0" y="580.99" type="curve"/>
-      <point x="269.0" y="580.99" type="line"/>
-      <point x="226.28" y="605.4"/>
-      <point x="210.69" y="637.63"/>
-      <point x="210.69" y="655.85" type="curve" smooth="yes"/>
-      <point x="210.69" y="664.5"/>
-      <point x="214.2" y="669.99"/>
-      <point x="220.0" y="669.99" type="curve" smooth="yes"/>
-      <point x="244.0" y="669.99"/>
-      <point x="265.0" y="640.99"/>
-      <point x="305.0" y="612.99" type="curve" smooth="yes"/>
-      <point x="329.0" y="594.99"/>
-      <point x="360.0" y="580.99"/>
-      <point x="397.0" y="580.99" type="curve" smooth="yes"/>
-      <point x="459.86" y="580.99"/>
-      <point x="495.16" y="627.56"/>
-      <point x="495.16" y="674.08" type="curve" smooth="yes"/>
-      <point x="495.16" y="703.78"/>
-      <point x="480.78" y="733.46"/>
-    </contour>
+    <component base="tildecomb"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>tildecomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

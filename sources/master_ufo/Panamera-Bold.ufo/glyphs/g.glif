@@ -1,137 +1,61 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="g" format="2">
-  <advance width="653.0"/>
+  <advance width="638"/>
   <unicode hex="0067"/>
-  <note>
-g
-</note>
+  <anchor x="328" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="603.0" y="8.0" type="curve"/>
-      <point x="602.0" y="500.0" type="line"/>
-      <point x="450.0" y="500.0" type="line"/>
-      <point x="450.0" y="453.53" type="line"/>
-      <point x="412.85" y="486.81"/>
-      <point x="361.89" y="509.0"/>
-      <point x="294.0" y="509.0" type="curve" smooth="yes"/>
-      <point x="134.0" y="509.0"/>
-      <point x="30.0" y="389.0"/>
-      <point x="30.0" y="248.0" type="curve" smooth="yes"/>
-      <point x="30.0" y="106.0"/>
-      <point x="135.0" y="-12.0"/>
-      <point x="294.0" y="-12.0" type="curve" smooth="yes"/>
-      <point x="361.89" y="-12.0"/>
-      <point x="412.85" y="10.05"/>
-      <point x="450.0" y="43.15" type="curve"/>
-      <point x="450.0" y="8.0" type="line" smooth="yes"/>
-      <point x="450.0" y="-95.0"/>
-      <point x="398.0" y="-149.0"/>
-      <point x="317.0" y="-149.0" type="curve" smooth="yes"/>
-      <point x="241.0" y="-149.0"/>
-      <point x="215.0" y="-112.0"/>
-      <point x="196.0" y="-58.0" type="curve"/>
-      <point x="51.0" y="-86.0" type="line"/>
-      <point x="70.0" y="-170.0"/>
-      <point x="151.0" y="-260.0"/>
-      <point x="317.0" y="-260.0" type="curve" smooth="yes"/>
-      <point x="485.0" y="-260.0"/>
-      <point x="603.0" y="-159.0"/>
+      <point x="317" y="-260" type="curve" smooth="yes"/>
+      <point x="485" y="-260"/>
+      <point x="603" y="-159"/>
+      <point x="603" y="8" type="curve"/>
+      <point x="450" y="8" type="line"/>
+      <point x="450" y="-95"/>
+      <point x="398" y="-149"/>
+      <point x="317" y="-149" type="curve" smooth="yes"/>
+      <point x="241" y="-149"/>
+      <point x="215" y="-112"/>
+      <point x="196" y="-58" type="curve"/>
+      <point x="51" y="-86" type="line"/>
+      <point x="70" y="-170"/>
+      <point x="151" y="-260"/>
     </contour>
     <contour>
-      <point x="314.0" y="98.0" type="curve" smooth="yes"/>
-      <point x="231.0" y="98.0"/>
-      <point x="183.0" y="159.0"/>
-      <point x="183.0" y="248.0" type="curve" smooth="yes"/>
-      <point x="183.0" y="338.0"/>
-      <point x="231.0" y="398.0"/>
-      <point x="314.0" y="398.0" type="curve" smooth="yes"/>
-      <point x="403.0" y="398.0"/>
-      <point x="460.0" y="347.0"/>
-      <point x="460.0" y="248.0" type="curve" smooth="yes"/>
-      <point x="460.0" y="150.0"/>
-      <point x="403.0" y="98.0"/>
+      <point x="602" y="500" type="line"/>
+      <point x="450" y="500" type="line"/>
+      <point x="450" y="474" type="line"/>
+      <point x="470" y="248" type="line"/>
+      <point x="450" y="43" type="line"/>
+      <point x="450" y="8" type="line"/>
+      <point x="603" y="8" type="line"/>
+    </contour>
+    <contour>
+      <point x="284" y="509" type="curve" smooth="yes"/>
+      <point x="125" y="509"/>
+      <point x="20" y="389"/>
+      <point x="20" y="248" type="curve" smooth="yes"/>
+      <point x="20" y="106"/>
+      <point x="125" y="-12"/>
+      <point x="284" y="-12" type="curve" smooth="yes"/>
+      <point x="437" y="-12"/>
+      <point x="477" y="75"/>
+      <point x="477" y="248" type="curve" smooth="yes"/>
+      <point x="477" y="422"/>
+      <point x="446" y="509"/>
+    </contour>
+    <contour>
+      <point x="312" y="398" type="curve" smooth="yes"/>
+      <point x="401" y="398"/>
+      <point x="458" y="347"/>
+      <point x="458" y="248" type="curve" smooth="yes"/>
+      <point x="458" y="150"/>
+      <point x="401" y="98"/>
+      <point x="312" y="98" type="curve" smooth="yes"/>
+      <point x="229" y="98"/>
+      <point x="181" y="159"/>
+      <point x="181" y="248" type="curve" smooth="yes"/>
+      <point x="181" y="338"/>
+      <point x="229" y="398"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>-260.0</real>
-            <real>111.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>-12.0</real>
-            <real>110.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>398.0</real>
-            <real>111.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>30.0</real>
-            <real>153.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>450.0</real>
-            <real>153.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

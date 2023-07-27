@@ -1,61 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="x" format="2">
-  <advance width="558.0"/>
+  <advance width="532"/>
   <unicode hex="0078"/>
-  <note>
-x
-</note>
   <outline>
     <contour>
-      <point x="275.98" y="213.98" type="line"/>
-      <point x="466.0" y="0.0" type="line"/>
-      <point x="522.0" y="0.0" type="line"/>
-      <point x="306.78" y="241.27" type="line"/>
-      <point x="538.0" y="500.0" type="line"/>
-      <point x="481.0" y="500.0" type="line"/>
-      <point x="276.24" y="275.51" type="line"/>
-      <point x="76.0" y="500.0" type="line"/>
-      <point x="22.0" y="500.0" type="line"/>
-      <point x="245.64" y="248.15" type="line"/>
-      <point x="20.0" y="0.0" type="line"/>
-      <point x="77.0" y="0.0" type="line"/>
+      <point x="516" y="0" type="line"/>
+      <point x="72" y="500" type="line"/>
+      <point x="16" y="500" type="line"/>
+      <point x="460" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="258" y="266" type="line"/>
+      <point x="285" y="233" type="line"/>
+      <point x="522" y="500" type="line"/>
+      <point x="466" y="500" type="line"/>
+    </contour>
+    <contour>
+      <point x="273" y="233" type="line"/>
+      <point x="246" y="266" type="line"/>
+      <point x="10" y="0" type="line"/>
+      <point x="66" y="0" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>500.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>20.0</real>
-            <real>518.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

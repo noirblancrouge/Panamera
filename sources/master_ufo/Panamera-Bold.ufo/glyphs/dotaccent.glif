@@ -1,51 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaccent" format="2">
-  <advance width="248.0"/>
+  <advance width="552"/>
   <unicode hex="02D9"/>
-  <note>
-dotaccent
-</note>
   <outline>
-    <contour>
-      <point x="47.0" y="584.0" type="line"/>
-      <point x="201.0" y="584.0" type="line"/>
-      <point x="201.0" y="708.0" type="line"/>
-      <point x="47.0" y="708.0" type="line"/>
-    </contour>
+    <component base="dotaccentcomb"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
           <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>584.0</real>
-            <real>124.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>47.0</real>
-            <real>154.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
+          <key>name</key>
+          <string>dotaccentcomb</string>
         </dict>
       </array>
     </dict>

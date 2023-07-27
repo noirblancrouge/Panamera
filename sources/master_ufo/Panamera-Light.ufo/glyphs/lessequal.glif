@@ -1,65 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lessequal" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="2264"/>
-  <note>
-lessequal
-</note>
   <outline>
     <contour>
-      <point x="542.0" y="153.0" type="line"/>
-      <point x="542.0" y="201.0" type="line"/>
-      <point x="123.98" y="412.0" type="line"/>
-      <point x="542.0" y="623.0" type="line"/>
-      <point x="542.0" y="671.0" type="line"/>
-      <point x="45.84" y="413.0" type="line"/>
-      <point x="41.0" y="413.0" type="line"/>
+      <point x="542" y="153" type="line"/>
+      <point x="542" y="201" type="line"/>
+      <point x="123.98" y="412" type="line"/>
+      <point x="542" y="623" type="line"/>
+      <point x="542" y="671" type="line"/>
       <point x="43.42" y="411.74" type="line"/>
-      <point x="42.0" y="411.0" type="line"/>
-      <point x="44.85" y="411.0" type="line"/>
     </contour>
     <contour>
-      <point x="544.0" y="0.0" type="line"/>
-      <point x="544.0" y="33.0" type="line"/>
-      <point x="32.0" y="33.0" type="line"/>
-      <point x="32.0" y="0.0" type="line"/>
+      <point x="32" y="0" type="line"/>
+      <point x="544" y="0" type="line"/>
+      <point x="544" y="33" type="line"/>
+      <point x="32" y="33" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>33.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>32.0</real>
-            <real>512.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -1,61 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dagger" format="2">
-  <advance width="600.0"/>
+  <advance width="600"/>
   <unicode hex="2020"/>
-  <note>
-dagger
-</note>
   <outline>
     <contour>
-      <point x="380.0" y="-149.0" type="line"/>
-      <point x="357.0" y="440.0" type="line"/>
-      <point x="560.0" y="429.0" type="line"/>
-      <point x="560.0" y="563.0" type="line"/>
-      <point x="359.0" y="552.0" type="line"/>
-      <point x="380.0" y="742.0" type="line"/>
-      <point x="220.0" y="742.0" type="line"/>
-      <point x="241.0" y="552.0" type="line"/>
-      <point x="40.0" y="563.0" type="line"/>
-      <point x="40.0" y="429.0" type="line"/>
-      <point x="243.0" y="440.0" type="line"/>
-      <point x="220.0" y="-149.0" type="line"/>
+      <point x="220" y="-149" type="line"/>
+      <point x="380" y="-149" type="line"/>
+      <point x="357" y="440" type="line"/>
+      <point x="560" y="429" type="line"/>
+      <point x="560" y="563" type="line"/>
+      <point x="359" y="552" type="line"/>
+      <point x="380" y="742" type="line"/>
+      <point x="220" y="742" type="line"/>
+      <point x="241" y="552" type="line"/>
+      <point x="40" y="563" type="line"/>
+      <point x="40" y="429" type="line"/>
+      <point x="243" y="440" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>434.5</real>
-            <real>123.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>231.5</real>
-            <real>137.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

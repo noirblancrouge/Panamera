@@ -1,63 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="icircumflex" format="2">
-  <advance width="248.0"/>
+  <advance width="204"/>
   <unicode hex="00EE"/>
-  <note>
-icircumflex
-</note>
+  <anchor x="102" y="0" name="bottom"/>
+  <anchor x="80" y="0" name="ogonek"/>
+  <anchor x="102" y="500" name="top"/>
   <outline>
-    <contour>
-      <point x="-30.0" y="670.0" type="line"/>
-      <point x="12.0" y="656.0" type="line"/>
-      <point x="125.0" y="761.52" type="line"/>
-      <point x="238.0" y="656.0" type="line"/>
-      <point x="280.0" y="670.0" type="line"/>
-      <point x="126.0" y="807.0" type="line"/>
-      <point x="125.0" y="806.0" type="line"/>
-      <point x="124.0" y="807.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="146.0" y="0.0" type="line"/>
-      <point x="146.0" y="500.0" type="line"/>
-      <point x="102.0" y="500.0" type="line"/>
-      <point x="102.0" y="0.0" type="line"/>
-    </contour>
+    <component base="dotlessi"/>
+    <component base="circumflexcomb" xOffset="-186"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>807.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>102.0</real>
-            <real>44.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

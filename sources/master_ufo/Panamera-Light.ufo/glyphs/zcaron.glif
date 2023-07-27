@@ -1,84 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zcaron" format="2">
-  <advance width="489.0"/>
+  <advance width="500"/>
   <unicode hex="017E"/>
-  <note>
-zcaron
-</note>
+  <anchor x="250" y="0" name="bottom"/>
+  <anchor x="250" y="726" name="top"/>
   <outline>
-    <contour>
-      <point x="92.0" y="775.0" type="line"/>
-      <point x="246.0" y="638.0" type="line"/>
-      <point x="247.0" y="639.0" type="line"/>
-      <point x="248.0" y="638.0" type="line"/>
-      <point x="402.0" y="775.0" type="line"/>
-      <point x="360.0" y="789.0" type="line"/>
-      <point x="247.0" y="683.48" type="line"/>
-      <point x="134.0" y="789.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="466.0" y="0.0" type="line"/>
-      <point x="466.0" y="35.0" type="line"/>
-      <point x="49.3" y="35.0" type="line"/>
-      <point x="483.0" y="465.0" type="line"/>
-      <point x="483.0" y="500.0" type="line"/>
-      <point x="43.0" y="500.0" type="line"/>
-      <point x="43.0" y="465.0" type="line"/>
-      <point x="421.9" y="465.0" type="line"/>
-      <point x="3.0" y="35.0" type="line"/>
-      <point x="3.0" y="0.0" type="line"/>
-    </contour>
+    <component base="z"/>
+    <component base="caroncomb" xOffset="-38"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>35.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>465.0</real>
-            <real>35.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>3.0</real>
-            <real>480.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -1,53 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bar" format="2">
-  <advance width="314.0"/>
+  <advance width="314"/>
   <unicode hex="007C"/>
-  <note>
-bar
-</note>
   <outline>
     <contour>
-      <point x="77.0" y="-148.0" type="line"/>
-      <point x="238.0" y="-148.0" type="line"/>
-      <point x="238.0" y="811.0" type="line"/>
-      <point x="77.0" y="811.0" type="line"/>
+      <point x="77" y="-148" type="line"/>
+      <point x="238" y="-148" type="line"/>
+      <point x="238" y="811" type="line"/>
+      <point x="77" y="811" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>-148.0</real>
-            <real>959.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>77.0</real>
-            <real>161.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

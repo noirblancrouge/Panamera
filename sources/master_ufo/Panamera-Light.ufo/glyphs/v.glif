@@ -1,56 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="v" format="2">
-  <advance width="500.0"/>
+  <advance width="500"/>
   <unicode hex="0076"/>
-  <note>
-v
-</note>
   <outline>
     <contour>
-      <point x="11.0" y="500.0" type="line"/>
-      <point x="222.0" y="0.0" type="line"/>
-      <point x="278.0" y="0.0" type="line"/>
-      <point x="489.0" y="500.0" type="line"/>
-      <point x="449.0" y="500.0" type="line"/>
-      <point x="250.0" y="28.43" type="line"/>
-      <point x="51.0" y="500.0" type="line"/>
+      <point x="222" y="0" type="line"/>
+      <point x="258" y="0" type="line"/>
+      <point x="469" y="500" type="line"/>
+      <point x="429" y="500" type="line"/>
+      <point x="233" y="35" type="line"/>
+      <point x="247" y="35" type="line"/>
+      <point x="51" y="500" type="line"/>
+      <point x="11" y="500" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>0.0</real>
-            <real>28.43</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <real>11.0</real>
-            <real>478.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>
