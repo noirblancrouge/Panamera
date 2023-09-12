@@ -1,10 +1,10 @@
 sources:
   - Panamera.glyphs
-familyName: "Panamera"
 buildWebfont: true
 buildVariable: false
 axisOrder:
   - wght
+familyName: "Panamera"
 stat:
   - name: Weight
     tag: wght
