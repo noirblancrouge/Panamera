@@ -23,8 +23,56 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
+name = "GASP Table";
+value = {
+9 = 10;
+21 = 7;
+65535 = 15;
+};
+},
+{
+name = panose;
+value = (
+2,
+11,
+3,
+4,
+4,
+4,
+2,
+0,
+2,
+3
+);
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1
+);
+},
+{
+name = codePageRanges;
+value = (
+"1252"
+);
+},
+{
+name = "Use Extension Kerning";
+value = 1;
+},
+{
 name = licenseURL;
 value = "https://scripts.sil.org/OFL";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = vendorID;
+value = NBR;
 },
 {
 name = Axes;
@@ -132,13 +180,13 @@ name = cpsp;
 automatic = 1;
 code = "sub a by a.ss01;\012sub aacute by aacute.ss01;\012sub abreve by abreve.ss01;\012sub acircumflex by acircumflex.ss01;\012sub adieresis by adieresis.ss01;\012sub adotbelow by adotbelow.ss01;\012sub agrave by agrave.ss01;\012sub amacron by amacron.ss01;\012sub aogonek by aogonek.ss01;\012sub aring by aring.ss01;\012sub aringacute by aringacute.ss01;\012sub atilde by atilde.ss01;\012sub ae by ae.ss01;\012sub aeacute by aeacute.ss01;\012";
 name = ss01;
-notes = "Name: Alternate aName: ";
+notes = "Name: Alternate aName:";
 },
 {
 automatic = 1;
 code = "sub f by f.ss02;\012";
 name = ss02;
-notes = "Name: Alternate fName: ";
+notes = "Name: Alternate fName:";
 }
 );
 fontMaster = (
@@ -156,7 +204,7 @@ value = -200;
 },
 {
 name = typoLineGap;
-value = 300;
+value = 0;
 },
 {
 name = winAscent;
@@ -209,7 +257,7 @@ value = -200;
 },
 {
 name = typoLineGap;
-value = 300;
+value = 0;
 },
 {
 name = winAscent;
@@ -2161,6 +2209,101 @@ width = 669;
 }
 );
 unicode = 1EBC;
+},
+{
+glyphname = Schwa;
+lastChange = "2023-09-12 18:30:38 +0000";
+layers = (
+{
+layerId = "F5467FAD-1970-4982-B3D3-939C01050498";
+paths = (
+{
+closed = 1;
+nodes = (
+"666 347 LINE",
+"33 347 LINE",
+"31 328 OFFCURVE",
+"30 309 OFFCURVE",
+"30 291 CURVE SMOOTH",
+"30 112 OFFCURVE",
+"149 -5 OFFCURVE",
+"344 -5 CURVE SMOOTH",
+"536 -5 OFFCURVE",
+"698 120 OFFCURVE",
+"698 341 CURVE SMOOTH",
+"698 588 OFFCURVE",
+"528 704 OFFCURVE",
+"335 704 CURVE SMOOTH",
+"196 704 OFFCURVE",
+"80 659 OFFCURVE",
+"32 580 CURVE",
+"64 560 LINE",
+"116 630 OFFCURVE",
+"180 673 OFFCURVE",
+"335 673 CURVE SMOOTH",
+"505 673 OFFCURVE",
+"660 571 OFFCURVE",
+"657 334 CURVE SMOOTH",
+"655 147 OFFCURVE",
+"537 26 OFFCURVE",
+"344 26 CURVE SMOOTH",
+"171 26 OFFCURVE",
+"61 140 OFFCURVE",
+"77 308 CURVE",
+"666 308 LINE"
+);
+}
+);
+width = 728;
+},
+{
+layerId = "6DD95C5A-998B-41AB-BDFB-84A73C209871";
+paths = (
+{
+closed = 1;
+nodes = (
+"631 403 LINE",
+"70 397 LINE",
+"62 360 OFFCURVE",
+"58 326 OFFCURVE",
+"58 293 CURVE SMOOTH",
+"58 110 OFFCURVE",
+"190 -5 OFFCURVE",
+"402 -5 CURVE SMOOTH",
+"612 -5 OFFCURVE",
+"759 128 OFFCURVE",
+"759 342 CURVE SMOOTH",
+"759 582 OFFCURVE",
+"607 705 OFFCURVE",
+"389 705 CURVE SMOOTH",
+"236 705 OFFCURVE",
+"98 641 OFFCURVE",
+"50 515 CURVE",
+"168 447 LINE",
+"199 529 OFFCURVE",
+"261 589 OFFCURVE",
+"369 589 CURVE SMOOTH",
+"533 589 OFFCURVE",
+"605 503 OFFCURVE",
+"605 343 CURVE SMOOTH",
+"605 173 OFFCURVE",
+"496 110 OFFCURVE",
+"397 110 CURVE SMOOTH",
+"286 110 OFFCURVE",
+"219 151 OFFCURVE",
+"231 261 CURVE",
+"622 261 LINE"
+);
+}
+);
+width = 809;
+}
+);
+leftKerningGroup = C;
+leftMetricsKey = O;
+rightKerningGroup = O;
+rightMetricsKey = O;
+unicode = 018F;
 },
 {
 glyphname = F;
