@@ -3,7 +3,7 @@
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Acircumflex Adieresis Adotbelow Agrave Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D Eth Dcaron Dcroat Ddotbelow Dmacronbelow E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Edieresis Edotaccent Edotbelow Egrave Emacron Emacronacute Emacrongrave Eogonek Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Ibreve Icircumflex Idieresis Idieresisacute Idotaccent Idotbelow Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lmacronbelow Lslash M Mdotbelow N Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Nhookleft Nmacronbelow Ntilde Eng O Oacute Obreve Ocircumflex Odieresis Odotbelow Ograve Ohungarumlaut Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis OE P Thorn Q R Racute Rcaron Rcommaaccent Rdotbelow Rmacronbelow S Sacute Sacutedotaccent Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tmacronbelow U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Delta Omega";
+code = "A Aacute Abreve Acircumflex Adieresis Adotbelow Agrave Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D Eth Dcaron Dcroat Ddotbelow Dmacronbelow E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Edieresis Edotaccent Edotbelow Egrave Emacron Emacronacute Emacrongrave Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Ibreve Icircumflex Idieresis Idieresisacute Idotaccent Idotbelow Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lmacronbelow Lslash M Mdotbelow N Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Nhookleft Nmacronbelow Ntilde Eng O Oacute Obreve Ocircumflex Odieresis Odotbelow Ograve Ohungarumlaut Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis OE P Thorn Q R Racute Rcaron Rcommaaccent Rdotbelow Rmacronbelow S Sacute Sacutedotaccent Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tmacronbelow U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Delta Omega";
 name = Uppercase;
 }
 );
@@ -84,7 +84,7 @@ Tag = wght;
 );
 }
 );
-date = "2023-07-24 15:08:01 +0000";
+date = "2023-09-12 19:09:54 +0000";
 designer = "Bastien Sozeau";
 designerURL = "https://noirblancrouge.com";
 disablesNiceNames = 1;
@@ -240,7 +240,7 @@ GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
 weight = Light;
-weightValue = 60;
+weightValue = 300;
 xHeight = 500;
 },
 {
@@ -293,7 +293,7 @@ GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
 weight = Bold;
-weightValue = 190;
+weightValue = 800;
 xHeight = 500;
 }
 );
@@ -32419,13 +32419,13 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-interpolationWeight = 40;
+interpolationWeight = 220;
 instanceInterpolations = {
-"6DD95C5A-998B-41AB-BDFB-84A73C209871" = -0.15385;
-"F5467FAD-1970-4982-B3D3-939C01050498" = 1.15385;
+"6DD95C5A-998B-41AB-BDFB-84A73C209871" = -0.16;
+"F5467FAD-1970-4982-B3D3-939C01050498" = 1.16;
 };
 name = Thin;
-weightClass = Thin;
+weightClass = ExtraLight;
 },
 {
 customParameters = (
@@ -32434,7 +32434,7 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-interpolationWeight = 60;
+interpolationWeight = 300;
 instanceInterpolations = {
 "F5467FAD-1970-4982-B3D3-939C01050498" = 1;
 };
@@ -32448,9 +32448,10 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
+interpolationWeight = 400;
 instanceInterpolations = {
-"6DD95C5A-998B-41AB-BDFB-84A73C209871" = 0.30769;
-"F5467FAD-1970-4982-B3D3-939C01050498" = 0.69231;
+"6DD95C5A-998B-41AB-BDFB-84A73C209871" = 0.2;
+"F5467FAD-1970-4982-B3D3-939C01050498" = 0.8;
 };
 name = Regular;
 },
@@ -32461,10 +32462,10 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-interpolationWeight = 150;
+interpolationWeight = 500;
 instanceInterpolations = {
-"6DD95C5A-998B-41AB-BDFB-84A73C209871" = 0.69231;
-"F5467FAD-1970-4982-B3D3-939C01050498" = 0.30769;
+"6DD95C5A-998B-41AB-BDFB-84A73C209871" = 0.4;
+"F5467FAD-1970-4982-B3D3-939C01050498" = 0.6;
 };
 name = Medium;
 weightClass = Medium;
@@ -32476,11 +32477,13 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-interpolationWeight = 190;
+interpolationWeight = 700;
 instanceInterpolations = {
-"6DD95C5A-998B-41AB-BDFB-84A73C209871" = 1;
+"6DD95C5A-998B-41AB-BDFB-84A73C209871" = 0.8;
+"F5467FAD-1970-4982-B3D3-939C01050498" = 0.2;
 };
 name = Bold;
+weightClass = Bold;
 },
 {
 customParameters = (
@@ -32489,13 +32492,12 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-interpolationWeight = 220;
+interpolationWeight = 800;
 instanceInterpolations = {
-"6DD95C5A-998B-41AB-BDFB-84A73C209871" = 1.23077;
-"F5467FAD-1970-4982-B3D3-939C01050498" = -0.23077;
+"6DD95C5A-998B-41AB-BDFB-84A73C209871" = 1;
 };
 name = Heavy;
-weightClass = Black;
+weightClass = ExtraBold;
 }
 );
 kerning = {
@@ -35026,5 +35028,5 @@ manufacturer = "NBR — Bastien Sozeau";
 manufacturerURL = "https://noirblancrouge.com";
 unitsPerEm = 1000;
 versionMajor = 3;
-versionMinor = 1;
+versionMinor = 2;
 }
