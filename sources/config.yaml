@@ -1,0 +1,24 @@
+sources:
+  - Panamera.glyphs
+familyName: "Panamera"
+buildWebfont: true
+buildVariable: true
+axisOrder:
+  - wght
+stat:
+  - name: Weight
+    tag: wght
+    values:
+    - name: Thin
+      value: 40
+    - name: Light
+      value: 60
+    - name: Regular
+      value: 100
+    - name: Medium
+      value: 150
+    - name: Bold
+      value: 190
+    - name: Heavy
+      value: 220
+
