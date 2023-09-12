@@ -1,5 +1,17 @@
 # Panamera
 
+[![][Fontbakery]](http://noirblancrouge.github.io/Panamera/fontbakery/fontbakery-report.html)
+[![][Universal]](http://noirblancrouge.github.io/Panamera/fontbakery/fontbakery-report.html)
+[![][GF Profile]](http://noirblancrouge.github.io/Panamera/fontbakery/fontbakery-report.html)
+[![][Outline Correctness]](http://noirblancrouge.github.io/Panamera/fontbakery/fontbakery-report.html)
+[![][Shaping]](http://noirblancrouge.github.io/Panamera/fontbakery/fontbakery-report.html)
+
+[Fontbakery]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/badges/overall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/badges/GoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/badges/OutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/badges/ShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/badges/Universal.json
+
 ![Cover](https://raw.githubusercontent.com/noirblancrouge/Panamera/master/documentation/images/panamera.jpg)
 
 Panamera is a modern sans serif font family. It comes in six weights, from Thin To Heavy, contains a full glyphs set, including multilingual support, openType features and also a variable font version.
