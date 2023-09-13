@@ -1,0 +1,20 @@
+# Rules
+
+rule proofing
+  command = _diffbrowsers proof $fonts -s $styles -o $out -pt $pt_size -ch $
+      "$characters" --filter-styles "$filters"
+
+# Build rules
+build out/proof/Regular-Light: proofing
+  fonts = $
+      "/home/runner/work/Panamera/Panamera/fonts/ttf/Panamera-Medium.ttf" $
+      "/home/runner/work/Panamera/Panamera/fonts/ttf/Panamera-Thin.ttf" $
+      "/home/runner/work/Panamera/Panamera/fonts/ttf/Panamera-Heavy.ttf" $
+      "/home/runner/work/Panamera/Panamera/fonts/ttf/Panamera-Bold.ttf" $
+      "/home/runner/work/Panamera/Panamera/fonts/ttf/Panamera-Regular.ttf" $
+      "/home/runner/work/Panamera/Panamera/fonts/ttf/Panamera-Light.ttf"
+  styles = instances
+  out = out/diffbrowsers
+  pt_size = 20
+  characters = .*
+  filters = Regular|Light
