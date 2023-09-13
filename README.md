@@ -6,11 +6,11 @@
 [![][Outline Correctness]](http://noirblancrouge.github.io/Panamera/fontbakery/fontbakery-report.html)
 [![][Shaping]](http://noirblancrouge.github.io/Panamera/fontbakery/fontbakery-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/badges/overall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/badges/GoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/badges/OutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/badges/ShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/badges/Universal.json
+[Fontbakery]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/fontbakery/overall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/fontbakery/GoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/fontbakery/OutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/fontbakery/ShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/fontbakery/Universal.json
 
 ![Cover](https://raw.githubusercontent.com/noirblancrouge/Panamera/master/documentation/images/panamera.jpg)
 
