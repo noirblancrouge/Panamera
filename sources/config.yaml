@@ -1,5 +1,5 @@
 sources:
   - Panamera.glyphs
-buildWebfont: true
-buildVariable: false
-familyName: "Panamera"
+axisOrder:
+  - wght
+familyName: Panamera
