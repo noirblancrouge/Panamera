@@ -56,13 +56,13 @@ jobs:
     - name: proof
       run: make proof
     - name: setup site
-      run: cp scripts/index.html out/index.html
+      run: cp scripts/index.html docs/index.html
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: ${{ github.ref == 'refs/heads/main' }}
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./out
+        publish_dir: ./docs
     - name: Commit files  # transfer the new html files back into the repository
       run: |
         git config --local user.name  ${{ github.actor }}        
@@ -81,7 +81,7 @@ jobs:
         name: ${{ env.ZIP_NAME }}
         path: |
           fonts
-          out
+          docs
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
   release:
