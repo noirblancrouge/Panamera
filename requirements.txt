@@ -35,7 +35,7 @@ fontFeatures==1.8.0
 fontmake==3.7.1
 fontMath==0.9.3
 fonttools==4.42.0
-freetype-py==2.4.0
+freetype-py==2.3.0
 fs==2.4.16
 gflanguages==0.5.4
 gftools==0.9.33
