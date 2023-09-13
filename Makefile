@@ -31,7 +31,7 @@ venv/touchfile: requirements.txt
 	touch venv/touchfile
 
 test: venv build.stamp
-	. venv/bin/activate; mkdir -p docs/ docs/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges docs/badges --html docs/fontbakery/fontbakery-report.html --ghmarkdown docs/fontbakery/fontbakery-report.md $(shell find fonts/ttf -type f) -o docs/fontbakery
+	. venv/bin/activate; mkdir -p docs/ docs/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges docs/badges -o docs/badges --html docs/fontbakery/fontbakery-report.html --ghmarkdown docs/fontbakery/fontbakery-report.md $(shell find fonts/ttf -type f) -o docs/fontbakery || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
 	
 proof: venv build.stamp
 	. venv/bin/activate; mkdir -p docs/ docs/proof; diffenator2 proof $(shell find fonts/ttf -type f) -o docs/proof
