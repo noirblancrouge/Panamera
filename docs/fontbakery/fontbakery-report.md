@@ -2,21 +2,7 @@
 
 fontbakery version: 0.9.0
 
-<details><summary><b>[10] Panamera-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1170 when it should be at least 1200 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1277, but got 900 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 434, but got 270 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ijacute', 'component': 'acutecomb', 'x': -202, 'y': 0} [code: found-duplicates]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+<details><summary><b>[6] Panamera-Black.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -30,13 +16,6 @@ fontbakery version: 0.9.0
 	- f + i
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- whiteCtircle
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -167,17 +146,9 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* numbersign (U+0023): X=532.0,Y=-1.0 (should be at baseline 0?)
-
-	* numbersign (U+0023): X=347.0,Y=-1.0 (should be at baseline 0?)
-
-	* numbersign (U+0023): X=238.0,Y=-1.0 (should be at baseline 0?)
-
-	* numbersign (U+0023): X=53.0,Y=-1.0 (should be at baseline 0?)
-
 	* dollar (U+0024): X=389.0,Y=702.0 (should be at cap-height 700?)
 
-	* ampersand (U+0026): X=632.5,Y=0.5 (should be at baseline 0?)
+	* ampersand (U+0026): X=197.5,Y=699.5 (should be at cap-height 700?)
 
 	* parenleft (U+0028): X=347.5,Y=701.5 (should be at cap-height 700?)
 
@@ -251,37 +222,23 @@ The following glyphs do not have the recommended number of contours:
 
 	* amacron (U+0101): X=300.0,Y=1.5 (should be at baseline 0?)
 
-	* Abreve (U+0102): X=427.0,Y=898.0 (should be at ascender 900?)
-
 	* abreve (U+0103): X=300.0,Y=1.5 (should be at baseline 0?)
 
 	* abreve (U+0103): X=302.0,Y=698.0 (should be at cap-height 700?)
 
 	* aogonek (U+0105): X=300.0,Y=1.5 (should be at baseline 0?)
 
-	* Ebreve (U+0114): X=358.0,Y=898.0 (should be at ascender 900?)
-
 	* ebreve (U+0115): X=308.0,Y=698.0 (should be at cap-height 700?)
-
-	* Gbreve (U+011E): X=424.0,Y=898.0 (should be at ascender 900?)
 
 	* gbreve (U+011F): X=333.0,Y=698.0 (should be at cap-height 700?)
 
-	* Ibreve (U+012C): X=158.0,Y=898.0 (should be at ascender 900?)
-
 	* ibreve (U+012D): X=170.0,Y=698.0 (should be at cap-height 700?)
 
-	* Obreve (U+014E): X=414.0,Y=898.0 (should be at ascender 900?)
-
 	* obreve (U+014F): X=306.0,Y=698.0 (should be at cap-height 700?)
-
-	* Ubreve (U+016C): X=311.0,Y=898.0 (should be at ascender 900?)
 
 	* ubreve (U+016D): X=293.0,Y=698.0 (should be at cap-height 700?)
 
 	* aringacute (U+01FB): X=300.0,Y=1.5 (should be at baseline 0?)
-
-	* aringacute (U+01FB): X=166.0,Y=901.0 (should be at ascender 900?)
 
 	* aeacute (U+01FD): X=300.0,Y=1.5 (should be at baseline 0?)
 
@@ -290,8 +247,6 @@ The following glyphs do not have the recommended number of contours:
 	* uni0306 (U+0306): X=402.0,Y=698.0 (should be at cap-height 700?)
 
 	* uni03BC (U+03BC): X=361.0,Y=1.0 (should be at baseline 0?)
-
-	* uni1E1C (U+1E1C): X=358.0,Y=898.0 (should be at ascender 900?)
 
 	* uni1E1D (U+1E1D): X=308.0,Y=698.0 (should be at cap-height 700?)
 
@@ -336,6 +291,8 @@ The following glyphs do not have the recommended number of contours:
 	* summation (U+2211): X=687.0,Y=698.0 (should be at cap-height 700?)
 
 	* integral (U+222B): X=495.0,Y=698.5 (should be at cap-height 700?)
+
+	* circle (U+25CB): X=210.5,Y=-0.5 (should be at baseline 0?)
 
 	* uni25CF (U+25CF): X=210.5,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -626,21 +583,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EE4 (U+1EE4): L<<26.0,232.0>--<27.0,700.0>>
 
 	* uni1EE4 (U+1EE4): L<<595.0,700.0>--<596.0,232.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] Panamera-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1170 when it should be at least 1200 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1277, but got 900 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 434, but got 270 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ijacute', 'component': 'acutecomb', 'x': -202, 'y': 0} [code: found-duplicates]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] Panamera-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -654,13 +597,6 @@ The following glyphs do not have the recommended number of contours:
 	- f + i
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- whiteCtircle
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -938,21 +874,7 @@ The following glyphs do not have the recommended number of contours:
 	* yen (U+00A5): L<<105.0,339.0>--<251.0,340.0>>
 
 	* yen (U+00A5): L<<347.0,340.0>--<489.0,339.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] Panamera-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1170 when it should be at least 1200 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1277, but got 900 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 434, but got 270 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ijacute', 'component': 'acutecomb', 'x': -202, 'y': 0} [code: found-duplicates]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] Panamera-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -966,13 +888,6 @@ The following glyphs do not have the recommended number of contours:
 	- f + i
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- whiteCtircle
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1035,7 +950,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* dollar (U+0024): X=382.0,Y=702.0 (should be at cap-height 700?)
 
-	* ampersand (U+0026): X=201.0,Y=699.5 (should be at cap-height 700?)
+	* ampersand (U+0026): X=396.0,Y=699.0 (should be at cap-height 700?)
 
 	* comma (U+002C): X=229.0,Y=-2.0 (should be at baseline 0?)
 
@@ -1115,17 +1030,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* pi (U+03C0): X=233.0,Y=-2.0 (should be at baseline 0?)
 
-	* uni1E15 (U+1E15): X=118.0,Y=898.0 (should be at ascender 900?)
-
-	* uni1E17 (U+1E17): X=513.0,Y=898.0 (should be at ascender 900?)
-
 	* uni1E42 (U+1E42): X=217.0,Y=701.0 (should be at cap-height 700?)
 
 	* uni1E42 (U+1E42): X=689.0,Y=701.0 (should be at cap-height 700?)
-
-	* uni1E51 (U+1E51): X=121.0,Y=898.0 (should be at ascender 900?)
-
-	* uni1E53 (U+1E53): X=516.0,Y=898.0 (should be at ascender 900?)
 
 	* quotesinglbase (U+201A): X=229.0,Y=-2.0 (should be at baseline 0?)
 
@@ -1164,6 +1071,8 @@ The following glyphs do not have the recommended number of contours:
 	* uni21E7 (U+21E7): X=482.0,Y=1.0 (should be at baseline 0?)
 
 	* partialdiff (U+2202): X=170.0,Y=1.0 (should be at baseline 0?)
+
+	* circle (U+25CB): X=210.5,Y=-0.5 (should be at baseline 0?)
 
 	* uni25CC (U+25CC): X=295.0,Y=-2.0 (should be at baseline 0?)
 
@@ -1400,21 +1309,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EE4 (U+1EE4): L<<38.0,225.0>--<39.0,700.0>>
 
 	* uni1EE4 (U+1EE4): L<<583.0,700.0>--<584.0,225.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] Panamera-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1170 when it should be at least 1200 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1277, but got 900 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 434, but got 270 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ijacute', 'component': 'acutecomb', 'x': -202, 'y': 0} [code: found-duplicates]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] Panamera-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -1428,13 +1323,6 @@ The following glyphs do not have the recommended number of contours:
 	- f + i
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- whiteCtircle
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1726,21 +1614,7 @@ The following glyphs do not have the recommended number of contours:
 	* yen (U+00A5): L<<316.0,332.0>--<473.0,331.0>>
 
 	* yen (U+00A5): L<<97.0,331.0>--<256.0,332.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] Panamera-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1170 when it should be at least 1200 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1277, but got 900 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 434, but got 270 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ijacute', 'component': 'acutecomb', 'x': -202, 'y': 0} [code: found-duplicates]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] Panamera-Thin.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -1754,13 +1628,6 @@ The following glyphs do not have the recommended number of contours:
 	- f + i
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- whiteCtircle
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -2138,21 +2005,7 @@ The following glyphs do not have the recommended number of contours:
 	* yen (U+00A5): L<<292.0,326.0>--<460.0,325.0>>
 
 	* yen (U+00A5): L<<90.0,325.0>--<260.0,326.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] Panamera-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1170 when it should be at least 1200 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1277, but got 900 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 434, but got 270 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ijacute', 'component': 'acutecomb', 'x': -202, 'y': 0} [code: found-duplicates]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] Panamera-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -2166,13 +2019,6 @@ The following glyphs do not have the recommended number of contours:
 	- f + i
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- whiteCtircle
- [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -2486,8 +2332,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 18 | 38 | 716 | 43 | 600 | 0 |
-| 0% | 1% | 3% | 51% | 3% | 42% | 0% |
+| 0 | 0 | 32 | 716 | 43 | 624 | 0 |
+| 0% | 0% | 2% | 51% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
