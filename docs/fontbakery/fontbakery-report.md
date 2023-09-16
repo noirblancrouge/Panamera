@@ -224,17 +224,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* abreve (U+0103): X=300.0,Y=1.5 (should be at baseline 0?)
 
-	* abreve (U+0103): X=302.0,Y=698.0 (should be at cap-height 700?)
+	* abreve (U+0103): X=301.0,Y=698.0 (should be at cap-height 700?)
 
 	* aogonek (U+0105): X=300.0,Y=1.5 (should be at baseline 0?)
 
-	* ebreve (U+0115): X=308.0,Y=698.0 (should be at cap-height 700?)
+	* ebreve (U+0115): X=298.0,Y=698.0 (should be at cap-height 700?)
 
 	* gbreve (U+011F): X=333.0,Y=698.0 (should be at cap-height 700?)
 
-	* ibreve (U+012D): X=170.0,Y=698.0 (should be at cap-height 700?)
+	* ibreve (U+012D): X=169.0,Y=698.0 (should be at cap-height 700?)
 
-	* obreve (U+014F): X=306.0,Y=698.0 (should be at cap-height 700?)
+	* obreve (U+014F): X=305.0,Y=698.0 (should be at cap-height 700?)
 
 	* ubreve (U+016D): X=293.0,Y=698.0 (should be at cap-height 700?)
 
@@ -248,7 +248,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni03BC (U+03BC): X=361.0,Y=1.0 (should be at baseline 0?)
 
-	* uni1E1D (U+1E1D): X=308.0,Y=698.0 (should be at cap-height 700?)
+	* uni1E1D (U+1E1D): X=298.0,Y=698.0 (should be at cap-height 700?)
 
 	* uni1E42 (U+1E42): X=275.0,Y=701.0 (should be at cap-height 700?)
 
@@ -400,9 +400,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0122 (U+0122): L<<588.0,0.0>--<588.0,130.0>>/B<<588.0,130.0>-<586.0,96.0>-<565.5,65.0>> = 3.3664606634298315
 
-	* uni0162 (U+0162): L<<375.0,7.0>--<345.0,-42.0>>/B<<345.0,-42.0>-<351.0,-32.0>-<367.0,-24.5>> = 0.5130828175110471
+	* uni0162 (U+0162): L<<374.0,7.0>--<344.0,-42.0>>/B<<344.0,-42.0>-<350.0,-32.0>-<366.0,-24.5>> = 0.5130828175110471
 
-	* uni0163 (U+0163): L<<291.0,7.0>--<261.0,-42.0>>/B<<261.0,-42.0>-<267.0,-32.0>-<283.0,-24.5>> = 0.5130828175110471
+	* uni0163 (U+0163): L<<290.0,7.0>--<260.0,-42.0>>/B<<260.0,-42.0>-<266.0,-32.0>-<282.0,-24.5>> = 0.5130828175110471
 
 	* uni0327 (U+0327): L<<331.0,7.0>--<301.0,-42.0>>/B<<301.0,-42.0>-<307.0,-32.0>-<323.0,-24.5>> = 0.5130828175110471
 
@@ -538,7 +538,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* nacute (U+0144): L<<399.0,0.0>--<400.0,292.0>>
 
-	* napostrophe (U+0149): L<<690.0,0.0>--<691.0,292.0>>
+	* napostrophe (U+0149): L<<399.0,0.0>--<400.0,292.0>>
 
 	* ncaron (U+0148): L<<399.0,0.0>--<400.0,292.0>>
 
@@ -1772,7 +1772,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* nacute (U+0144): L<<78.0,500.0>--<78.0,291.0>>/B<<78.0,291.0>-<89.0,354.0>-<121.5,403.0>> = 9.904183212973862
 
-	* napostrophe (U+0149): L<<161.0,500.0>--<161.0,291.0>>/B<<161.0,291.0>-<172.0,354.0>-<204.5,403.0>> = 9.904183212973862
+	* napostrophe (U+0149): L<<78.0,500.0>--<78.0,291.0>>/B<<78.0,291.0>-<89.0,354.0>-<121.5,403.0>> = 9.904183212973862
 
 	* ncaron (U+0148): L<<78.0,500.0>--<78.0,291.0>>/B<<78.0,291.0>-<89.0,354.0>-<121.5,403.0>> = 9.904183212973862
 
