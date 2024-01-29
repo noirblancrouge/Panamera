@@ -2,7 +2,21 @@
 
 fontbakery version: 0.10.2
 
-<details><summary><b>[7] Panamera-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+<details><summary><b>[8] Panamera-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/fonttools/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.10.2, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
@@ -15,28 +29,28 @@ fontbakery version: 0.10.2
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, math, tifinagh, malayalam, syriac, old-permic, tai-le, canadian-aboriginal
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, syriac, canadian-aboriginal, tai-le, old-permic, malayalam, tifinagh, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032E COMBINING BREVE BELOW: try adding syriac
- * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac
- * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, caucasian-albanian, gothic, syriac, tifinagh
- * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: greek, math, elbasan
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, math, elbasan
+ * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee
+ * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, caucasian-albanian, syriac, cherokee, tifinagh
+ * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, greek, elbasan
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan
  * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math
  * U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese
  * U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese
  * U+1EB8 LATIN CAPITAL LETTER E WITH DOT BELOW: try adding vietnamese
@@ -52,7 +66,7 @@ fontbakery version: 0.10.2
  * U+2007 FIGURE SPACE: not included in any glyphset definition
  * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
  * U+200A HAIR SPACE: not included in any glyphset definition
- * U+2010 HYPHEN: try adding one of: yi, lisu, sora-sompeng, kayah-li, syloti-nagri, coptic, sundanese, kharoshthi, kaithi, cham
+ * U+2010 HYPHEN: try adding one of: sundanese, lisu, kharoshthi, sora-sompeng, yi, kayah-li, syloti-nagri, cham, kaithi, coptic
  * U+2012 FIGURE DASH: not included in any glyphset definition
  * U+2015 HORIZONTAL BAR: try adding adlam
  * U+2021 DOUBLE DAGGER: try adding adlam
@@ -84,7 +98,7 @@ fontbakery version: 0.10.2
  * U+2206 INCREMENT: try adding math
  * U+220F N-ARY PRODUCT: try adding math
  * U+2211 N-ARY SUMMATION: try adding math
- * U+2219 BULLET OPERATOR: try adding one of: math, yi, symbols, tai-tham
+ * U+2219 BULLET OPERATOR: try adding one of: yi, symbols, tai-tham, math
  * U+221A SQUARE ROOT: try adding math
  * U+221E INFINITY: try adding math
  * U+222B INTEGRAL: try adding math
@@ -98,18 +112,1316 @@ fontbakery version: 0.10.2
  * U+25A0 BLACK SQUARE: try adding symbols
  * U+25A1 WHITE SQUARE: try adding symbols
  * U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols
- * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols
- * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols
- * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols
- * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25C6 BLACK DIAMOND: try adding symbols
  * U+25C7 WHITE DIAMOND: try adding symbols
- * U+25CA LOZENGE: try adding one of: math, symbols
+ * U+25CA LOZENGE: try adding one of: symbols, math
  * U+25CB WHITE CIRCLE: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: bassa-vah, soyombo, khudawadi, lepcha, lao, modi, hanifi-rohingya, batak, old-permic, sundanese, brahmi, new-tai-lue, limbu, grantha, coptic, tai-le, pahawh-hmong, buginese, bengali, sharada, masaram-gondi, oriya, siddham, adlam, chakma, tirhuta, takri, marchen, meetei-mayek, math, telugu, kannada, dogra, miao, gunjala-gondi, myanmar, buhid, kayah-li, syloti-nagri, tagalog, music, sinhala, kharoshthi, zanabazar-square, cham, psalter-pahlavi, tamil, wancho, tai-viet, javanese, manichaean, caucasian-albanian, khmer, kaithi, symbols, mandaic, thai, tibetan, newa, gurmukhi, sogdian, mongolian, khojki, osage, bhaiksuki, malayalam, devanagari, tagbanwa, phags-pa, mahajani, syriac, gujarati, elbasan, balinese, duployan, mende-kikakui, hebrew, thaana, nko, hanunoo, yi, tifinagh, ahom, rejang
+ * U+25CC DOTTED CIRCLE: try adding one of: sharada, gujarati, marchen, kharoshthi, khudawadi, mende-kikakui, kaithi, soyombo, tai-le, chakma, balinese, caucasian-albanian, buginese, mongolian, khmer, tamil, bengali, nko, tagbanwa, mandaic, gurmukhi, old-permic, rejang, sundanese, dogra, syloti-nagri, lao, ahom, khojki, phags-pa, wancho, kannada, psalter-pahlavi, new-tai-lue, batak, mahajani, osage, pahawh-hmong, tifinagh, math, meetei-mayek, tai-viet, takri, malayalam, hanunoo, tibetan, gunjala-gondi, limbu, brahmi, bhaiksuki, sogdian, kayah-li, telugu, thaana, javanese, buhid, tagalog, syriac, elbasan, symbols, newa, manichaean, zanabazar-square, oriya, myanmar, siddham, masaram-gondi, miao, lepcha, yi, grantha, hebrew, tirhuta, duployan, coptic, hanifi-rohingya, devanagari, bassa-vah, adlam, music, modi, sinhala, thai, cham
+ * U+25CF BLACK CIRCLE: try adding symbols
+ * U+2B1B BLACK LARGE SQUARE: try adding symbols
+ * U+2B1C WHITE LARGE SQUARE: try adding symbols
+ * U+2B98 THREE-D TOP-LIGHTED LEFTWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B99 THREE-D RIGHT-LIGHTED UPWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9A THREE-D TOP-LIGHTED RIGHTWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9B THREE-D LEFT-LIGHTED DOWNWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9C BLACK LEFTWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9D BLACK UPWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9E BLACK RIGHTWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9F BLACK DOWNWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+E133 : not included in any glyphset definition
+ * U+E134 : not included in any glyphset definition
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + f
+
+	- f + l
+
+	- l + f
+
+	- f + i
+
+	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: ae	Contours detected: 4	Expected: 3
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+	- Glyph name: aeacute	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: ae	Contours detected: 4	Expected: 3
+
+	- Glyph name: aeacute	Contours detected: 5	Expected: 4
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* b (U+0062): L<<125.0,660.0>--<125.0,410.0>> -> L<<125.0,410.0>--<118.0,337.0>>
+
+	* d (U+0064): L<<452.0,341.0>--<446.0,410.0>> -> L<<446.0,410.0>--<446.0,660.0>>
+
+	* dcaron (U+010F): L<<452.0,341.0>--<446.0,410.0>> -> L<<446.0,410.0>--<446.0,660.0>>
+
+	* dcroat (U+0111): L<<452.0,341.0>--<446.0,410.0>> -> L<<446.0,410.0>--<446.0,541.0>>
+
+	* dmacronbelow (U+1E0F): L<<452.0,341.0>--<446.0,410.0>> -> L<<446.0,410.0>--<446.0,660.0>>
+
+	* exclam (U+0021): L<<113.0,204.0>--<94.0,561.0>> -> L<<94.0,561.0>--<94.0,689.0>>
+
+	* exclam (U+0021): L<<198.0,689.0>--<197.0,561.0>> -> L<<197.0,561.0>--<179.0,204.0>>
+
+	* exclamdown (U+00A1): L<<179.0,305.0>--<197.0,-52.0>> -> L<<197.0,-52.0>--<198.0,-180.0>>
+
+	* exclamdown (U+00A1): L<<94.0,-180.0>--<94.0,-52.0>> -> L<<94.0,-52.0>--<113.0,305.0>>
+
+	* g (U+0067): L<<446.0,3.0>--<446.0,82.0>> -> L<<446.0,82.0>--<450.0,125.0>>
+
+	* gbreve (U+011F): L<<446.0,3.0>--<446.0,82.0>> -> L<<446.0,82.0>--<450.0,125.0>>
+
+	* gcaron (U+01E7): L<<446.0,3.0>--<446.0,82.0>> -> L<<446.0,82.0>--<450.0,125.0>>
+
+	* gcircumflex (U+011D): L<<446.0,3.0>--<446.0,82.0>> -> L<<446.0,82.0>--<450.0,125.0>>
+
+	* gdotaccent (U+0121): L<<446.0,3.0>--<446.0,82.0>> -> L<<446.0,82.0>--<450.0,125.0>>
+
+	* q (U+0071): L<<446.0,-189.0>--<446.0,61.0>> -> L<<446.0,61.0>--<452.0,131.0>>
+
+	* thorn (U+00FE): L<<109.0,107.0>--<113.0,53.0>> -> L<<113.0,53.0>--<113.0,-206.0>>
+
+	* thorn (U+00FE): L<<113.0,744.0>--<113.0,409.0>> -> L<<113.0,409.0>--<109.0,356.0>>
+
+	* uni0123 (U+0123): L<<446.0,3.0>--<446.0,82.0>> -> L<<446.0,82.0>--<450.0,125.0>>
+
+	* uni1E0D (U+1E0D): L<<452.0,341.0>--<446.0,410.0>> -> L<<446.0,410.0>--<446.0,660.0>>
+
+	* uni1E21 (U+1E21): L<<446.0,3.0>--<446.0,82.0>> -> L<<446.0,82.0>--<450.0,125.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* G (U+0047): L<<601.0,0.0>--<601.0,202.0>>/B<<601.0,202.0>-<595.0,143.0>-<567.5,96.0>> = 5.806726905531528
+
+	* Gbreve (U+011E): L<<601.0,0.0>--<601.0,202.0>>/B<<601.0,202.0>-<595.0,143.0>-<567.5,96.0>> = 5.806726905531528
+
+	* Gcaron (U+01E6): L<<601.0,0.0>--<601.0,202.0>>/B<<601.0,202.0>-<595.0,143.0>-<567.5,96.0>> = 5.806726905531528
+
+	* Gcircumflex (U+011C): L<<601.0,0.0>--<601.0,202.0>>/B<<601.0,202.0>-<595.0,143.0>-<567.5,96.0>> = 5.806726905531528
+
+	* Gdotaccent (U+0120): L<<601.0,0.0>--<601.0,202.0>>/B<<601.0,202.0>-<595.0,143.0>-<567.5,96.0>> = 5.806726905531528
+
+	* b (U+0062): B<<181.5,29.0>-<137.0,68.0>-<119.0,128.0>>/L<<119.0,128.0>--<125.0,77.0>> = 9.989407426236662
+
+	* b (U+0062): L<<125.0,410.0>--<118.0,337.0>>/B<<118.0,337.0>-<135.0,401.0>-<180.5,442.5>> = 9.398313272809888
+
+	* d (U+0064): B<<389.0,443.5>-<434.0,403.0>-<452.0,341.0>>/L<<452.0,341.0>--<446.0,410.0>> = 11.21946552891664
+
+	* d (U+0064): L<<446.0,77.0>--<451.0,125.0>>/B<<451.0,125.0>-<432.0,66.0>-<388.0,28.0>> = 11.903455248243372
+
+	* dcaron (U+010F): B<<389.0,443.5>-<434.0,403.0>-<452.0,341.0>>/L<<452.0,341.0>--<446.0,410.0>> = 11.21946552891664
+
+	* dcaron (U+010F): L<<446.0,77.0>--<451.0,125.0>>/B<<451.0,125.0>-<432.0,66.0>-<388.0,28.0>> = 11.903455248243372
+
+	* dcroat (U+0111): B<<389.0,443.5>-<434.0,403.0>-<452.0,341.0>>/L<<452.0,341.0>--<446.0,410.0>> = 11.21946552891664
+
+	* dcroat (U+0111): L<<446.0,77.0>--<451.0,125.0>>/B<<451.0,125.0>-<432.0,66.0>-<388.0,28.0>> = 11.903455248243372
+
+	* dmacronbelow (U+1E0F): B<<389.0,443.5>-<434.0,403.0>-<452.0,341.0>>/L<<452.0,341.0>--<446.0,410.0>> = 11.21946552891664
+
+	* dmacronbelow (U+1E0F): L<<446.0,77.0>--<451.0,125.0>>/B<<451.0,125.0>-<432.0,66.0>-<388.0,28.0>> = 11.903455248243372
+
+	* f (U+0066): L<<8.0,472.0>--<135.0,472.0>>/B<<135.0,472.0>-<96.0,480.0>-<73.5,508.5>> = 11.592175410291041
+
+	* g (U+0067): B<<388.0,444.0>-<432.0,406.0>-<451.0,347.0>>/L<<451.0,347.0>--<446.0,395.0>> = 11.903455248243342
+
+	* g (U+0067): L<<446.0,82.0>--<450.0,125.0>>/B<<450.0,125.0>-<431.0,65.0>-<386.5,26.5>> = 12.256713108377637
+
+	* gbreve (U+011F): B<<388.0,444.0>-<432.0,406.0>-<451.0,347.0>>/L<<451.0,347.0>--<446.0,395.0>> = 11.903455248243342
+
+	* gbreve (U+011F): L<<446.0,82.0>--<450.0,125.0>>/B<<450.0,125.0>-<431.0,65.0>-<386.5,26.5>> = 12.256713108377637
+
+	* gcaron (U+01E7): B<<388.0,444.0>-<432.0,406.0>-<451.0,347.0>>/L<<451.0,347.0>--<446.0,395.0>> = 11.903455248243342
+
+	* gcaron (U+01E7): L<<446.0,82.0>--<450.0,125.0>>/B<<450.0,125.0>-<431.0,65.0>-<386.5,26.5>> = 12.256713108377637
+
+	* gcircumflex (U+011D): B<<388.0,444.0>-<432.0,406.0>-<451.0,347.0>>/L<<451.0,347.0>--<446.0,395.0>> = 11.903455248243342
+
+	* gcircumflex (U+011D): L<<446.0,82.0>--<450.0,125.0>>/B<<450.0,125.0>-<431.0,65.0>-<386.5,26.5>> = 12.256713108377637
+
+	* gdotaccent (U+0121): B<<388.0,444.0>-<432.0,406.0>-<451.0,347.0>>/L<<451.0,347.0>--<446.0,395.0>> = 11.903455248243342
+
+	* gdotaccent (U+0121): L<<446.0,82.0>--<450.0,125.0>>/B<<450.0,125.0>-<431.0,65.0>-<386.5,26.5>> = 12.256713108377637
+
+	* p (U+0070): B<<180.5,29.5>-<135.0,71.0>-<117.0,135.0>>/L<<117.0,135.0>--<125.0,61.0>> = 9.538462733986085
+
+	* p (U+0070): L<<125.0,395.0>--<119.0,344.0>>/B<<119.0,344.0>-<137.0,404.0>-<181.5,443.0>> = 9.989407426236662
+
+	* q (U+0071): B<<388.0,444.0>-<432.0,406.0>-<451.0,347.0>>/L<<451.0,347.0>--<446.0,395.0>> = 11.903455248243342
+
+	* q (U+0071): L<<446.0,61.0>--<452.0,131.0>>/B<<452.0,131.0>-<434.0,69.0>-<389.0,28.5>> = 11.290113803239183
+
+	* uni0122 (U+0122): L<<601.0,0.0>--<601.0,202.0>>/B<<601.0,202.0>-<595.0,143.0>-<567.5,96.0>> = 5.806726905531528
+
+	* uni0123 (U+0123): B<<388.0,444.0>-<432.0,406.0>-<451.0,347.0>>/L<<451.0,347.0>--<446.0,395.0>> = 11.903455248243342
+
+	* uni0123 (U+0123): L<<446.0,82.0>--<450.0,125.0>>/B<<450.0,125.0>-<431.0,65.0>-<386.5,26.5>> = 12.256713108377637
+
+	* uni1E0D (U+1E0D): B<<389.0,443.5>-<434.0,403.0>-<452.0,341.0>>/L<<452.0,341.0>--<446.0,410.0>> = 11.21946552891664
+
+	* uni1E0D (U+1E0D): L<<446.0,77.0>--<451.0,125.0>>/B<<451.0,125.0>-<432.0,66.0>-<388.0,28.0>> = 11.903455248243372
+
+	* uni1E20 (U+1E20): L<<601.0,0.0>--<601.0,202.0>>/B<<601.0,202.0>-<595.0,143.0>-<567.5,96.0>> = 5.806726905531528
+
+	* uni1E21 (U+1E21): B<<388.0,444.0>-<432.0,406.0>-<451.0,347.0>>/L<<451.0,347.0>--<446.0,395.0>> = 11.903455248243342
+
+	* uni1E21 (U+1E21): L<<446.0,82.0>--<450.0,125.0>>/B<<450.0,125.0>-<431.0,65.0>-<386.5,26.5>> = 12.256713108377637 [code: found-jaggy-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* IJ (U+0132): L<<705.0,660.0>--<706.0,207.0>>
+
+	* IJacute (U+E133): L<<705.0,660.0>--<706.0,207.0>>
+
+	* J (U+004A): L<<477.0,660.0>--<478.0,207.0>>
+
+	* Jcircumflex (U+0134): L<<477.0,660.0>--<478.0,207.0>>
+
+	* U (U+0055): L<<47.0,206.0>--<48.0,660.0>>
+
+	* U (U+0055): L<<539.0,660.0>--<540.0,206.0>>
+
+	* Uacute (U+00DA): L<<47.0,206.0>--<48.0,660.0>>
+
+	* Uacute (U+00DA): L<<539.0,660.0>--<540.0,206.0>>
+
+	* Ubreve (U+016C): L<<47.0,206.0>--<48.0,660.0>>
+
+	* Ubreve (U+016C): L<<539.0,660.0>--<540.0,206.0>>
+
+	* Ucircumflex (U+00DB): L<<47.0,206.0>--<48.0,660.0>>
+
+	* Ucircumflex (U+00DB): L<<539.0,660.0>--<540.0,206.0>>
+
+	* Udieresis (U+00DC): L<<47.0,206.0>--<48.0,660.0>>
+
+	* Udieresis (U+00DC): L<<539.0,660.0>--<540.0,206.0>>
+
+	* Ugrave (U+00D9): L<<47.0,206.0>--<48.0,660.0>>
+
+	* Ugrave (U+00D9): L<<539.0,660.0>--<540.0,206.0>>
+
+	* Uhungarumlaut (U+0170): L<<47.0,206.0>--<48.0,660.0>>
+
+	* Uhungarumlaut (U+0170): L<<539.0,660.0>--<540.0,206.0>>
+
+	* Umacron (U+016A): L<<47.0,206.0>--<48.0,660.0>>
+
+	* Umacron (U+016A): L<<539.0,660.0>--<540.0,206.0>>
+
+	* Uogonek (U+0172): L<<47.0,206.0>--<48.0,660.0>>
+
+	* Uogonek (U+0172): L<<539.0,660.0>--<540.0,206.0>>
+
+	* Uring (U+016E): L<<47.0,206.0>--<48.0,660.0>>
+
+	* Uring (U+016E): L<<539.0,660.0>--<540.0,206.0>>
+
+	* Utilde (U+0168): L<<47.0,206.0>--<48.0,660.0>>
+
+	* Utilde (U+0168): L<<539.0,660.0>--<540.0,206.0>>
+
+	* b (U+0062): L<<42.0,0.0>--<41.0,660.0>>
+
+	* exclam (U+0021): L<<198.0,689.0>--<197.0,561.0>>
+
+	* exclamdown (U+00A1): L<<197.0,-52.0>--<198.0,-180.0>>
+
+	* four (U+0034): L<<340.0,207.0>--<30.0,208.0>>
+
+	* g (U+0067): L<<528.0,472.0>--<529.0,3.0>>
+
+	* gbreve (U+011F): L<<528.0,472.0>--<529.0,3.0>>
+
+	* gcaron (U+01E7): L<<528.0,472.0>--<529.0,3.0>>
+
+	* gcircumflex (U+011D): L<<528.0,472.0>--<529.0,3.0>>
+
+	* gdotaccent (U+0121): L<<528.0,472.0>--<529.0,3.0>>
+
+	* p (U+0070): L<<41.0,-189.0>--<42.0,472.0>>
+
+	* q (U+0071): L<<528.0,472.0>--<529.0,-189.0>>
+
+	* thorn (U+00FE): L<<30.0,-206.0>--<31.0,744.0>>
+
+	* uni0123 (U+0123): L<<528.0,472.0>--<529.0,3.0>>
+
+	* uni018F (U+018F): L<<45.0,346.0>--<600.0,348.0>>
+
+	* uni1E21 (U+1E21): L<<528.0,472.0>--<529.0,3.0>>
+
+	* uni1E78 (U+1E78): L<<47.0,206.0>--<48.0,660.0>>
+
+	* uni1E78 (U+1E78): L<<539.0,660.0>--<540.0,206.0>>
+
+	* uni1E7A (U+1E7A): L<<47.0,206.0>--<48.0,660.0>>
+
+	* uni1E7A (U+1E7A): L<<539.0,660.0>--<540.0,206.0>>
+
+	* uni1EE4 (U+1EE4): L<<47.0,206.0>--<48.0,660.0>>
+
+	* uni1EE4 (U+1EE4): L<<539.0,660.0>--<540.0,206.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[8] Panamera-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/fonttools/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.10.2, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+
+
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
+
+ * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, syriac, canadian-aboriginal, tai-le, old-permic, malayalam, tifinagh, coptic
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+032E COMBINING BREVE BELOW: try adding syriac
+ * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee
+ * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, caucasian-albanian, syriac, cherokee, tifinagh
+ * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, greek, elbasan
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math
+ * U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese
+ * U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese
+ * U+1EB8 LATIN CAPITAL LETTER E WITH DOT BELOW: try adding vietnamese
+ * U+1EB9 LATIN SMALL LETTER E WITH DOT BELOW: try adding vietnamese
+ * U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese
+ * U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese
+ * U+1ECA LATIN CAPITAL LETTER I WITH DOT BELOW: try adding vietnamese
+ * U+1ECB LATIN SMALL LETTER I WITH DOT BELOW: try adding vietnamese
+ * U+1ECC LATIN CAPITAL LETTER O WITH DOT BELOW: try adding vietnamese
+ * U+1ECD LATIN SMALL LETTER O WITH DOT BELOW: try adding vietnamese
+ * U+1EE4 LATIN CAPITAL LETTER U WITH DOT BELOW: try adding vietnamese
+ * U+1EE5 LATIN SMALL LETTER U WITH DOT BELOW: try adding vietnamese
+ * U+2007 FIGURE SPACE: not included in any glyphset definition
+ * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
+ * U+200A HAIR SPACE: not included in any glyphset definition
+ * U+2010 HYPHEN: try adding one of: sundanese, lisu, kharoshthi, sora-sompeng, yi, kayah-li, syloti-nagri, cham, kaithi, coptic
+ * U+2012 FIGURE DASH: not included in any glyphset definition
+ * U+2015 HORIZONTAL BAR: try adding adlam
+ * U+2021 DOUBLE DAGGER: try adding adlam
+ * U+2030 PER MILLE SIGN: try adding adlam
+ * U+2070 SUPERSCRIPT ZERO: not included in any glyphset definition
+ * U+2075 SUPERSCRIPT FIVE: not included in any glyphset definition
+ * U+2076 SUPERSCRIPT SIX: not included in any glyphset definition
+ * U+2077 SUPERSCRIPT SEVEN: not included in any glyphset definition
+ * U+2078 SUPERSCRIPT EIGHT: not included in any glyphset definition
+ * U+2079 SUPERSCRIPT NINE: not included in any glyphset definition
+ * U+2080 SUBSCRIPT ZERO: not included in any glyphset definition
+ * U+2081 SUBSCRIPT ONE: not included in any glyphset definition
+ * U+2082 SUBSCRIPT TWO: not included in any glyphset definition
+ * U+2083 SUBSCRIPT THREE: not included in any glyphset definition
+ * U+2084 SUBSCRIPT FOUR: not included in any glyphset definition
+ * U+2085 SUBSCRIPT FIVE: not included in any glyphset definition
+ * U+2086 SUBSCRIPT SIX: not included in any glyphset definition
+ * U+2087 SUBSCRIPT SEVEN: not included in any glyphset definition
+ * U+2088 SUBSCRIPT EIGHT: not included in any glyphset definition
+ * U+2089 SUBSCRIPT NINE: not included in any glyphset definition
+ * U+2105 CARE OF: not included in any glyphset definition
+ * U+2106 CADA UNA: not included in any glyphset definition
+ * U+2116 NUMERO SIGN: try adding cyrillic
+ * U+2126 OHM SIGN: not included in any glyphset definition
+ * U+212E ESTIMATED SYMBOL: not included in any glyphset definition
+ * U+21E7 UPWARDS WHITE ARROW: try adding symbols
+ * U+2202 PARTIAL DIFFERENTIAL: try adding math
+ * U+2205 EMPTY SET: try adding math
+ * U+2206 INCREMENT: try adding math
+ * U+220F N-ARY PRODUCT: try adding math
+ * U+2211 N-ARY SUMMATION: try adding math
+ * U+2219 BULLET OPERATOR: try adding one of: yi, symbols, tai-tham, math
+ * U+221A SQUARE ROOT: try adding math
+ * U+221E INFINITY: try adding math
+ * U+222B INTEGRAL: try adding math
+ * U+2248 ALMOST EQUAL TO: try adding math
+ * U+2260 NOT EQUAL TO: try adding math
+ * U+2264 LESS-THAN OR EQUAL TO: try adding math
+ * U+2265 GREATER-THAN OR EQUAL TO: try adding math
+ * U+2317 VIEWDATA SQUARE: try adding symbols
+ * U+2318 PLACE OF INTEREST SIGN: try adding symbols
+ * U+2325 OPTION KEY: try adding symbols
+ * U+25A0 BLACK SQUARE: try adding symbols
+ * U+25A1 WHITE SQUARE: try adding symbols
+ * U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols
+ * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols
+ * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols
+ * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols
+ * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25C6 BLACK DIAMOND: try adding symbols
+ * U+25C7 WHITE DIAMOND: try adding symbols
+ * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CB WHITE CIRCLE: try adding symbols
+ * U+25CC DOTTED CIRCLE: try adding one of: sharada, gujarati, marchen, kharoshthi, khudawadi, mende-kikakui, kaithi, soyombo, tai-le, chakma, balinese, caucasian-albanian, buginese, mongolian, khmer, tamil, bengali, nko, tagbanwa, mandaic, gurmukhi, old-permic, rejang, sundanese, dogra, syloti-nagri, lao, ahom, khojki, phags-pa, wancho, kannada, psalter-pahlavi, new-tai-lue, batak, mahajani, osage, pahawh-hmong, tifinagh, math, meetei-mayek, tai-viet, takri, malayalam, hanunoo, tibetan, gunjala-gondi, limbu, brahmi, bhaiksuki, sogdian, kayah-li, telugu, thaana, javanese, buhid, tagalog, syriac, elbasan, symbols, newa, manichaean, zanabazar-square, oriya, myanmar, siddham, masaram-gondi, miao, lepcha, yi, grantha, hebrew, tirhuta, duployan, coptic, hanifi-rohingya, devanagari, bassa-vah, adlam, music, modi, sinhala, thai, cham
+ * U+25CF BLACK CIRCLE: try adding symbols
+ * U+2B1B BLACK LARGE SQUARE: try adding symbols
+ * U+2B1C WHITE LARGE SQUARE: try adding symbols
+ * U+2B98 THREE-D TOP-LIGHTED LEFTWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B99 THREE-D RIGHT-LIGHTED UPWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9A THREE-D TOP-LIGHTED RIGHTWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9B THREE-D LEFT-LIGHTED DOWNWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9C BLACK LEFTWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9D BLACK UPWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9E BLACK RIGHTWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9F BLACK DOWNWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+E133 : not included in any glyphset definition
+ * U+E134 : not included in any glyphset definition
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + f
+
+	- f + l
+
+	- l + f
+
+	- f + i
+
+	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: ae	Contours detected: 4	Expected: 3
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+	- Glyph name: aeacute	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: ae	Contours detected: 4	Expected: 3
+
+	- Glyph name: aeacute	Contours detected: 5	Expected: 4
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* exclam (U+0021): L<<134.0,202.0>--<116.0,573.0>> -> L<<116.0,573.0>--<116.0,689.0>>
+
+	* exclam (U+0021): L<<176.0,689.0>--<176.0,573.0>> -> L<<176.0,573.0>--<158.0,202.0>>
+
+	* exclamdown (U+00A1): L<<116.0,-180.0>--<116.0,-64.0>> -> L<<116.0,-64.0>--<134.0,307.0>>
+
+	* exclamdown (U+00A1): L<<158.0,307.0>--<176.0,-64.0>> -> L<<176.0,-64.0>--<176.0,-180.0>>
+
+	* thorn (U+00FE): L<<70.0,167.0>--<76.0,91.0>> -> L<<76.0,91.0>--<76.0,-224.0>>
+
+	* thorn (U+00FE): L<<76.0,762.0>--<76.0,355.0>> -> L<<76.0,355.0>--<70.0,290.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* G (U+0047): L<<623.0,0.0>--<623.0,234.0>>/B<<623.0,234.0>-<609.0,127.0>-<544.0,61.0>> = 7.454298812748479
+
+	* Gbreve (U+011E): L<<623.0,0.0>--<623.0,234.0>>/B<<623.0,234.0>-<609.0,127.0>-<544.0,61.0>> = 7.454298812748479
+
+	* Gcaron (U+01E6): L<<623.0,0.0>--<623.0,234.0>>/B<<623.0,234.0>-<609.0,127.0>-<544.0,61.0>> = 7.454298812748479
+
+	* Gcircumflex (U+011C): L<<623.0,0.0>--<623.0,234.0>>/B<<623.0,234.0>-<609.0,127.0>-<544.0,61.0>> = 7.454298812748479
+
+	* Gdotaccent (U+0120): L<<623.0,0.0>--<623.0,234.0>>/B<<623.0,234.0>-<609.0,127.0>-<544.0,61.0>> = 7.454298812748479
+
+	* at (U+0040): B<<641.0,30.0>-<607.0,60.0>-<607.0,141.0>>/B<<607.0,141.0>-<594.0,53.0>-<544.5,19.0>> = 8.403371090560828
+
+	* b (U+0062): B<<120.5,77.0>-<95.0,116.0>-<84.0,161.0>>/L<<84.0,161.0>--<90.0,111.0>> = 6.893494892991561
+
+	* b (U+0062): L<<90.0,375.0>--<82.0,305.0>>/B<<82.0,305.0>-<93.0,351.0>-<118.5,392.0>> = 6.928813300029519
+
+	* d (U+0064): B<<430.0,394.0>-<456.0,354.0>-<467.0,309.0>>/L<<467.0,309.0>--<460.0,375.0>> = 7.682076411507662
+
+	* d (U+0064): L<<460.0,111.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.5,75.5>> = 7.980113745168495
+
+	* dcaron (U+010F): B<<430.0,394.0>-<456.0,354.0>-<467.0,309.0>>/L<<467.0,309.0>--<460.0,375.0>> = 7.682076411507662
+
+	* dcaron (U+010F): L<<460.0,111.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.5,75.5>> = 7.980113745168495
+
+	* dcroat (U+0111): B<<430.0,394.0>-<456.0,354.0>-<467.0,309.0>>/L<<467.0,309.0>--<460.0,375.0>> = 7.682076411507662
+
+	* dcroat (U+0111): L<<460.0,111.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.5,75.5>> = 7.980113745168495
+
+	* dmacronbelow (U+1E0F): B<<430.0,394.0>-<456.0,354.0>-<467.0,309.0>>/L<<467.0,309.0>--<460.0,375.0>> = 7.682076411507662
+
+	* dmacronbelow (U+1E0F): L<<460.0,111.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.5,75.5>> = 7.980113745168495
+
+	* f (U+0066): L<<8.0,472.0>--<166.0,472.0>>/B<<166.0,472.0>-<108.0,482.0>-<81.5,516.5>> = 9.782407031807285
+
+	* g (U+0067): B<<428.5,396.0>-<454.0,357.0>-<466.0,314.0>>/L<<466.0,314.0>--<460.0,360.0>> = 8.1614029680938
+
+	* g (U+0067): L<<460.0,109.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.0,75.0>> = 8.274061296227925
+
+	* gbreve (U+011F): B<<428.5,396.0>-<454.0,357.0>-<466.0,314.0>>/L<<466.0,314.0>--<460.0,360.0>> = 8.1614029680938
+
+	* gbreve (U+011F): L<<460.0,109.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.0,75.0>> = 8.274061296227925
+
+	* gcaron (U+01E7): B<<428.5,396.0>-<454.0,357.0>-<466.0,314.0>>/L<<466.0,314.0>--<460.0,360.0>> = 8.1614029680938
+
+	* gcaron (U+01E7): L<<460.0,109.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.0,75.0>> = 8.274061296227925
+
+	* gcircumflex (U+011D): B<<428.5,396.0>-<454.0,357.0>-<466.0,314.0>>/L<<466.0,314.0>--<460.0,360.0>> = 8.1614029680938
+
+	* gcircumflex (U+011D): L<<460.0,109.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.0,75.0>> = 8.274061296227925
+
+	* gdotaccent (U+0121): B<<428.5,396.0>-<454.0,357.0>-<466.0,314.0>>/L<<466.0,314.0>--<460.0,360.0>> = 8.1614029680938
+
+	* gdotaccent (U+0121): L<<460.0,109.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.0,75.0>> = 8.274061296227925
+
+	* p (U+0070): B<<118.0,80.5>-<92.0,122.0>-<82.0,168.0>>/L<<82.0,168.0>--<90.0,96.0>> = 5.9245819819824845
+
+	* p (U+0070): L<<90.0,360.0>--<84.0,311.0>>/B<<84.0,311.0>-<95.0,355.0>-<120.5,394.5>> = 7.055186061096706
+
+	* q (U+0071): B<<428.5,396.0>-<454.0,357.0>-<466.0,314.0>>/L<<466.0,314.0>--<460.0,360.0>> = 8.1614029680938
+
+	* q (U+0071): L<<460.0,96.0>--<467.0,164.0>>/B<<467.0,164.0>-<456.0,118.0>-<430.0,78.0>> = 7.571222445043327
+
+	* r (U+0072): L<<89.0,472.0>--<89.0,312.0>>/B<<89.0,312.0>-<99.0,365.0>-<127.5,402.0>> = 10.684912400002695
+
+	* racute (U+0155): L<<89.0,472.0>--<89.0,312.0>>/B<<89.0,312.0>-<99.0,365.0>-<127.5,402.0>> = 10.684912400002695
+
+	* rcaron (U+0159): L<<89.0,472.0>--<89.0,312.0>>/B<<89.0,312.0>-<99.0,365.0>-<127.5,402.0>> = 10.684912400002695
+
+	* rmacronbelow (U+1E5F): L<<89.0,472.0>--<89.0,312.0>>/B<<89.0,312.0>-<99.0,365.0>-<127.5,402.0>> = 10.684912400002695
+
+	* thorn (U+00FE): B<<106.5,78.5>-<81.0,121.0>-<70.0,167.0>>/L<<70.0,167.0>--<76.0,91.0>> = 8.934626593685215
+
+	* thorn (U+00FE): L<<76.0,355.0>--<70.0,290.0>>/B<<70.0,290.0>-<80.0,337.0>-<106.0,380.0>> = 6.737582429013639
+
+	* uni0122 (U+0122): L<<623.0,0.0>--<623.0,234.0>>/B<<623.0,234.0>-<609.0,127.0>-<544.0,61.0>> = 7.454298812748479
+
+	* uni0123 (U+0123): B<<428.5,396.0>-<454.0,357.0>-<466.0,314.0>>/L<<466.0,314.0>--<460.0,360.0>> = 8.1614029680938
+
+	* uni0123 (U+0123): L<<460.0,109.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.0,75.0>> = 8.274061296227925
+
+	* uni0157 (U+0157): L<<89.0,472.0>--<89.0,312.0>>/B<<89.0,312.0>-<99.0,365.0>-<127.5,402.0>> = 10.684912400002695
+
+	* uni1E0D (U+1E0D): B<<430.0,394.0>-<456.0,354.0>-<467.0,309.0>>/L<<467.0,309.0>--<460.0,375.0>> = 7.682076411507662
+
+	* uni1E0D (U+1E0D): L<<460.0,111.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.5,75.5>> = 7.980113745168495
+
+	* uni1E20 (U+1E20): L<<623.0,0.0>--<623.0,234.0>>/B<<623.0,234.0>-<609.0,127.0>-<544.0,61.0>> = 7.454298812748479
+
+	* uni1E21 (U+1E21): B<<428.5,396.0>-<454.0,357.0>-<466.0,314.0>>/L<<466.0,314.0>--<460.0,360.0>> = 8.1614029680938
+
+	* uni1E21 (U+1E21): L<<460.0,109.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.0,75.0>> = 8.274061296227925
+
+	* uni1E5B (U+1E5B): L<<89.0,472.0>--<89.0,312.0>>/B<<89.0,312.0>-<99.0,365.0>-<127.5,402.0>> = 10.684912400002695 [code: found-jaggy-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* IJ (U+0132): L<<655.0,660.0>--<656.0,184.0>>
+
+	* IJacute (U+E133): L<<655.0,660.0>--<656.0,184.0>>
+
+	* J (U+004A): L<<459.0,660.0>--<460.0,184.0>>
+
+	* Jcircumflex (U+0134): L<<459.0,660.0>--<460.0,184.0>>
+
+	* R (U+0052): L<<220.0,368.0>--<93.0,367.0>>
+
+	* Racute (U+0154): L<<220.0,368.0>--<93.0,367.0>>
+
+	* Rcaron (U+0158): L<<220.0,368.0>--<93.0,367.0>>
+
+	* Rmacronbelow (U+1E5E): L<<220.0,368.0>--<93.0,367.0>>
+
+	* U (U+0055): L<<529.0,660.0>--<530.0,200.0>>
+
+	* U (U+0055): L<<57.0,200.0>--<58.0,660.0>>
+
+	* Uacute (U+00DA): L<<529.0,660.0>--<530.0,200.0>>
+
+	* Uacute (U+00DA): L<<57.0,200.0>--<58.0,660.0>>
+
+	* Ubreve (U+016C): L<<529.0,660.0>--<530.0,200.0>>
+
+	* Ubreve (U+016C): L<<57.0,200.0>--<58.0,660.0>>
+
+	* Ucircumflex (U+00DB): L<<529.0,660.0>--<530.0,200.0>>
+
+	* Ucircumflex (U+00DB): L<<57.0,200.0>--<58.0,660.0>>
+
+	* Udieresis (U+00DC): L<<529.0,660.0>--<530.0,200.0>>
+
+	* Udieresis (U+00DC): L<<57.0,200.0>--<58.0,660.0>>
+
+	* Ugrave (U+00D9): L<<529.0,660.0>--<530.0,200.0>>
+
+	* Ugrave (U+00D9): L<<57.0,200.0>--<58.0,660.0>>
+
+	* Uhungarumlaut (U+0170): L<<529.0,660.0>--<530.0,200.0>>
+
+	* Uhungarumlaut (U+0170): L<<57.0,200.0>--<58.0,660.0>>
+
+	* Umacron (U+016A): L<<529.0,660.0>--<530.0,200.0>>
+
+	* Umacron (U+016A): L<<57.0,200.0>--<58.0,660.0>>
+
+	* Uogonek (U+0172): L<<529.0,660.0>--<530.0,200.0>>
+
+	* Uogonek (U+0172): L<<57.0,200.0>--<58.0,660.0>>
+
+	* Uring (U+016E): L<<529.0,660.0>--<530.0,200.0>>
+
+	* Uring (U+016E): L<<57.0,200.0>--<58.0,660.0>>
+
+	* Utilde (U+0168): L<<529.0,660.0>--<530.0,200.0>>
+
+	* Utilde (U+0168): L<<57.0,200.0>--<58.0,660.0>>
+
+	* b (U+0062): L<<48.0,0.0>--<47.0,660.0>>
+
+	* four (U+0034): L<<358.0,228.0>--<32.0,229.0>>
+
+	* g (U+0067): L<<502.0,472.0>--<503.0,-1.0>>
+
+	* gbreve (U+011F): L<<502.0,472.0>--<503.0,-1.0>>
+
+	* gcaron (U+01E7): L<<502.0,472.0>--<503.0,-1.0>>
+
+	* gcircumflex (U+011D): L<<502.0,472.0>--<503.0,-1.0>>
+
+	* gdotaccent (U+0121): L<<502.0,472.0>--<503.0,-1.0>>
+
+	* onequarter (U+00BC): L<<582.0,138.0>--<384.0,139.0>>
+
+	* p (U+0070): L<<47.0,-189.0>--<48.0,472.0>>
+
+	* q (U+0071): L<<502.0,472.0>--<503.0,-189.0>>
+
+	* thorn (U+00FE): L<<34.0,-224.0>--<35.0,762.0>>
+
+	* threequarters (U+00BE): L<<582.0,138.0>--<384.0,139.0>>
+
+	* uni0123 (U+0123): L<<502.0,472.0>--<503.0,-1.0>>
+
+	* uni0156 (U+0156): L<<220.0,368.0>--<93.0,367.0>>
+
+	* uni1E21 (U+1E21): L<<502.0,472.0>--<503.0,-1.0>>
+
+	* uni1E5A (U+1E5A): L<<220.0,368.0>--<93.0,367.0>>
+
+	* uni1E78 (U+1E78): L<<529.0,660.0>--<530.0,200.0>>
+
+	* uni1E78 (U+1E78): L<<57.0,200.0>--<58.0,660.0>>
+
+	* uni1E7A (U+1E7A): L<<529.0,660.0>--<530.0,200.0>>
+
+	* uni1E7A (U+1E7A): L<<57.0,200.0>--<58.0,660.0>>
+
+	* uni1EE4 (U+1EE4): L<<529.0,660.0>--<530.0,200.0>>
+
+	* uni1EE4 (U+1EE4): L<<57.0,200.0>--<58.0,660.0>>
+
+	* uni2074 (U+2074): L<<217.0,510.0>--<19.0,511.0>>
+
+	* uni2084 (U+2084): L<<217.0,138.0>--<19.0,139.0>>
+
+	* yen (U+00A5): L<<298.0,313.0>--<446.0,312.0>>
+
+	* yen (U+00A5): L<<91.0,312.0>--<241.0,313.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[8] Panamera-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/fonttools/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.10.2, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+
+
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
+
+ * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, syriac, canadian-aboriginal, tai-le, old-permic, malayalam, tifinagh, coptic
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+032E COMBINING BREVE BELOW: try adding syriac
+ * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee
+ * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, caucasian-albanian, syriac, cherokee, tifinagh
+ * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, greek, elbasan
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math
+ * U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese
+ * U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese
+ * U+1EB8 LATIN CAPITAL LETTER E WITH DOT BELOW: try adding vietnamese
+ * U+1EB9 LATIN SMALL LETTER E WITH DOT BELOW: try adding vietnamese
+ * U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese
+ * U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese
+ * U+1ECA LATIN CAPITAL LETTER I WITH DOT BELOW: try adding vietnamese
+ * U+1ECB LATIN SMALL LETTER I WITH DOT BELOW: try adding vietnamese
+ * U+1ECC LATIN CAPITAL LETTER O WITH DOT BELOW: try adding vietnamese
+ * U+1ECD LATIN SMALL LETTER O WITH DOT BELOW: try adding vietnamese
+ * U+1EE4 LATIN CAPITAL LETTER U WITH DOT BELOW: try adding vietnamese
+ * U+1EE5 LATIN SMALL LETTER U WITH DOT BELOW: try adding vietnamese
+ * U+2007 FIGURE SPACE: not included in any glyphset definition
+ * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
+ * U+200A HAIR SPACE: not included in any glyphset definition
+ * U+2010 HYPHEN: try adding one of: sundanese, lisu, kharoshthi, sora-sompeng, yi, kayah-li, syloti-nagri, cham, kaithi, coptic
+ * U+2012 FIGURE DASH: not included in any glyphset definition
+ * U+2015 HORIZONTAL BAR: try adding adlam
+ * U+2021 DOUBLE DAGGER: try adding adlam
+ * U+2030 PER MILLE SIGN: try adding adlam
+ * U+2070 SUPERSCRIPT ZERO: not included in any glyphset definition
+ * U+2075 SUPERSCRIPT FIVE: not included in any glyphset definition
+ * U+2076 SUPERSCRIPT SIX: not included in any glyphset definition
+ * U+2077 SUPERSCRIPT SEVEN: not included in any glyphset definition
+ * U+2078 SUPERSCRIPT EIGHT: not included in any glyphset definition
+ * U+2079 SUPERSCRIPT NINE: not included in any glyphset definition
+ * U+2080 SUBSCRIPT ZERO: not included in any glyphset definition
+ * U+2081 SUBSCRIPT ONE: not included in any glyphset definition
+ * U+2082 SUBSCRIPT TWO: not included in any glyphset definition
+ * U+2083 SUBSCRIPT THREE: not included in any glyphset definition
+ * U+2084 SUBSCRIPT FOUR: not included in any glyphset definition
+ * U+2085 SUBSCRIPT FIVE: not included in any glyphset definition
+ * U+2086 SUBSCRIPT SIX: not included in any glyphset definition
+ * U+2087 SUBSCRIPT SEVEN: not included in any glyphset definition
+ * U+2088 SUBSCRIPT EIGHT: not included in any glyphset definition
+ * U+2089 SUBSCRIPT NINE: not included in any glyphset definition
+ * U+2105 CARE OF: not included in any glyphset definition
+ * U+2106 CADA UNA: not included in any glyphset definition
+ * U+2116 NUMERO SIGN: try adding cyrillic
+ * U+2126 OHM SIGN: not included in any glyphset definition
+ * U+212E ESTIMATED SYMBOL: not included in any glyphset definition
+ * U+21E7 UPWARDS WHITE ARROW: try adding symbols
+ * U+2202 PARTIAL DIFFERENTIAL: try adding math
+ * U+2205 EMPTY SET: try adding math
+ * U+2206 INCREMENT: try adding math
+ * U+220F N-ARY PRODUCT: try adding math
+ * U+2211 N-ARY SUMMATION: try adding math
+ * U+2219 BULLET OPERATOR: try adding one of: yi, symbols, tai-tham, math
+ * U+221A SQUARE ROOT: try adding math
+ * U+221E INFINITY: try adding math
+ * U+222B INTEGRAL: try adding math
+ * U+2248 ALMOST EQUAL TO: try adding math
+ * U+2260 NOT EQUAL TO: try adding math
+ * U+2264 LESS-THAN OR EQUAL TO: try adding math
+ * U+2265 GREATER-THAN OR EQUAL TO: try adding math
+ * U+2317 VIEWDATA SQUARE: try adding symbols
+ * U+2318 PLACE OF INTEREST SIGN: try adding symbols
+ * U+2325 OPTION KEY: try adding symbols
+ * U+25A0 BLACK SQUARE: try adding symbols
+ * U+25A1 WHITE SQUARE: try adding symbols
+ * U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols
+ * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols
+ * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols
+ * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols
+ * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25C6 BLACK DIAMOND: try adding symbols
+ * U+25C7 WHITE DIAMOND: try adding symbols
+ * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CB WHITE CIRCLE: try adding symbols
+ * U+25CC DOTTED CIRCLE: try adding one of: sharada, gujarati, marchen, kharoshthi, khudawadi, mende-kikakui, kaithi, soyombo, tai-le, chakma, balinese, caucasian-albanian, buginese, mongolian, khmer, tamil, bengali, nko, tagbanwa, mandaic, gurmukhi, old-permic, rejang, sundanese, dogra, syloti-nagri, lao, ahom, khojki, phags-pa, wancho, kannada, psalter-pahlavi, new-tai-lue, batak, mahajani, osage, pahawh-hmong, tifinagh, math, meetei-mayek, tai-viet, takri, malayalam, hanunoo, tibetan, gunjala-gondi, limbu, brahmi, bhaiksuki, sogdian, kayah-li, telugu, thaana, javanese, buhid, tagalog, syriac, elbasan, symbols, newa, manichaean, zanabazar-square, oriya, myanmar, siddham, masaram-gondi, miao, lepcha, yi, grantha, hebrew, tirhuta, duployan, coptic, hanifi-rohingya, devanagari, bassa-vah, adlam, music, modi, sinhala, thai, cham
+ * U+25CF BLACK CIRCLE: try adding symbols
+ * U+2B1B BLACK LARGE SQUARE: try adding symbols
+ * U+2B1C WHITE LARGE SQUARE: try adding symbols
+ * U+2B98 THREE-D TOP-LIGHTED LEFTWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B99 THREE-D RIGHT-LIGHTED UPWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9A THREE-D TOP-LIGHTED RIGHTWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9B THREE-D LEFT-LIGHTED DOWNWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9C BLACK LEFTWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9D BLACK UPWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9E BLACK RIGHTWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+2B9F BLACK DOWNWARDS EQUILATERAL ARROWHEAD: try adding symbols
+ * U+E133 : not included in any glyphset definition
+ * U+E134 : not included in any glyphset definition
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + f
+
+	- f + l
+
+	- l + f
+
+	- f + i
+
+	- i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: ae	Contours detected: 4	Expected: 3
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+	- Glyph name: aeacute	Contours detected: 5	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: ae	Contours detected: 4	Expected: 3
+
+	- Glyph name: aeacute	Contours detected: 5	Expected: 4
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* b (U+0062): L<<102.0,144.0>--<107.0,94.0>> -> L<<107.0,94.0>--<107.0,0.0>>
+
+	* b (U+0062): L<<107.0,660.0>--<107.0,392.0>> -> L<<107.0,392.0>--<100.0,321.0>>
+
+	* exclam (U+0021): L<<124.0,203.0>--<105.0,567.0>> -> L<<105.0,567.0>--<105.0,689.0>>
+
+	* exclam (U+0021): L<<187.0,689.0>--<187.0,567.0>> -> L<<187.0,567.0>--<168.0,203.0>>
+
+	* exclamdown (U+00A1): L<<105.0,-180.0>--<105.0,-58.0>> -> L<<105.0,-58.0>--<124.0,306.0>>
+
+	* exclamdown (U+00A1): L<<168.0,306.0>--<187.0,-58.0>> -> L<<187.0,-58.0>--<187.0,-180.0>>
+
+	* p (U+0070): L<<100.0,151.0>--<107.0,79.0>> -> L<<107.0,79.0>--<107.0,-189.0>>
+
+	* p (U+0070): L<<107.0,472.0>--<107.0,377.0>> -> L<<107.0,377.0>--<102.0,327.0>>
+
+	* thorn (U+00FE): L<<90.0,137.0>--<94.0,72.0>> -> L<<94.0,72.0>--<94.0,-215.0>>
+
+	* thorn (U+00FE): L<<94.0,753.0>--<94.0,382.0>> -> L<<94.0,382.0>--<90.0,323.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* G (U+0047): L<<612.0,0.0>--<612.0,218.0>>/B<<612.0,218.0>-<601.0,120.0>-<539.5,57.5>> = 6.4043527263841025
+
+	* Gbreve (U+011E): L<<612.0,0.0>--<612.0,218.0>>/B<<612.0,218.0>-<601.0,120.0>-<539.5,57.5>> = 6.4043527263841025
+
+	* Gcaron (U+01E6): L<<612.0,0.0>--<612.0,218.0>>/B<<612.0,218.0>-<601.0,120.0>-<539.5,57.5>> = 6.4043527263841025
+
+	* Gcircumflex (U+011C): L<<612.0,0.0>--<612.0,218.0>>/B<<612.0,218.0>-<601.0,120.0>-<539.5,57.5>> = 6.4043527263841025
+
+	* Gdotaccent (U+0120): L<<612.0,0.0>--<612.0,218.0>>/B<<612.0,218.0>-<601.0,120.0>-<539.5,57.5>> = 6.4043527263841025
+
+	* b (U+0062): B<<137.5,66.5>-<113.0,102.0>-<102.0,144.0>>/L<<102.0,144.0>--<107.0,94.0>> = 8.965799999950413
+
+	* b (U+0062): L<<107.0,392.0>--<100.0,321.0>>/B<<100.0,321.0>-<111.0,366.0>-<136.0,403.0>> = 8.10558554798729
+
+	* d (U+0064): B<<423.0,405.0>-<448.0,369.0>-<460.0,325.0>>/L<<460.0,325.0>--<453.0,392.0>> = 9.290631601804645
+
+	* d (U+0064): L<<453.0,94.0>--<458.0,141.0>>/B<<458.0,141.0>-<446.0,99.0>-<421.5,65.0>> = 9.872939493715144
+
+	* dcaron (U+010F): B<<423.0,405.0>-<448.0,369.0>-<460.0,325.0>>/L<<460.0,325.0>--<453.0,392.0>> = 9.290631601804645
+
+	* dcaron (U+010F): L<<453.0,94.0>--<458.0,141.0>>/B<<458.0,141.0>-<446.0,99.0>-<421.5,65.0>> = 9.872939493715144
+
+	* dcroat (U+0111): B<<423.0,405.0>-<448.0,369.0>-<460.0,325.0>>/L<<460.0,325.0>--<453.0,392.0>> = 9.290631601804645
+
+	* dcroat (U+0111): L<<453.0,94.0>--<458.0,141.0>>/B<<458.0,141.0>-<446.0,99.0>-<421.5,65.0>> = 9.872939493715144
+
+	* dmacronbelow (U+1E0F): B<<423.0,405.0>-<448.0,369.0>-<460.0,325.0>>/L<<460.0,325.0>--<453.0,392.0>> = 9.290631601804645
+
+	* dmacronbelow (U+1E0F): L<<453.0,94.0>--<458.0,141.0>>/B<<458.0,141.0>-<446.0,99.0>-<421.5,65.0>> = 9.872939493715144
+
+	* f (U+0066): L<<8.0,472.0>--<150.0,472.0>>/B<<150.0,472.0>-<102.0,481.0>-<77.5,512.5>> = 10.61965527615514
+
+	* g (U+0067): B<<421.5,406.5>-<446.0,372.0>-<458.0,330.0>>/L<<458.0,330.0>--<453.0,377.0>> = 9.872939493715144
+
+	* g (U+0067): L<<453.0,95.0>--<458.0,141.0>>/B<<458.0,141.0>-<439.0,78.0>-<392.0,33.0>> = 10.579196243578858
+
+	* gbreve (U+011F): B<<421.5,406.5>-<446.0,372.0>-<458.0,330.0>>/L<<458.0,330.0>--<453.0,377.0>> = 9.872939493715144
+
+	* gbreve (U+011F): L<<453.0,95.0>--<458.0,141.0>>/B<<458.0,141.0>-<439.0,78.0>-<392.0,33.0>> = 10.579196243578858
+
+	* gcaron (U+01E7): B<<421.5,406.5>-<446.0,372.0>-<458.0,330.0>>/L<<458.0,330.0>--<453.0,377.0>> = 9.872939493715144
+
+	* gcaron (U+01E7): L<<453.0,95.0>--<458.0,141.0>>/B<<458.0,141.0>-<439.0,78.0>-<392.0,33.0>> = 10.579196243578858
+
+	* gcircumflex (U+011D): B<<421.5,406.5>-<446.0,372.0>-<458.0,330.0>>/L<<458.0,330.0>--<453.0,377.0>> = 9.872939493715144
+
+	* gcircumflex (U+011D): L<<453.0,95.0>--<458.0,141.0>>/B<<458.0,141.0>-<439.0,78.0>-<392.0,33.0>> = 10.579196243578858
+
+	* gdotaccent (U+0121): B<<421.5,406.5>-<446.0,372.0>-<458.0,330.0>>/L<<458.0,330.0>--<453.0,377.0>> = 9.872939493715144
+
+	* gdotaccent (U+0121): L<<453.0,95.0>--<458.0,141.0>>/B<<458.0,141.0>-<439.0,78.0>-<392.0,33.0>> = 10.579196243578858
+
+	* p (U+0070): B<<136.0,69.0>-<111.0,106.0>-<100.0,151.0>>/L<<100.0,151.0>--<107.0,79.0>> = 8.183297272585701
+
+	* p (U+0070): L<<107.0,377.0>--<102.0,327.0>>/B<<102.0,327.0>-<113.0,370.0>-<137.5,405.0>> = 8.638738905447507
+
+	* q (U+0071): B<<421.5,406.5>-<446.0,372.0>-<458.0,330.0>>/L<<458.0,330.0>--<453.0,377.0>> = 9.872939493715144
+
+	* q (U+0071): L<<453.0,79.0>--<460.0,148.0>>/B<<460.0,148.0>-<448.0,104.0>-<423.0,67.5>> = 9.462322208025613
+
+	* r (U+0072): L<<108.0,472.0>--<108.0,331.0>>/B<<108.0,331.0>-<119.0,378.0>-<146.5,411.0>> = 13.172553423326871
+
+	* racute (U+0155): L<<108.0,472.0>--<108.0,331.0>>/B<<108.0,331.0>-<119.0,378.0>-<146.5,411.0>> = 13.172553423326871
+
+	* rcaron (U+0159): L<<108.0,472.0>--<108.0,331.0>>/B<<108.0,331.0>-<119.0,378.0>-<146.5,411.0>> = 13.172553423326871
+
+	* rmacronbelow (U+1E5F): L<<108.0,472.0>--<108.0,331.0>>/B<<108.0,331.0>-<119.0,378.0>-<146.5,411.0>> = 13.172553423326871
+
+	* thorn (U+00FE): B<<125.0,63.0>-<101.0,98.0>-<90.0,137.0>>/L<<90.0,137.0>--<94.0,72.0>> = 12.229720286530794
+
+	* thorn (U+00FE): L<<94.0,382.0>--<90.0,323.0>>/B<<90.0,323.0>-<100.0,362.0>-<124.5,397.5>> = 10.50287008824286
+
+	* uni0122 (U+0122): L<<612.0,0.0>--<612.0,218.0>>/B<<612.0,218.0>-<601.0,120.0>-<539.5,57.5>> = 6.4043527263841025
+
+	* uni0123 (U+0123): B<<421.5,406.5>-<446.0,372.0>-<458.0,330.0>>/L<<458.0,330.0>--<453.0,377.0>> = 9.872939493715144
+
+	* uni0123 (U+0123): L<<453.0,95.0>--<458.0,141.0>>/B<<458.0,141.0>-<439.0,78.0>-<392.0,33.0>> = 10.579196243578858
+
+	* uni0157 (U+0157): L<<108.0,472.0>--<108.0,331.0>>/B<<108.0,331.0>-<119.0,378.0>-<146.5,411.0>> = 13.172553423326871
+
+	* uni1E0D (U+1E0D): B<<423.0,405.0>-<448.0,369.0>-<460.0,325.0>>/L<<460.0,325.0>--<453.0,392.0>> = 9.290631601804645
+
+	* uni1E0D (U+1E0D): L<<453.0,94.0>--<458.0,141.0>>/B<<458.0,141.0>-<446.0,99.0>-<421.5,65.0>> = 9.872939493715144
+
+	* uni1E20 (U+1E20): L<<612.0,0.0>--<612.0,218.0>>/B<<612.0,218.0>-<601.0,120.0>-<539.5,57.5>> = 6.4043527263841025
+
+	* uni1E21 (U+1E21): B<<421.5,406.5>-<446.0,372.0>-<458.0,330.0>>/L<<458.0,330.0>--<453.0,377.0>> = 9.872939493715144
+
+	* uni1E21 (U+1E21): L<<453.0,95.0>--<458.0,141.0>>/B<<458.0,141.0>-<439.0,78.0>-<392.0,33.0>> = 10.579196243578858
+
+	* uni1E5B (U+1E5B): L<<108.0,472.0>--<108.0,331.0>>/B<<108.0,331.0>-<119.0,378.0>-<146.5,411.0>> = 13.172553423326871 [code: found-jaggy-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* IJ (U+0132): L<<680.0,660.0>--<681.0,196.0>>
+
+	* IJacute (U+E133): L<<680.0,660.0>--<681.0,196.0>>
+
+	* J (U+004A): L<<468.0,660.0>--<469.0,196.0>>
+
+	* Jcircumflex (U+0134): L<<468.0,660.0>--<469.0,196.0>>
+
+	* R (U+0052): L<<231.0,354.0>--<113.0,353.0>>
+
+	* Racute (U+0154): L<<231.0,354.0>--<113.0,353.0>>
+
+	* Rcaron (U+0158): L<<231.0,354.0>--<113.0,353.0>>
+
+	* Rmacronbelow (U+1E5E): L<<231.0,354.0>--<113.0,353.0>>
+
+	* U (U+0055): L<<52.0,203.0>--<53.0,660.0>>
+
+	* U (U+0055): L<<534.0,660.0>--<535.0,203.0>>
+
+	* Uacute (U+00DA): L<<52.0,203.0>--<53.0,660.0>>
+
+	* Uacute (U+00DA): L<<534.0,660.0>--<535.0,203.0>>
+
+	* Ubreve (U+016C): L<<52.0,203.0>--<53.0,660.0>>
+
+	* Ubreve (U+016C): L<<534.0,660.0>--<535.0,203.0>>
+
+	* Ucircumflex (U+00DB): L<<52.0,203.0>--<53.0,660.0>>
+
+	* Ucircumflex (U+00DB): L<<534.0,660.0>--<535.0,203.0>>
+
+	* Udieresis (U+00DC): L<<52.0,203.0>--<53.0,660.0>>
+
+	* Udieresis (U+00DC): L<<534.0,660.0>--<535.0,203.0>>
+
+	* Ugrave (U+00D9): L<<52.0,203.0>--<53.0,660.0>>
+
+	* Ugrave (U+00D9): L<<534.0,660.0>--<535.0,203.0>>
+
+	* Uhungarumlaut (U+0170): L<<52.0,203.0>--<53.0,660.0>>
+
+	* Uhungarumlaut (U+0170): L<<534.0,660.0>--<535.0,203.0>>
+
+	* Umacron (U+016A): L<<52.0,203.0>--<53.0,660.0>>
+
+	* Umacron (U+016A): L<<534.0,660.0>--<535.0,203.0>>
+
+	* Uogonek (U+0172): L<<52.0,203.0>--<53.0,660.0>>
+
+	* Uogonek (U+0172): L<<534.0,660.0>--<535.0,203.0>>
+
+	* Uring (U+016E): L<<52.0,203.0>--<53.0,660.0>>
+
+	* Uring (U+016E): L<<534.0,660.0>--<535.0,203.0>>
+
+	* Utilde (U+0168): L<<52.0,203.0>--<53.0,660.0>>
+
+	* Utilde (U+0168): L<<534.0,660.0>--<535.0,203.0>>
+
+	* b (U+0062): L<<45.0,0.0>--<44.0,660.0>>
+
+	* g (U+0067): L<<515.0,472.0>--<516.0,1.0>>
+
+	* gbreve (U+011F): L<<515.0,472.0>--<516.0,1.0>>
+
+	* gcaron (U+01E7): L<<515.0,472.0>--<516.0,1.0>>
+
+	* gcircumflex (U+011D): L<<515.0,472.0>--<516.0,1.0>>
+
+	* gdotaccent (U+0121): L<<515.0,472.0>--<516.0,1.0>>
+
+	* p (U+0070): L<<44.0,-189.0>--<45.0,472.0>>
+
+	* q (U+0071): L<<515.0,472.0>--<516.0,-189.0>>
+
+	* thorn (U+00FE): L<<32.0,-215.0>--<33.0,753.0>>
+
+	* uni0123 (U+0123): L<<515.0,472.0>--<516.0,1.0>>
+
+	* uni0156 (U+0156): L<<231.0,354.0>--<113.0,353.0>>
+
+	* uni018F (U+018F): L<<38.0,336.0>--<610.0,338.0>>
+
+	* uni1E21 (U+1E21): L<<515.0,472.0>--<516.0,1.0>>
+
+	* uni1E5A (U+1E5A): L<<231.0,354.0>--<113.0,353.0>>
+
+	* uni1E78 (U+1E78): L<<52.0,203.0>--<53.0,660.0>>
+
+	* uni1E78 (U+1E78): L<<534.0,660.0>--<535.0,203.0>>
+
+	* uni1E7A (U+1E7A): L<<52.0,203.0>--<53.0,660.0>>
+
+	* uni1E7A (U+1E7A): L<<534.0,660.0>--<535.0,203.0>>
+
+	* uni1EE4 (U+1EE4): L<<52.0,203.0>--<53.0,660.0>>
+
+	* uni1EE4 (U+1EE4): L<<534.0,660.0>--<535.0,203.0>>
+
+	* yen (U+00A5): L<<327.0,320.0>--<461.0,319.0>>
+
+	* yen (U+00A5): L<<99.0,319.0>--<237.0,320.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[8] Panamera-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/fonttools/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.10.2, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+
+
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
+
+ * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, syriac, canadian-aboriginal, tai-le, old-permic, malayalam, tifinagh, coptic
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+032E COMBINING BREVE BELOW: try adding syriac
+ * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee
+ * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, caucasian-albanian, syriac, cherokee, tifinagh
+ * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, greek, elbasan
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math
+ * U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese
+ * U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese
+ * U+1EB8 LATIN CAPITAL LETTER E WITH DOT BELOW: try adding vietnamese
+ * U+1EB9 LATIN SMALL LETTER E WITH DOT BELOW: try adding vietnamese
+ * U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese
+ * U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese
+ * U+1ECA LATIN CAPITAL LETTER I WITH DOT BELOW: try adding vietnamese
+ * U+1ECB LATIN SMALL LETTER I WITH DOT BELOW: try adding vietnamese
+ * U+1ECC LATIN CAPITAL LETTER O WITH DOT BELOW: try adding vietnamese
+ * U+1ECD LATIN SMALL LETTER O WITH DOT BELOW: try adding vietnamese
+ * U+1EE4 LATIN CAPITAL LETTER U WITH DOT BELOW: try adding vietnamese
+ * U+1EE5 LATIN SMALL LETTER U WITH DOT BELOW: try adding vietnamese
+ * U+2007 FIGURE SPACE: not included in any glyphset definition
+ * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
+ * U+200A HAIR SPACE: not included in any glyphset definition
+ * U+2010 HYPHEN: try adding one of: sundanese, lisu, kharoshthi, sora-sompeng, yi, kayah-li, syloti-nagri, cham, kaithi, coptic
+ * U+2012 FIGURE DASH: not included in any glyphset definition
+ * U+2015 HORIZONTAL BAR: try adding adlam
+ * U+2021 DOUBLE DAGGER: try adding adlam
+ * U+2030 PER MILLE SIGN: try adding adlam
+ * U+2070 SUPERSCRIPT ZERO: not included in any glyphset definition
+ * U+2075 SUPERSCRIPT FIVE: not included in any glyphset definition
+ * U+2076 SUPERSCRIPT SIX: not included in any glyphset definition
+ * U+2077 SUPERSCRIPT SEVEN: not included in any glyphset definition
+ * U+2078 SUPERSCRIPT EIGHT: not included in any glyphset definition
+ * U+2079 SUPERSCRIPT NINE: not included in any glyphset definition
+ * U+2080 SUBSCRIPT ZERO: not included in any glyphset definition
+ * U+2081 SUBSCRIPT ONE: not included in any glyphset definition
+ * U+2082 SUBSCRIPT TWO: not included in any glyphset definition
+ * U+2083 SUBSCRIPT THREE: not included in any glyphset definition
+ * U+2084 SUBSCRIPT FOUR: not included in any glyphset definition
+ * U+2085 SUBSCRIPT FIVE: not included in any glyphset definition
+ * U+2086 SUBSCRIPT SIX: not included in any glyphset definition
+ * U+2087 SUBSCRIPT SEVEN: not included in any glyphset definition
+ * U+2088 SUBSCRIPT EIGHT: not included in any glyphset definition
+ * U+2089 SUBSCRIPT NINE: not included in any glyphset definition
+ * U+2105 CARE OF: not included in any glyphset definition
+ * U+2106 CADA UNA: not included in any glyphset definition
+ * U+2116 NUMERO SIGN: try adding cyrillic
+ * U+2126 OHM SIGN: not included in any glyphset definition
+ * U+212E ESTIMATED SYMBOL: not included in any glyphset definition
+ * U+21E7 UPWARDS WHITE ARROW: try adding symbols
+ * U+2202 PARTIAL DIFFERENTIAL: try adding math
+ * U+2205 EMPTY SET: try adding math
+ * U+2206 INCREMENT: try adding math
+ * U+220F N-ARY PRODUCT: try adding math
+ * U+2211 N-ARY SUMMATION: try adding math
+ * U+2219 BULLET OPERATOR: try adding one of: yi, symbols, tai-tham, math
+ * U+221A SQUARE ROOT: try adding math
+ * U+221E INFINITY: try adding math
+ * U+222B INTEGRAL: try adding math
+ * U+2248 ALMOST EQUAL TO: try adding math
+ * U+2260 NOT EQUAL TO: try adding math
+ * U+2264 LESS-THAN OR EQUAL TO: try adding math
+ * U+2265 GREATER-THAN OR EQUAL TO: try adding math
+ * U+2317 VIEWDATA SQUARE: try adding symbols
+ * U+2318 PLACE OF INTEREST SIGN: try adding symbols
+ * U+2325 OPTION KEY: try adding symbols
+ * U+25A0 BLACK SQUARE: try adding symbols
+ * U+25A1 WHITE SQUARE: try adding symbols
+ * U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols
+ * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols
+ * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols
+ * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols
+ * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25C6 BLACK DIAMOND: try adding symbols
+ * U+25C7 WHITE DIAMOND: try adding symbols
+ * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CB WHITE CIRCLE: try adding symbols
+ * U+25CC DOTTED CIRCLE: try adding one of: sharada, gujarati, marchen, kharoshthi, khudawadi, mende-kikakui, kaithi, soyombo, tai-le, chakma, balinese, caucasian-albanian, buginese, mongolian, khmer, tamil, bengali, nko, tagbanwa, mandaic, gurmukhi, old-permic, rejang, sundanese, dogra, syloti-nagri, lao, ahom, khojki, phags-pa, wancho, kannada, psalter-pahlavi, new-tai-lue, batak, mahajani, osage, pahawh-hmong, tifinagh, math, meetei-mayek, tai-viet, takri, malayalam, hanunoo, tibetan, gunjala-gondi, limbu, brahmi, bhaiksuki, sogdian, kayah-li, telugu, thaana, javanese, buhid, tagalog, syriac, elbasan, symbols, newa, manichaean, zanabazar-square, oriya, myanmar, siddham, masaram-gondi, miao, lepcha, yi, grantha, hebrew, tirhuta, duployan, coptic, hanifi-rohingya, devanagari, bassa-vah, adlam, music, modi, sinhala, thai, cham
  * U+25CF BLACK CIRCLE: try adding symbols
  * U+2B1B BLACK LARGE SQUARE: try adding symbols
  * U+2B1C WHITE LARGE SQUARE: try adding symbols
@@ -692,7 +2004,21 @@ The following glyphs do not have the recommended number of contours:
 	* yen (U+00A5): L<<275.0,307.0>--<434.0,306.0>>
 
 	* yen (U+00A5): L<<85.0,306.0>--<245.0,307.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] Panamera-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] Panamera-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/fonttools/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.10.2, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
@@ -705,28 +2031,28 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, math, tifinagh, malayalam, syriac, old-permic, tai-le, canadian-aboriginal
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, syriac, canadian-aboriginal, tai-le, old-permic, malayalam, tifinagh, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032E COMBINING BREVE BELOW: try adding syriac
- * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac
- * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, caucasian-albanian, gothic, syriac, tifinagh
- * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: greek, math, elbasan
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, math, elbasan
+ * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee
+ * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, caucasian-albanian, syriac, cherokee, tifinagh
+ * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, greek, elbasan
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan
  * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math
  * U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese
  * U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese
  * U+1EB8 LATIN CAPITAL LETTER E WITH DOT BELOW: try adding vietnamese
@@ -742,7 +2068,7 @@ The following glyphs do not have the recommended number of contours:
  * U+2007 FIGURE SPACE: not included in any glyphset definition
  * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
  * U+200A HAIR SPACE: not included in any glyphset definition
- * U+2010 HYPHEN: try adding one of: yi, lisu, sora-sompeng, kayah-li, syloti-nagri, coptic, sundanese, kharoshthi, kaithi, cham
+ * U+2010 HYPHEN: try adding one of: sundanese, lisu, kharoshthi, sora-sompeng, yi, kayah-li, syloti-nagri, cham, kaithi, coptic
  * U+2012 FIGURE DASH: not included in any glyphset definition
  * U+2015 HORIZONTAL BAR: try adding adlam
  * U+2021 DOUBLE DAGGER: try adding adlam
@@ -774,7 +2100,7 @@ The following glyphs do not have the recommended number of contours:
  * U+2206 INCREMENT: try adding math
  * U+220F N-ARY PRODUCT: try adding math
  * U+2211 N-ARY SUMMATION: try adding math
- * U+2219 BULLET OPERATOR: try adding one of: math, yi, symbols, tai-tham
+ * U+2219 BULLET OPERATOR: try adding one of: yi, symbols, tai-tham, math
  * U+221A SQUARE ROOT: try adding math
  * U+221E INFINITY: try adding math
  * U+222B INTEGRAL: try adding math
@@ -788,852 +2114,18 @@ The following glyphs do not have the recommended number of contours:
  * U+25A0 BLACK SQUARE: try adding symbols
  * U+25A1 WHITE SQUARE: try adding symbols
  * U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols
- * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols
- * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols
- * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols
- * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25C6 BLACK DIAMOND: try adding symbols
  * U+25C7 WHITE DIAMOND: try adding symbols
- * U+25CA LOZENGE: try adding one of: math, symbols
+ * U+25CA LOZENGE: try adding one of: symbols, math
  * U+25CB WHITE CIRCLE: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: bassa-vah, soyombo, khudawadi, lepcha, lao, modi, hanifi-rohingya, batak, old-permic, sundanese, brahmi, new-tai-lue, limbu, grantha, coptic, tai-le, pahawh-hmong, buginese, bengali, sharada, masaram-gondi, oriya, siddham, adlam, chakma, tirhuta, takri, marchen, meetei-mayek, math, telugu, kannada, dogra, miao, gunjala-gondi, myanmar, buhid, kayah-li, syloti-nagri, tagalog, music, sinhala, kharoshthi, zanabazar-square, cham, psalter-pahlavi, tamil, wancho, tai-viet, javanese, manichaean, caucasian-albanian, khmer, kaithi, symbols, mandaic, thai, tibetan, newa, gurmukhi, sogdian, mongolian, khojki, osage, bhaiksuki, malayalam, devanagari, tagbanwa, phags-pa, mahajani, syriac, gujarati, elbasan, balinese, duployan, mende-kikakui, hebrew, thaana, nko, hanunoo, yi, tifinagh, ahom, rejang
- * U+25CF BLACK CIRCLE: try adding symbols
- * U+2B1B BLACK LARGE SQUARE: try adding symbols
- * U+2B1C WHITE LARGE SQUARE: try adding symbols
- * U+2B98 THREE-D TOP-LIGHTED LEFTWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B99 THREE-D RIGHT-LIGHTED UPWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9A THREE-D TOP-LIGHTED RIGHTWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9B THREE-D LEFT-LIGHTED DOWNWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9C BLACK LEFTWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9D BLACK UPWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9E BLACK RIGHTWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9F BLACK DOWNWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+E133 : not included in any glyphset definition
- * U+E134 : not included in any glyphset definition
-
-Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + f
-
-	- f + l
-
-	- l + f
-
-	- f + i
-
-	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: ae	Contours detected: 4	Expected: 3
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: oe	Contours detected: 4	Expected: 3
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
-
-	- Glyph name: aeacute	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: ae	Contours detected: 4	Expected: 3
-
-	- Glyph name: aeacute	Contours detected: 5	Expected: 4
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: oe	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* b (U+0062): L<<102.0,144.0>--<107.0,94.0>> -> L<<107.0,94.0>--<107.0,0.0>>
-
-	* b (U+0062): L<<107.0,660.0>--<107.0,392.0>> -> L<<107.0,392.0>--<100.0,321.0>>
-
-	* exclam (U+0021): L<<124.0,203.0>--<105.0,567.0>> -> L<<105.0,567.0>--<105.0,689.0>>
-
-	* exclam (U+0021): L<<187.0,689.0>--<187.0,567.0>> -> L<<187.0,567.0>--<168.0,203.0>>
-
-	* exclamdown (U+00A1): L<<105.0,-180.0>--<105.0,-58.0>> -> L<<105.0,-58.0>--<124.0,306.0>>
-
-	* exclamdown (U+00A1): L<<168.0,306.0>--<187.0,-58.0>> -> L<<187.0,-58.0>--<187.0,-180.0>>
-
-	* p (U+0070): L<<100.0,151.0>--<107.0,79.0>> -> L<<107.0,79.0>--<107.0,-189.0>>
-
-	* p (U+0070): L<<107.0,472.0>--<107.0,377.0>> -> L<<107.0,377.0>--<102.0,327.0>>
-
-	* thorn (U+00FE): L<<90.0,137.0>--<94.0,72.0>> -> L<<94.0,72.0>--<94.0,-215.0>>
-
-	* thorn (U+00FE): L<<94.0,753.0>--<94.0,382.0>> -> L<<94.0,382.0>--<90.0,323.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* G (U+0047): L<<612.0,0.0>--<612.0,218.0>>/B<<612.0,218.0>-<601.0,120.0>-<539.5,57.5>> = 6.4043527263841025
-
-	* Gbreve (U+011E): L<<612.0,0.0>--<612.0,218.0>>/B<<612.0,218.0>-<601.0,120.0>-<539.5,57.5>> = 6.4043527263841025
-
-	* Gcaron (U+01E6): L<<612.0,0.0>--<612.0,218.0>>/B<<612.0,218.0>-<601.0,120.0>-<539.5,57.5>> = 6.4043527263841025
-
-	* Gcircumflex (U+011C): L<<612.0,0.0>--<612.0,218.0>>/B<<612.0,218.0>-<601.0,120.0>-<539.5,57.5>> = 6.4043527263841025
-
-	* Gdotaccent (U+0120): L<<612.0,0.0>--<612.0,218.0>>/B<<612.0,218.0>-<601.0,120.0>-<539.5,57.5>> = 6.4043527263841025
-
-	* b (U+0062): B<<137.5,66.5>-<113.0,102.0>-<102.0,144.0>>/L<<102.0,144.0>--<107.0,94.0>> = 8.965799999950413
-
-	* b (U+0062): L<<107.0,392.0>--<100.0,321.0>>/B<<100.0,321.0>-<111.0,366.0>-<136.0,403.0>> = 8.10558554798729
-
-	* d (U+0064): B<<423.0,405.0>-<448.0,369.0>-<460.0,325.0>>/L<<460.0,325.0>--<453.0,392.0>> = 9.290631601804645
-
-	* d (U+0064): L<<453.0,94.0>--<458.0,141.0>>/B<<458.0,141.0>-<446.0,99.0>-<421.5,65.0>> = 9.872939493715144
-
-	* dcaron (U+010F): B<<423.0,405.0>-<448.0,369.0>-<460.0,325.0>>/L<<460.0,325.0>--<453.0,392.0>> = 9.290631601804645
-
-	* dcaron (U+010F): L<<453.0,94.0>--<458.0,141.0>>/B<<458.0,141.0>-<446.0,99.0>-<421.5,65.0>> = 9.872939493715144
-
-	* dcroat (U+0111): B<<423.0,405.0>-<448.0,369.0>-<460.0,325.0>>/L<<460.0,325.0>--<453.0,392.0>> = 9.290631601804645
-
-	* dcroat (U+0111): L<<453.0,94.0>--<458.0,141.0>>/B<<458.0,141.0>-<446.0,99.0>-<421.5,65.0>> = 9.872939493715144
-
-	* dmacronbelow (U+1E0F): B<<423.0,405.0>-<448.0,369.0>-<460.0,325.0>>/L<<460.0,325.0>--<453.0,392.0>> = 9.290631601804645
-
-	* dmacronbelow (U+1E0F): L<<453.0,94.0>--<458.0,141.0>>/B<<458.0,141.0>-<446.0,99.0>-<421.5,65.0>> = 9.872939493715144
-
-	* f (U+0066): L<<8.0,472.0>--<150.0,472.0>>/B<<150.0,472.0>-<102.0,481.0>-<77.5,512.5>> = 10.61965527615514
-
-	* g (U+0067): B<<421.5,406.5>-<446.0,372.0>-<458.0,330.0>>/L<<458.0,330.0>--<453.0,377.0>> = 9.872939493715144
-
-	* g (U+0067): L<<453.0,95.0>--<458.0,141.0>>/B<<458.0,141.0>-<439.0,78.0>-<392.0,33.0>> = 10.579196243578858
-
-	* gbreve (U+011F): B<<421.5,406.5>-<446.0,372.0>-<458.0,330.0>>/L<<458.0,330.0>--<453.0,377.0>> = 9.872939493715144
-
-	* gbreve (U+011F): L<<453.0,95.0>--<458.0,141.0>>/B<<458.0,141.0>-<439.0,78.0>-<392.0,33.0>> = 10.579196243578858
-
-	* gcaron (U+01E7): B<<421.5,406.5>-<446.0,372.0>-<458.0,330.0>>/L<<458.0,330.0>--<453.0,377.0>> = 9.872939493715144
-
-	* gcaron (U+01E7): L<<453.0,95.0>--<458.0,141.0>>/B<<458.0,141.0>-<439.0,78.0>-<392.0,33.0>> = 10.579196243578858
-
-	* gcircumflex (U+011D): B<<421.5,406.5>-<446.0,372.0>-<458.0,330.0>>/L<<458.0,330.0>--<453.0,377.0>> = 9.872939493715144
-
-	* gcircumflex (U+011D): L<<453.0,95.0>--<458.0,141.0>>/B<<458.0,141.0>-<439.0,78.0>-<392.0,33.0>> = 10.579196243578858
-
-	* gdotaccent (U+0121): B<<421.5,406.5>-<446.0,372.0>-<458.0,330.0>>/L<<458.0,330.0>--<453.0,377.0>> = 9.872939493715144
-
-	* gdotaccent (U+0121): L<<453.0,95.0>--<458.0,141.0>>/B<<458.0,141.0>-<439.0,78.0>-<392.0,33.0>> = 10.579196243578858
-
-	* p (U+0070): B<<136.0,69.0>-<111.0,106.0>-<100.0,151.0>>/L<<100.0,151.0>--<107.0,79.0>> = 8.183297272585701
-
-	* p (U+0070): L<<107.0,377.0>--<102.0,327.0>>/B<<102.0,327.0>-<113.0,370.0>-<137.5,405.0>> = 8.638738905447507
-
-	* q (U+0071): B<<421.5,406.5>-<446.0,372.0>-<458.0,330.0>>/L<<458.0,330.0>--<453.0,377.0>> = 9.872939493715144
-
-	* q (U+0071): L<<453.0,79.0>--<460.0,148.0>>/B<<460.0,148.0>-<448.0,104.0>-<423.0,67.5>> = 9.462322208025613
-
-	* r (U+0072): L<<108.0,472.0>--<108.0,331.0>>/B<<108.0,331.0>-<119.0,378.0>-<146.5,411.0>> = 13.172553423326871
-
-	* racute (U+0155): L<<108.0,472.0>--<108.0,331.0>>/B<<108.0,331.0>-<119.0,378.0>-<146.5,411.0>> = 13.172553423326871
-
-	* rcaron (U+0159): L<<108.0,472.0>--<108.0,331.0>>/B<<108.0,331.0>-<119.0,378.0>-<146.5,411.0>> = 13.172553423326871
-
-	* rmacronbelow (U+1E5F): L<<108.0,472.0>--<108.0,331.0>>/B<<108.0,331.0>-<119.0,378.0>-<146.5,411.0>> = 13.172553423326871
-
-	* thorn (U+00FE): B<<125.0,63.0>-<101.0,98.0>-<90.0,137.0>>/L<<90.0,137.0>--<94.0,72.0>> = 12.229720286530794
-
-	* thorn (U+00FE): L<<94.0,382.0>--<90.0,323.0>>/B<<90.0,323.0>-<100.0,362.0>-<124.5,397.5>> = 10.50287008824286
-
-	* uni0122 (U+0122): L<<612.0,0.0>--<612.0,218.0>>/B<<612.0,218.0>-<601.0,120.0>-<539.5,57.5>> = 6.4043527263841025
-
-	* uni0123 (U+0123): B<<421.5,406.5>-<446.0,372.0>-<458.0,330.0>>/L<<458.0,330.0>--<453.0,377.0>> = 9.872939493715144
-
-	* uni0123 (U+0123): L<<453.0,95.0>--<458.0,141.0>>/B<<458.0,141.0>-<439.0,78.0>-<392.0,33.0>> = 10.579196243578858
-
-	* uni0157 (U+0157): L<<108.0,472.0>--<108.0,331.0>>/B<<108.0,331.0>-<119.0,378.0>-<146.5,411.0>> = 13.172553423326871
-
-	* uni1E0D (U+1E0D): B<<423.0,405.0>-<448.0,369.0>-<460.0,325.0>>/L<<460.0,325.0>--<453.0,392.0>> = 9.290631601804645
-
-	* uni1E0D (U+1E0D): L<<453.0,94.0>--<458.0,141.0>>/B<<458.0,141.0>-<446.0,99.0>-<421.5,65.0>> = 9.872939493715144
-
-	* uni1E20 (U+1E20): L<<612.0,0.0>--<612.0,218.0>>/B<<612.0,218.0>-<601.0,120.0>-<539.5,57.5>> = 6.4043527263841025
-
-	* uni1E21 (U+1E21): B<<421.5,406.5>-<446.0,372.0>-<458.0,330.0>>/L<<458.0,330.0>--<453.0,377.0>> = 9.872939493715144
-
-	* uni1E21 (U+1E21): L<<453.0,95.0>--<458.0,141.0>>/B<<458.0,141.0>-<439.0,78.0>-<392.0,33.0>> = 10.579196243578858
-
-	* uni1E5B (U+1E5B): L<<108.0,472.0>--<108.0,331.0>>/B<<108.0,331.0>-<119.0,378.0>-<146.5,411.0>> = 13.172553423326871 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* IJ (U+0132): L<<680.0,660.0>--<681.0,196.0>>
-
-	* IJacute (U+E133): L<<680.0,660.0>--<681.0,196.0>>
-
-	* J (U+004A): L<<468.0,660.0>--<469.0,196.0>>
-
-	* Jcircumflex (U+0134): L<<468.0,660.0>--<469.0,196.0>>
-
-	* R (U+0052): L<<231.0,354.0>--<113.0,353.0>>
-
-	* Racute (U+0154): L<<231.0,354.0>--<113.0,353.0>>
-
-	* Rcaron (U+0158): L<<231.0,354.0>--<113.0,353.0>>
-
-	* Rmacronbelow (U+1E5E): L<<231.0,354.0>--<113.0,353.0>>
-
-	* U (U+0055): L<<52.0,203.0>--<53.0,660.0>>
-
-	* U (U+0055): L<<534.0,660.0>--<535.0,203.0>>
-
-	* Uacute (U+00DA): L<<52.0,203.0>--<53.0,660.0>>
-
-	* Uacute (U+00DA): L<<534.0,660.0>--<535.0,203.0>>
-
-	* Ubreve (U+016C): L<<52.0,203.0>--<53.0,660.0>>
-
-	* Ubreve (U+016C): L<<534.0,660.0>--<535.0,203.0>>
-
-	* Ucircumflex (U+00DB): L<<52.0,203.0>--<53.0,660.0>>
-
-	* Ucircumflex (U+00DB): L<<534.0,660.0>--<535.0,203.0>>
-
-	* Udieresis (U+00DC): L<<52.0,203.0>--<53.0,660.0>>
-
-	* Udieresis (U+00DC): L<<534.0,660.0>--<535.0,203.0>>
-
-	* Ugrave (U+00D9): L<<52.0,203.0>--<53.0,660.0>>
-
-	* Ugrave (U+00D9): L<<534.0,660.0>--<535.0,203.0>>
-
-	* Uhungarumlaut (U+0170): L<<52.0,203.0>--<53.0,660.0>>
-
-	* Uhungarumlaut (U+0170): L<<534.0,660.0>--<535.0,203.0>>
-
-	* Umacron (U+016A): L<<52.0,203.0>--<53.0,660.0>>
-
-	* Umacron (U+016A): L<<534.0,660.0>--<535.0,203.0>>
-
-	* Uogonek (U+0172): L<<52.0,203.0>--<53.0,660.0>>
-
-	* Uogonek (U+0172): L<<534.0,660.0>--<535.0,203.0>>
-
-	* Uring (U+016E): L<<52.0,203.0>--<53.0,660.0>>
-
-	* Uring (U+016E): L<<534.0,660.0>--<535.0,203.0>>
-
-	* Utilde (U+0168): L<<52.0,203.0>--<53.0,660.0>>
-
-	* Utilde (U+0168): L<<534.0,660.0>--<535.0,203.0>>
-
-	* b (U+0062): L<<45.0,0.0>--<44.0,660.0>>
-
-	* g (U+0067): L<<515.0,472.0>--<516.0,1.0>>
-
-	* gbreve (U+011F): L<<515.0,472.0>--<516.0,1.0>>
-
-	* gcaron (U+01E7): L<<515.0,472.0>--<516.0,1.0>>
-
-	* gcircumflex (U+011D): L<<515.0,472.0>--<516.0,1.0>>
-
-	* gdotaccent (U+0121): L<<515.0,472.0>--<516.0,1.0>>
-
-	* p (U+0070): L<<44.0,-189.0>--<45.0,472.0>>
-
-	* q (U+0071): L<<515.0,472.0>--<516.0,-189.0>>
-
-	* thorn (U+00FE): L<<32.0,-215.0>--<33.0,753.0>>
-
-	* uni0123 (U+0123): L<<515.0,472.0>--<516.0,1.0>>
-
-	* uni0156 (U+0156): L<<231.0,354.0>--<113.0,353.0>>
-
-	* uni018F (U+018F): L<<38.0,336.0>--<610.0,338.0>>
-
-	* uni1E21 (U+1E21): L<<515.0,472.0>--<516.0,1.0>>
-
-	* uni1E5A (U+1E5A): L<<231.0,354.0>--<113.0,353.0>>
-
-	* uni1E78 (U+1E78): L<<52.0,203.0>--<53.0,660.0>>
-
-	* uni1E78 (U+1E78): L<<534.0,660.0>--<535.0,203.0>>
-
-	* uni1E7A (U+1E7A): L<<52.0,203.0>--<53.0,660.0>>
-
-	* uni1E7A (U+1E7A): L<<534.0,660.0>--<535.0,203.0>>
-
-	* uni1EE4 (U+1EE4): L<<52.0,203.0>--<53.0,660.0>>
-
-	* uni1EE4 (U+1EE4): L<<534.0,660.0>--<535.0,203.0>>
-
-	* yen (U+00A5): L<<327.0,320.0>--<461.0,319.0>>
-
-	* yen (U+00A5): L<<99.0,319.0>--<237.0,320.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] Panamera-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** Current FontBakery version is 0.10.2, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
-
-
-* ⚠ **WARN** The following codepoints supported by the font are not covered by
-    any subsets defined in the font's metadata file, and will never
-    be served. You can solve this by either manually adding additional
-    subset declarations to METADATA.pb, or by editing the glyphset
-    definitions.
-
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
- * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, math, tifinagh, malayalam, syriac, old-permic, tai-le, canadian-aboriginal
- * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
- * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
- * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
- * U+0327 COMBINING CEDILLA: not included in any glyphset definition
- * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+032E COMBINING BREVE BELOW: try adding syriac
- * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac
- * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, caucasian-albanian, gothic, syriac, tifinagh
- * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: greek, math, elbasan
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, math, elbasan
- * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi
- * U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese
- * U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese
- * U+1EB8 LATIN CAPITAL LETTER E WITH DOT BELOW: try adding vietnamese
- * U+1EB9 LATIN SMALL LETTER E WITH DOT BELOW: try adding vietnamese
- * U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese
- * U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese
- * U+1ECA LATIN CAPITAL LETTER I WITH DOT BELOW: try adding vietnamese
- * U+1ECB LATIN SMALL LETTER I WITH DOT BELOW: try adding vietnamese
- * U+1ECC LATIN CAPITAL LETTER O WITH DOT BELOW: try adding vietnamese
- * U+1ECD LATIN SMALL LETTER O WITH DOT BELOW: try adding vietnamese
- * U+1EE4 LATIN CAPITAL LETTER U WITH DOT BELOW: try adding vietnamese
- * U+1EE5 LATIN SMALL LETTER U WITH DOT BELOW: try adding vietnamese
- * U+2007 FIGURE SPACE: not included in any glyphset definition
- * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
- * U+200A HAIR SPACE: not included in any glyphset definition
- * U+2010 HYPHEN: try adding one of: yi, lisu, sora-sompeng, kayah-li, syloti-nagri, coptic, sundanese, kharoshthi, kaithi, cham
- * U+2012 FIGURE DASH: not included in any glyphset definition
- * U+2015 HORIZONTAL BAR: try adding adlam
- * U+2021 DOUBLE DAGGER: try adding adlam
- * U+2030 PER MILLE SIGN: try adding adlam
- * U+2070 SUPERSCRIPT ZERO: not included in any glyphset definition
- * U+2075 SUPERSCRIPT FIVE: not included in any glyphset definition
- * U+2076 SUPERSCRIPT SIX: not included in any glyphset definition
- * U+2077 SUPERSCRIPT SEVEN: not included in any glyphset definition
- * U+2078 SUPERSCRIPT EIGHT: not included in any glyphset definition
- * U+2079 SUPERSCRIPT NINE: not included in any glyphset definition
- * U+2080 SUBSCRIPT ZERO: not included in any glyphset definition
- * U+2081 SUBSCRIPT ONE: not included in any glyphset definition
- * U+2082 SUBSCRIPT TWO: not included in any glyphset definition
- * U+2083 SUBSCRIPT THREE: not included in any glyphset definition
- * U+2084 SUBSCRIPT FOUR: not included in any glyphset definition
- * U+2085 SUBSCRIPT FIVE: not included in any glyphset definition
- * U+2086 SUBSCRIPT SIX: not included in any glyphset definition
- * U+2087 SUBSCRIPT SEVEN: not included in any glyphset definition
- * U+2088 SUBSCRIPT EIGHT: not included in any glyphset definition
- * U+2089 SUBSCRIPT NINE: not included in any glyphset definition
- * U+2105 CARE OF: not included in any glyphset definition
- * U+2106 CADA UNA: not included in any glyphset definition
- * U+2116 NUMERO SIGN: try adding cyrillic
- * U+2126 OHM SIGN: not included in any glyphset definition
- * U+212E ESTIMATED SYMBOL: not included in any glyphset definition
- * U+21E7 UPWARDS WHITE ARROW: try adding symbols
- * U+2202 PARTIAL DIFFERENTIAL: try adding math
- * U+2205 EMPTY SET: try adding math
- * U+2206 INCREMENT: try adding math
- * U+220F N-ARY PRODUCT: try adding math
- * U+2211 N-ARY SUMMATION: try adding math
- * U+2219 BULLET OPERATOR: try adding one of: math, yi, symbols, tai-tham
- * U+221A SQUARE ROOT: try adding math
- * U+221E INFINITY: try adding math
- * U+222B INTEGRAL: try adding math
- * U+2248 ALMOST EQUAL TO: try adding math
- * U+2260 NOT EQUAL TO: try adding math
- * U+2264 LESS-THAN OR EQUAL TO: try adding math
- * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+2317 VIEWDATA SQUARE: try adding symbols
- * U+2318 PLACE OF INTEREST SIGN: try adding symbols
- * U+2325 OPTION KEY: try adding symbols
- * U+25A0 BLACK SQUARE: try adding symbols
- * U+25A1 WHITE SQUARE: try adding symbols
- * U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols
- * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols
- * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols
- * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols
- * U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols
- * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols
- * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols
- * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols
- * U+25C6 BLACK DIAMOND: try adding symbols
- * U+25C7 WHITE DIAMOND: try adding symbols
- * U+25CA LOZENGE: try adding one of: math, symbols
- * U+25CB WHITE CIRCLE: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: bassa-vah, soyombo, khudawadi, lepcha, lao, modi, hanifi-rohingya, batak, old-permic, sundanese, brahmi, new-tai-lue, limbu, grantha, coptic, tai-le, pahawh-hmong, buginese, bengali, sharada, masaram-gondi, oriya, siddham, adlam, chakma, tirhuta, takri, marchen, meetei-mayek, math, telugu, kannada, dogra, miao, gunjala-gondi, myanmar, buhid, kayah-li, syloti-nagri, tagalog, music, sinhala, kharoshthi, zanabazar-square, cham, psalter-pahlavi, tamil, wancho, tai-viet, javanese, manichaean, caucasian-albanian, khmer, kaithi, symbols, mandaic, thai, tibetan, newa, gurmukhi, sogdian, mongolian, khojki, osage, bhaiksuki, malayalam, devanagari, tagbanwa, phags-pa, mahajani, syriac, gujarati, elbasan, balinese, duployan, mende-kikakui, hebrew, thaana, nko, hanunoo, yi, tifinagh, ahom, rejang
- * U+25CF BLACK CIRCLE: try adding symbols
- * U+2B1B BLACK LARGE SQUARE: try adding symbols
- * U+2B1C WHITE LARGE SQUARE: try adding symbols
- * U+2B98 THREE-D TOP-LIGHTED LEFTWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B99 THREE-D RIGHT-LIGHTED UPWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9A THREE-D TOP-LIGHTED RIGHTWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9B THREE-D LEFT-LIGHTED DOWNWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9C BLACK LEFTWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9D BLACK UPWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9E BLACK RIGHTWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9F BLACK DOWNWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+E133 : not included in any glyphset definition
- * U+E134 : not included in any glyphset definition
-
-Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + f
-
-	- f + l
-
-	- l + f
-
-	- f + i
-
-	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: ae	Contours detected: 4	Expected: 3
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: oe	Contours detected: 4	Expected: 3
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
-
-	- Glyph name: aeacute	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: ae	Contours detected: 4	Expected: 3
-
-	- Glyph name: aeacute	Contours detected: 5	Expected: 4
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: oe	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* b (U+0062): L<<125.0,660.0>--<125.0,410.0>> -> L<<125.0,410.0>--<118.0,337.0>>
-
-	* d (U+0064): L<<452.0,341.0>--<446.0,410.0>> -> L<<446.0,410.0>--<446.0,660.0>>
-
-	* dcaron (U+010F): L<<452.0,341.0>--<446.0,410.0>> -> L<<446.0,410.0>--<446.0,660.0>>
-
-	* dcroat (U+0111): L<<452.0,341.0>--<446.0,410.0>> -> L<<446.0,410.0>--<446.0,541.0>>
-
-	* dmacronbelow (U+1E0F): L<<452.0,341.0>--<446.0,410.0>> -> L<<446.0,410.0>--<446.0,660.0>>
-
-	* exclam (U+0021): L<<113.0,204.0>--<94.0,561.0>> -> L<<94.0,561.0>--<94.0,689.0>>
-
-	* exclam (U+0021): L<<198.0,689.0>--<197.0,561.0>> -> L<<197.0,561.0>--<179.0,204.0>>
-
-	* exclamdown (U+00A1): L<<179.0,305.0>--<197.0,-52.0>> -> L<<197.0,-52.0>--<198.0,-180.0>>
-
-	* exclamdown (U+00A1): L<<94.0,-180.0>--<94.0,-52.0>> -> L<<94.0,-52.0>--<113.0,305.0>>
-
-	* g (U+0067): L<<446.0,3.0>--<446.0,82.0>> -> L<<446.0,82.0>--<450.0,125.0>>
-
-	* gbreve (U+011F): L<<446.0,3.0>--<446.0,82.0>> -> L<<446.0,82.0>--<450.0,125.0>>
-
-	* gcaron (U+01E7): L<<446.0,3.0>--<446.0,82.0>> -> L<<446.0,82.0>--<450.0,125.0>>
-
-	* gcircumflex (U+011D): L<<446.0,3.0>--<446.0,82.0>> -> L<<446.0,82.0>--<450.0,125.0>>
-
-	* gdotaccent (U+0121): L<<446.0,3.0>--<446.0,82.0>> -> L<<446.0,82.0>--<450.0,125.0>>
-
-	* q (U+0071): L<<446.0,-189.0>--<446.0,61.0>> -> L<<446.0,61.0>--<452.0,131.0>>
-
-	* thorn (U+00FE): L<<109.0,107.0>--<113.0,53.0>> -> L<<113.0,53.0>--<113.0,-206.0>>
-
-	* thorn (U+00FE): L<<113.0,744.0>--<113.0,409.0>> -> L<<113.0,409.0>--<109.0,356.0>>
-
-	* uni0123 (U+0123): L<<446.0,3.0>--<446.0,82.0>> -> L<<446.0,82.0>--<450.0,125.0>>
-
-	* uni1E0D (U+1E0D): L<<452.0,341.0>--<446.0,410.0>> -> L<<446.0,410.0>--<446.0,660.0>>
-
-	* uni1E21 (U+1E21): L<<446.0,3.0>--<446.0,82.0>> -> L<<446.0,82.0>--<450.0,125.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* G (U+0047): L<<601.0,0.0>--<601.0,202.0>>/B<<601.0,202.0>-<595.0,143.0>-<567.5,96.0>> = 5.806726905531528
-
-	* Gbreve (U+011E): L<<601.0,0.0>--<601.0,202.0>>/B<<601.0,202.0>-<595.0,143.0>-<567.5,96.0>> = 5.806726905531528
-
-	* Gcaron (U+01E6): L<<601.0,0.0>--<601.0,202.0>>/B<<601.0,202.0>-<595.0,143.0>-<567.5,96.0>> = 5.806726905531528
-
-	* Gcircumflex (U+011C): L<<601.0,0.0>--<601.0,202.0>>/B<<601.0,202.0>-<595.0,143.0>-<567.5,96.0>> = 5.806726905531528
-
-	* Gdotaccent (U+0120): L<<601.0,0.0>--<601.0,202.0>>/B<<601.0,202.0>-<595.0,143.0>-<567.5,96.0>> = 5.806726905531528
-
-	* b (U+0062): B<<181.5,29.0>-<137.0,68.0>-<119.0,128.0>>/L<<119.0,128.0>--<125.0,77.0>> = 9.989407426236662
-
-	* b (U+0062): L<<125.0,410.0>--<118.0,337.0>>/B<<118.0,337.0>-<135.0,401.0>-<180.5,442.5>> = 9.398313272809888
-
-	* d (U+0064): B<<389.0,443.5>-<434.0,403.0>-<452.0,341.0>>/L<<452.0,341.0>--<446.0,410.0>> = 11.21946552891664
-
-	* d (U+0064): L<<446.0,77.0>--<451.0,125.0>>/B<<451.0,125.0>-<432.0,66.0>-<388.0,28.0>> = 11.903455248243372
-
-	* dcaron (U+010F): B<<389.0,443.5>-<434.0,403.0>-<452.0,341.0>>/L<<452.0,341.0>--<446.0,410.0>> = 11.21946552891664
-
-	* dcaron (U+010F): L<<446.0,77.0>--<451.0,125.0>>/B<<451.0,125.0>-<432.0,66.0>-<388.0,28.0>> = 11.903455248243372
-
-	* dcroat (U+0111): B<<389.0,443.5>-<434.0,403.0>-<452.0,341.0>>/L<<452.0,341.0>--<446.0,410.0>> = 11.21946552891664
-
-	* dcroat (U+0111): L<<446.0,77.0>--<451.0,125.0>>/B<<451.0,125.0>-<432.0,66.0>-<388.0,28.0>> = 11.903455248243372
-
-	* dmacronbelow (U+1E0F): B<<389.0,443.5>-<434.0,403.0>-<452.0,341.0>>/L<<452.0,341.0>--<446.0,410.0>> = 11.21946552891664
-
-	* dmacronbelow (U+1E0F): L<<446.0,77.0>--<451.0,125.0>>/B<<451.0,125.0>-<432.0,66.0>-<388.0,28.0>> = 11.903455248243372
-
-	* f (U+0066): L<<8.0,472.0>--<135.0,472.0>>/B<<135.0,472.0>-<96.0,480.0>-<73.5,508.5>> = 11.592175410291041
-
-	* g (U+0067): B<<388.0,444.0>-<432.0,406.0>-<451.0,347.0>>/L<<451.0,347.0>--<446.0,395.0>> = 11.903455248243342
-
-	* g (U+0067): L<<446.0,82.0>--<450.0,125.0>>/B<<450.0,125.0>-<431.0,65.0>-<386.5,26.5>> = 12.256713108377637
-
-	* gbreve (U+011F): B<<388.0,444.0>-<432.0,406.0>-<451.0,347.0>>/L<<451.0,347.0>--<446.0,395.0>> = 11.903455248243342
-
-	* gbreve (U+011F): L<<446.0,82.0>--<450.0,125.0>>/B<<450.0,125.0>-<431.0,65.0>-<386.5,26.5>> = 12.256713108377637
-
-	* gcaron (U+01E7): B<<388.0,444.0>-<432.0,406.0>-<451.0,347.0>>/L<<451.0,347.0>--<446.0,395.0>> = 11.903455248243342
-
-	* gcaron (U+01E7): L<<446.0,82.0>--<450.0,125.0>>/B<<450.0,125.0>-<431.0,65.0>-<386.5,26.5>> = 12.256713108377637
-
-	* gcircumflex (U+011D): B<<388.0,444.0>-<432.0,406.0>-<451.0,347.0>>/L<<451.0,347.0>--<446.0,395.0>> = 11.903455248243342
-
-	* gcircumflex (U+011D): L<<446.0,82.0>--<450.0,125.0>>/B<<450.0,125.0>-<431.0,65.0>-<386.5,26.5>> = 12.256713108377637
-
-	* gdotaccent (U+0121): B<<388.0,444.0>-<432.0,406.0>-<451.0,347.0>>/L<<451.0,347.0>--<446.0,395.0>> = 11.903455248243342
-
-	* gdotaccent (U+0121): L<<446.0,82.0>--<450.0,125.0>>/B<<450.0,125.0>-<431.0,65.0>-<386.5,26.5>> = 12.256713108377637
-
-	* p (U+0070): B<<180.5,29.5>-<135.0,71.0>-<117.0,135.0>>/L<<117.0,135.0>--<125.0,61.0>> = 9.538462733986085
-
-	* p (U+0070): L<<125.0,395.0>--<119.0,344.0>>/B<<119.0,344.0>-<137.0,404.0>-<181.5,443.0>> = 9.989407426236662
-
-	* q (U+0071): B<<388.0,444.0>-<432.0,406.0>-<451.0,347.0>>/L<<451.0,347.0>--<446.0,395.0>> = 11.903455248243342
-
-	* q (U+0071): L<<446.0,61.0>--<452.0,131.0>>/B<<452.0,131.0>-<434.0,69.0>-<389.0,28.5>> = 11.290113803239183
-
-	* uni0122 (U+0122): L<<601.0,0.0>--<601.0,202.0>>/B<<601.0,202.0>-<595.0,143.0>-<567.5,96.0>> = 5.806726905531528
-
-	* uni0123 (U+0123): B<<388.0,444.0>-<432.0,406.0>-<451.0,347.0>>/L<<451.0,347.0>--<446.0,395.0>> = 11.903455248243342
-
-	* uni0123 (U+0123): L<<446.0,82.0>--<450.0,125.0>>/B<<450.0,125.0>-<431.0,65.0>-<386.5,26.5>> = 12.256713108377637
-
-	* uni1E0D (U+1E0D): B<<389.0,443.5>-<434.0,403.0>-<452.0,341.0>>/L<<452.0,341.0>--<446.0,410.0>> = 11.21946552891664
-
-	* uni1E0D (U+1E0D): L<<446.0,77.0>--<451.0,125.0>>/B<<451.0,125.0>-<432.0,66.0>-<388.0,28.0>> = 11.903455248243372
-
-	* uni1E20 (U+1E20): L<<601.0,0.0>--<601.0,202.0>>/B<<601.0,202.0>-<595.0,143.0>-<567.5,96.0>> = 5.806726905531528
-
-	* uni1E21 (U+1E21): B<<388.0,444.0>-<432.0,406.0>-<451.0,347.0>>/L<<451.0,347.0>--<446.0,395.0>> = 11.903455248243342
-
-	* uni1E21 (U+1E21): L<<446.0,82.0>--<450.0,125.0>>/B<<450.0,125.0>-<431.0,65.0>-<386.5,26.5>> = 12.256713108377637 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* IJ (U+0132): L<<705.0,660.0>--<706.0,207.0>>
-
-	* IJacute (U+E133): L<<705.0,660.0>--<706.0,207.0>>
-
-	* J (U+004A): L<<477.0,660.0>--<478.0,207.0>>
-
-	* Jcircumflex (U+0134): L<<477.0,660.0>--<478.0,207.0>>
-
-	* U (U+0055): L<<47.0,206.0>--<48.0,660.0>>
-
-	* U (U+0055): L<<539.0,660.0>--<540.0,206.0>>
-
-	* Uacute (U+00DA): L<<47.0,206.0>--<48.0,660.0>>
-
-	* Uacute (U+00DA): L<<539.0,660.0>--<540.0,206.0>>
-
-	* Ubreve (U+016C): L<<47.0,206.0>--<48.0,660.0>>
-
-	* Ubreve (U+016C): L<<539.0,660.0>--<540.0,206.0>>
-
-	* Ucircumflex (U+00DB): L<<47.0,206.0>--<48.0,660.0>>
-
-	* Ucircumflex (U+00DB): L<<539.0,660.0>--<540.0,206.0>>
-
-	* Udieresis (U+00DC): L<<47.0,206.0>--<48.0,660.0>>
-
-	* Udieresis (U+00DC): L<<539.0,660.0>--<540.0,206.0>>
-
-	* Ugrave (U+00D9): L<<47.0,206.0>--<48.0,660.0>>
-
-	* Ugrave (U+00D9): L<<539.0,660.0>--<540.0,206.0>>
-
-	* Uhungarumlaut (U+0170): L<<47.0,206.0>--<48.0,660.0>>
-
-	* Uhungarumlaut (U+0170): L<<539.0,660.0>--<540.0,206.0>>
-
-	* Umacron (U+016A): L<<47.0,206.0>--<48.0,660.0>>
-
-	* Umacron (U+016A): L<<539.0,660.0>--<540.0,206.0>>
-
-	* Uogonek (U+0172): L<<47.0,206.0>--<48.0,660.0>>
-
-	* Uogonek (U+0172): L<<539.0,660.0>--<540.0,206.0>>
-
-	* Uring (U+016E): L<<47.0,206.0>--<48.0,660.0>>
-
-	* Uring (U+016E): L<<539.0,660.0>--<540.0,206.0>>
-
-	* Utilde (U+0168): L<<47.0,206.0>--<48.0,660.0>>
-
-	* Utilde (U+0168): L<<539.0,660.0>--<540.0,206.0>>
-
-	* b (U+0062): L<<42.0,0.0>--<41.0,660.0>>
-
-	* exclam (U+0021): L<<198.0,689.0>--<197.0,561.0>>
-
-	* exclamdown (U+00A1): L<<197.0,-52.0>--<198.0,-180.0>>
-
-	* four (U+0034): L<<340.0,207.0>--<30.0,208.0>>
-
-	* g (U+0067): L<<528.0,472.0>--<529.0,3.0>>
-
-	* gbreve (U+011F): L<<528.0,472.0>--<529.0,3.0>>
-
-	* gcaron (U+01E7): L<<528.0,472.0>--<529.0,3.0>>
-
-	* gcircumflex (U+011D): L<<528.0,472.0>--<529.0,3.0>>
-
-	* gdotaccent (U+0121): L<<528.0,472.0>--<529.0,3.0>>
-
-	* p (U+0070): L<<41.0,-189.0>--<42.0,472.0>>
-
-	* q (U+0071): L<<528.0,472.0>--<529.0,-189.0>>
-
-	* thorn (U+00FE): L<<30.0,-206.0>--<31.0,744.0>>
-
-	* uni0123 (U+0123): L<<528.0,472.0>--<529.0,3.0>>
-
-	* uni018F (U+018F): L<<45.0,346.0>--<600.0,348.0>>
-
-	* uni1E21 (U+1E21): L<<528.0,472.0>--<529.0,3.0>>
-
-	* uni1E78 (U+1E78): L<<47.0,206.0>--<48.0,660.0>>
-
-	* uni1E78 (U+1E78): L<<539.0,660.0>--<540.0,206.0>>
-
-	* uni1E7A (U+1E7A): L<<47.0,206.0>--<48.0,660.0>>
-
-	* uni1E7A (U+1E7A): L<<539.0,660.0>--<540.0,206.0>>
-
-	* uni1EE4 (U+1EE4): L<<47.0,206.0>--<48.0,660.0>>
-
-	* uni1EE4 (U+1EE4): L<<539.0,660.0>--<540.0,206.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] Panamera-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** Current FontBakery version is 0.10.2, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
-
-
-* ⚠ **WARN** The following codepoints supported by the font are not covered by
-    any subsets defined in the font's metadata file, and will never
-    be served. You can solve this by either manually adding additional
-    subset declarations to METADATA.pb, or by editing the glyphset
-    definitions.
-
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
- * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, math, tifinagh, malayalam, syriac, old-permic, tai-le, canadian-aboriginal
- * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
- * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
- * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
- * U+0327 COMBINING CEDILLA: not included in any glyphset definition
- * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+032E COMBINING BREVE BELOW: try adding syriac
- * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac
- * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, caucasian-albanian, gothic, syriac, tifinagh
- * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: greek, math, elbasan
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, math, elbasan
- * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi
- * U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese
- * U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese
- * U+1EB8 LATIN CAPITAL LETTER E WITH DOT BELOW: try adding vietnamese
- * U+1EB9 LATIN SMALL LETTER E WITH DOT BELOW: try adding vietnamese
- * U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese
- * U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese
- * U+1ECA LATIN CAPITAL LETTER I WITH DOT BELOW: try adding vietnamese
- * U+1ECB LATIN SMALL LETTER I WITH DOT BELOW: try adding vietnamese
- * U+1ECC LATIN CAPITAL LETTER O WITH DOT BELOW: try adding vietnamese
- * U+1ECD LATIN SMALL LETTER O WITH DOT BELOW: try adding vietnamese
- * U+1EE4 LATIN CAPITAL LETTER U WITH DOT BELOW: try adding vietnamese
- * U+1EE5 LATIN SMALL LETTER U WITH DOT BELOW: try adding vietnamese
- * U+2007 FIGURE SPACE: not included in any glyphset definition
- * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
- * U+200A HAIR SPACE: not included in any glyphset definition
- * U+2010 HYPHEN: try adding one of: yi, lisu, sora-sompeng, kayah-li, syloti-nagri, coptic, sundanese, kharoshthi, kaithi, cham
- * U+2012 FIGURE DASH: not included in any glyphset definition
- * U+2015 HORIZONTAL BAR: try adding adlam
- * U+2021 DOUBLE DAGGER: try adding adlam
- * U+2030 PER MILLE SIGN: try adding adlam
- * U+2070 SUPERSCRIPT ZERO: not included in any glyphset definition
- * U+2075 SUPERSCRIPT FIVE: not included in any glyphset definition
- * U+2076 SUPERSCRIPT SIX: not included in any glyphset definition
- * U+2077 SUPERSCRIPT SEVEN: not included in any glyphset definition
- * U+2078 SUPERSCRIPT EIGHT: not included in any glyphset definition
- * U+2079 SUPERSCRIPT NINE: not included in any glyphset definition
- * U+2080 SUBSCRIPT ZERO: not included in any glyphset definition
- * U+2081 SUBSCRIPT ONE: not included in any glyphset definition
- * U+2082 SUBSCRIPT TWO: not included in any glyphset definition
- * U+2083 SUBSCRIPT THREE: not included in any glyphset definition
- * U+2084 SUBSCRIPT FOUR: not included in any glyphset definition
- * U+2085 SUBSCRIPT FIVE: not included in any glyphset definition
- * U+2086 SUBSCRIPT SIX: not included in any glyphset definition
- * U+2087 SUBSCRIPT SEVEN: not included in any glyphset definition
- * U+2088 SUBSCRIPT EIGHT: not included in any glyphset definition
- * U+2089 SUBSCRIPT NINE: not included in any glyphset definition
- * U+2105 CARE OF: not included in any glyphset definition
- * U+2106 CADA UNA: not included in any glyphset definition
- * U+2116 NUMERO SIGN: try adding cyrillic
- * U+2126 OHM SIGN: not included in any glyphset definition
- * U+212E ESTIMATED SYMBOL: not included in any glyphset definition
- * U+21E7 UPWARDS WHITE ARROW: try adding symbols
- * U+2202 PARTIAL DIFFERENTIAL: try adding math
- * U+2205 EMPTY SET: try adding math
- * U+2206 INCREMENT: try adding math
- * U+220F N-ARY PRODUCT: try adding math
- * U+2211 N-ARY SUMMATION: try adding math
- * U+2219 BULLET OPERATOR: try adding one of: math, yi, symbols, tai-tham
- * U+221A SQUARE ROOT: try adding math
- * U+221E INFINITY: try adding math
- * U+222B INTEGRAL: try adding math
- * U+2248 ALMOST EQUAL TO: try adding math
- * U+2260 NOT EQUAL TO: try adding math
- * U+2264 LESS-THAN OR EQUAL TO: try adding math
- * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+2317 VIEWDATA SQUARE: try adding symbols
- * U+2318 PLACE OF INTEREST SIGN: try adding symbols
- * U+2325 OPTION KEY: try adding symbols
- * U+25A0 BLACK SQUARE: try adding symbols
- * U+25A1 WHITE SQUARE: try adding symbols
- * U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols
- * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols
- * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols
- * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols
- * U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols
- * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols
- * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols
- * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols
- * U+25C6 BLACK DIAMOND: try adding symbols
- * U+25C7 WHITE DIAMOND: try adding symbols
- * U+25CA LOZENGE: try adding one of: math, symbols
- * U+25CB WHITE CIRCLE: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: bassa-vah, soyombo, khudawadi, lepcha, lao, modi, hanifi-rohingya, batak, old-permic, sundanese, brahmi, new-tai-lue, limbu, grantha, coptic, tai-le, pahawh-hmong, buginese, bengali, sharada, masaram-gondi, oriya, siddham, adlam, chakma, tirhuta, takri, marchen, meetei-mayek, math, telugu, kannada, dogra, miao, gunjala-gondi, myanmar, buhid, kayah-li, syloti-nagri, tagalog, music, sinhala, kharoshthi, zanabazar-square, cham, psalter-pahlavi, tamil, wancho, tai-viet, javanese, manichaean, caucasian-albanian, khmer, kaithi, symbols, mandaic, thai, tibetan, newa, gurmukhi, sogdian, mongolian, khojki, osage, bhaiksuki, malayalam, devanagari, tagbanwa, phags-pa, mahajani, syriac, gujarati, elbasan, balinese, duployan, mende-kikakui, hebrew, thaana, nko, hanunoo, yi, tifinagh, ahom, rejang
+ * U+25CC DOTTED CIRCLE: try adding one of: sharada, gujarati, marchen, kharoshthi, khudawadi, mende-kikakui, kaithi, soyombo, tai-le, chakma, balinese, caucasian-albanian, buginese, mongolian, khmer, tamil, bengali, nko, tagbanwa, mandaic, gurmukhi, old-permic, rejang, sundanese, dogra, syloti-nagri, lao, ahom, khojki, phags-pa, wancho, kannada, psalter-pahlavi, new-tai-lue, batak, mahajani, osage, pahawh-hmong, tifinagh, math, meetei-mayek, tai-viet, takri, malayalam, hanunoo, tibetan, gunjala-gondi, limbu, brahmi, bhaiksuki, sogdian, kayah-li, telugu, thaana, javanese, buhid, tagalog, syriac, elbasan, symbols, newa, manichaean, zanabazar-square, oriya, myanmar, siddham, masaram-gondi, miao, lepcha, yi, grantha, hebrew, tirhuta, duployan, coptic, hanifi-rohingya, devanagari, bassa-vah, adlam, music, modi, sinhala, thai, cham
  * U+25CF BLACK CIRCLE: try adding symbols
  * U+2B1B BLACK LARGE SQUARE: try adding symbols
  * U+2B1C WHITE LARGE SQUARE: try adding symbols
@@ -2084,7 +2576,21 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EE4 (U+1EE4): L<<36.0,212.0>--<37.0,660.0>>
 
 	* uni1EE4 (U+1EE4): L<<549.0,660.0>--<550.0,212.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] Panamera-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] Panamera-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/fonttools/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.10.2, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
@@ -2097,28 +2603,28 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, math, tifinagh, malayalam, syriac, old-permic, tai-le, canadian-aboriginal
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, syriac, canadian-aboriginal, tai-le, old-permic, malayalam, tifinagh, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032E COMBINING BREVE BELOW: try adding syriac
- * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac
- * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, caucasian-albanian, gothic, syriac, tifinagh
- * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: greek, math, elbasan
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, math, elbasan
+ * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee
+ * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, caucasian-albanian, syriac, cherokee, tifinagh
+ * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, greek, elbasan
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan
  * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math
  * U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese
  * U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese
  * U+1EB8 LATIN CAPITAL LETTER E WITH DOT BELOW: try adding vietnamese
@@ -2134,7 +2640,7 @@ The following glyphs do not have the recommended number of contours:
  * U+2007 FIGURE SPACE: not included in any glyphset definition
  * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
  * U+200A HAIR SPACE: not included in any glyphset definition
- * U+2010 HYPHEN: try adding one of: yi, lisu, sora-sompeng, kayah-li, syloti-nagri, coptic, sundanese, kharoshthi, kaithi, cham
+ * U+2010 HYPHEN: try adding one of: sundanese, lisu, kharoshthi, sora-sompeng, yi, kayah-li, syloti-nagri, cham, kaithi, coptic
  * U+2012 FIGURE DASH: not included in any glyphset definition
  * U+2015 HORIZONTAL BAR: try adding adlam
  * U+2021 DOUBLE DAGGER: try adding adlam
@@ -2166,7 +2672,7 @@ The following glyphs do not have the recommended number of contours:
  * U+2206 INCREMENT: try adding math
  * U+220F N-ARY PRODUCT: try adding math
  * U+2211 N-ARY SUMMATION: try adding math
- * U+2219 BULLET OPERATOR: try adding one of: math, yi, symbols, tai-tham
+ * U+2219 BULLET OPERATOR: try adding one of: yi, symbols, tai-tham, math
  * U+221A SQUARE ROOT: try adding math
  * U+221E INFINITY: try adding math
  * U+222B INTEGRAL: try adding math
@@ -2180,440 +2686,18 @@ The following glyphs do not have the recommended number of contours:
  * U+25A0 BLACK SQUARE: try adding symbols
  * U+25A1 WHITE SQUARE: try adding symbols
  * U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols
- * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols
- * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols
- * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols
- * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25C6 BLACK DIAMOND: try adding symbols
  * U+25C7 WHITE DIAMOND: try adding symbols
- * U+25CA LOZENGE: try adding one of: math, symbols
+ * U+25CA LOZENGE: try adding one of: symbols, math
  * U+25CB WHITE CIRCLE: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: bassa-vah, soyombo, khudawadi, lepcha, lao, modi, hanifi-rohingya, batak, old-permic, sundanese, brahmi, new-tai-lue, limbu, grantha, coptic, tai-le, pahawh-hmong, buginese, bengali, sharada, masaram-gondi, oriya, siddham, adlam, chakma, tirhuta, takri, marchen, meetei-mayek, math, telugu, kannada, dogra, miao, gunjala-gondi, myanmar, buhid, kayah-li, syloti-nagri, tagalog, music, sinhala, kharoshthi, zanabazar-square, cham, psalter-pahlavi, tamil, wancho, tai-viet, javanese, manichaean, caucasian-albanian, khmer, kaithi, symbols, mandaic, thai, tibetan, newa, gurmukhi, sogdian, mongolian, khojki, osage, bhaiksuki, malayalam, devanagari, tagbanwa, phags-pa, mahajani, syriac, gujarati, elbasan, balinese, duployan, mende-kikakui, hebrew, thaana, nko, hanunoo, yi, tifinagh, ahom, rejang
- * U+25CF BLACK CIRCLE: try adding symbols
- * U+2B1B BLACK LARGE SQUARE: try adding symbols
- * U+2B1C WHITE LARGE SQUARE: try adding symbols
- * U+2B98 THREE-D TOP-LIGHTED LEFTWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B99 THREE-D RIGHT-LIGHTED UPWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9A THREE-D TOP-LIGHTED RIGHTWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9B THREE-D LEFT-LIGHTED DOWNWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9C BLACK LEFTWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9D BLACK UPWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9E BLACK RIGHTWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+2B9F BLACK DOWNWARDS EQUILATERAL ARROWHEAD: try adding symbols
- * U+E133 : not included in any glyphset definition
- * U+E134 : not included in any glyphset definition
-
-Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + f
-
-	- f + l
-
-	- l + f
-
-	- f + i
-
-	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: ae	Contours detected: 4	Expected: 3
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: oe	Contours detected: 4	Expected: 3
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
-
-	- Glyph name: aeacute	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: ae	Contours detected: 4	Expected: 3
-
-	- Glyph name: aeacute	Contours detected: 5	Expected: 4
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: oe	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* exclam (U+0021): L<<134.0,202.0>--<116.0,573.0>> -> L<<116.0,573.0>--<116.0,689.0>>
-
-	* exclam (U+0021): L<<176.0,689.0>--<176.0,573.0>> -> L<<176.0,573.0>--<158.0,202.0>>
-
-	* exclamdown (U+00A1): L<<116.0,-180.0>--<116.0,-64.0>> -> L<<116.0,-64.0>--<134.0,307.0>>
-
-	* exclamdown (U+00A1): L<<158.0,307.0>--<176.0,-64.0>> -> L<<176.0,-64.0>--<176.0,-180.0>>
-
-	* thorn (U+00FE): L<<70.0,167.0>--<76.0,91.0>> -> L<<76.0,91.0>--<76.0,-224.0>>
-
-	* thorn (U+00FE): L<<76.0,762.0>--<76.0,355.0>> -> L<<76.0,355.0>--<70.0,290.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* G (U+0047): L<<623.0,0.0>--<623.0,234.0>>/B<<623.0,234.0>-<609.0,127.0>-<544.0,61.0>> = 7.454298812748479
-
-	* Gbreve (U+011E): L<<623.0,0.0>--<623.0,234.0>>/B<<623.0,234.0>-<609.0,127.0>-<544.0,61.0>> = 7.454298812748479
-
-	* Gcaron (U+01E6): L<<623.0,0.0>--<623.0,234.0>>/B<<623.0,234.0>-<609.0,127.0>-<544.0,61.0>> = 7.454298812748479
-
-	* Gcircumflex (U+011C): L<<623.0,0.0>--<623.0,234.0>>/B<<623.0,234.0>-<609.0,127.0>-<544.0,61.0>> = 7.454298812748479
-
-	* Gdotaccent (U+0120): L<<623.0,0.0>--<623.0,234.0>>/B<<623.0,234.0>-<609.0,127.0>-<544.0,61.0>> = 7.454298812748479
-
-	* at (U+0040): B<<641.0,30.0>-<607.0,60.0>-<607.0,141.0>>/B<<607.0,141.0>-<594.0,53.0>-<544.5,19.0>> = 8.403371090560828
-
-	* b (U+0062): B<<120.5,77.0>-<95.0,116.0>-<84.0,161.0>>/L<<84.0,161.0>--<90.0,111.0>> = 6.893494892991561
-
-	* b (U+0062): L<<90.0,375.0>--<82.0,305.0>>/B<<82.0,305.0>-<93.0,351.0>-<118.5,392.0>> = 6.928813300029519
-
-	* d (U+0064): B<<430.0,394.0>-<456.0,354.0>-<467.0,309.0>>/L<<467.0,309.0>--<460.0,375.0>> = 7.682076411507662
-
-	* d (U+0064): L<<460.0,111.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.5,75.5>> = 7.980113745168495
-
-	* dcaron (U+010F): B<<430.0,394.0>-<456.0,354.0>-<467.0,309.0>>/L<<467.0,309.0>--<460.0,375.0>> = 7.682076411507662
-
-	* dcaron (U+010F): L<<460.0,111.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.5,75.5>> = 7.980113745168495
-
-	* dcroat (U+0111): B<<430.0,394.0>-<456.0,354.0>-<467.0,309.0>>/L<<467.0,309.0>--<460.0,375.0>> = 7.682076411507662
-
-	* dcroat (U+0111): L<<460.0,111.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.5,75.5>> = 7.980113745168495
-
-	* dmacronbelow (U+1E0F): B<<430.0,394.0>-<456.0,354.0>-<467.0,309.0>>/L<<467.0,309.0>--<460.0,375.0>> = 7.682076411507662
-
-	* dmacronbelow (U+1E0F): L<<460.0,111.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.5,75.5>> = 7.980113745168495
-
-	* f (U+0066): L<<8.0,472.0>--<166.0,472.0>>/B<<166.0,472.0>-<108.0,482.0>-<81.5,516.5>> = 9.782407031807285
-
-	* g (U+0067): B<<428.5,396.0>-<454.0,357.0>-<466.0,314.0>>/L<<466.0,314.0>--<460.0,360.0>> = 8.1614029680938
-
-	* g (U+0067): L<<460.0,109.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.0,75.0>> = 8.274061296227925
-
-	* gbreve (U+011F): B<<428.5,396.0>-<454.0,357.0>-<466.0,314.0>>/L<<466.0,314.0>--<460.0,360.0>> = 8.1614029680938
-
-	* gbreve (U+011F): L<<460.0,109.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.0,75.0>> = 8.274061296227925
-
-	* gcaron (U+01E7): B<<428.5,396.0>-<454.0,357.0>-<466.0,314.0>>/L<<466.0,314.0>--<460.0,360.0>> = 8.1614029680938
-
-	* gcaron (U+01E7): L<<460.0,109.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.0,75.0>> = 8.274061296227925
-
-	* gcircumflex (U+011D): B<<428.5,396.0>-<454.0,357.0>-<466.0,314.0>>/L<<466.0,314.0>--<460.0,360.0>> = 8.1614029680938
-
-	* gcircumflex (U+011D): L<<460.0,109.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.0,75.0>> = 8.274061296227925
-
-	* gdotaccent (U+0121): B<<428.5,396.0>-<454.0,357.0>-<466.0,314.0>>/L<<466.0,314.0>--<460.0,360.0>> = 8.1614029680938
-
-	* gdotaccent (U+0121): L<<460.0,109.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.0,75.0>> = 8.274061296227925
-
-	* p (U+0070): B<<118.0,80.5>-<92.0,122.0>-<82.0,168.0>>/L<<82.0,168.0>--<90.0,96.0>> = 5.9245819819824845
-
-	* p (U+0070): L<<90.0,360.0>--<84.0,311.0>>/B<<84.0,311.0>-<95.0,355.0>-<120.5,394.5>> = 7.055186061096706
-
-	* q (U+0071): B<<428.5,396.0>-<454.0,357.0>-<466.0,314.0>>/L<<466.0,314.0>--<460.0,360.0>> = 8.1614029680938
-
-	* q (U+0071): L<<460.0,96.0>--<467.0,164.0>>/B<<467.0,164.0>-<456.0,118.0>-<430.0,78.0>> = 7.571222445043327
-
-	* r (U+0072): L<<89.0,472.0>--<89.0,312.0>>/B<<89.0,312.0>-<99.0,365.0>-<127.5,402.0>> = 10.684912400002695
-
-	* racute (U+0155): L<<89.0,472.0>--<89.0,312.0>>/B<<89.0,312.0>-<99.0,365.0>-<127.5,402.0>> = 10.684912400002695
-
-	* rcaron (U+0159): L<<89.0,472.0>--<89.0,312.0>>/B<<89.0,312.0>-<99.0,365.0>-<127.5,402.0>> = 10.684912400002695
-
-	* rmacronbelow (U+1E5F): L<<89.0,472.0>--<89.0,312.0>>/B<<89.0,312.0>-<99.0,365.0>-<127.5,402.0>> = 10.684912400002695
-
-	* thorn (U+00FE): B<<106.5,78.5>-<81.0,121.0>-<70.0,167.0>>/L<<70.0,167.0>--<76.0,91.0>> = 8.934626593685215
-
-	* thorn (U+00FE): L<<76.0,355.0>--<70.0,290.0>>/B<<70.0,290.0>-<80.0,337.0>-<106.0,380.0>> = 6.737582429013639
-
-	* uni0122 (U+0122): L<<623.0,0.0>--<623.0,234.0>>/B<<623.0,234.0>-<609.0,127.0>-<544.0,61.0>> = 7.454298812748479
-
-	* uni0123 (U+0123): B<<428.5,396.0>-<454.0,357.0>-<466.0,314.0>>/L<<466.0,314.0>--<460.0,360.0>> = 8.1614029680938
-
-	* uni0123 (U+0123): L<<460.0,109.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.0,75.0>> = 8.274061296227925
-
-	* uni0157 (U+0157): L<<89.0,472.0>--<89.0,312.0>>/B<<89.0,312.0>-<99.0,365.0>-<127.5,402.0>> = 10.684912400002695
-
-	* uni1E0D (U+1E0D): B<<430.0,394.0>-<456.0,354.0>-<467.0,309.0>>/L<<467.0,309.0>--<460.0,375.0>> = 7.682076411507662
-
-	* uni1E0D (U+1E0D): L<<460.0,111.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.5,75.5>> = 7.980113745168495
-
-	* uni1E20 (U+1E20): L<<623.0,0.0>--<623.0,234.0>>/B<<623.0,234.0>-<609.0,127.0>-<544.0,61.0>> = 7.454298812748479
-
-	* uni1E21 (U+1E21): B<<428.5,396.0>-<454.0,357.0>-<466.0,314.0>>/L<<466.0,314.0>--<460.0,360.0>> = 8.1614029680938
-
-	* uni1E21 (U+1E21): L<<460.0,109.0>--<466.0,158.0>>/B<<466.0,158.0>-<454.0,114.0>-<428.0,75.0>> = 8.274061296227925
-
-	* uni1E5B (U+1E5B): L<<89.0,472.0>--<89.0,312.0>>/B<<89.0,312.0>-<99.0,365.0>-<127.5,402.0>> = 10.684912400002695 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* IJ (U+0132): L<<655.0,660.0>--<656.0,184.0>>
-
-	* IJacute (U+E133): L<<655.0,660.0>--<656.0,184.0>>
-
-	* J (U+004A): L<<459.0,660.0>--<460.0,184.0>>
-
-	* Jcircumflex (U+0134): L<<459.0,660.0>--<460.0,184.0>>
-
-	* R (U+0052): L<<220.0,368.0>--<93.0,367.0>>
-
-	* Racute (U+0154): L<<220.0,368.0>--<93.0,367.0>>
-
-	* Rcaron (U+0158): L<<220.0,368.0>--<93.0,367.0>>
-
-	* Rmacronbelow (U+1E5E): L<<220.0,368.0>--<93.0,367.0>>
-
-	* U (U+0055): L<<529.0,660.0>--<530.0,200.0>>
-
-	* U (U+0055): L<<57.0,200.0>--<58.0,660.0>>
-
-	* Uacute (U+00DA): L<<529.0,660.0>--<530.0,200.0>>
-
-	* Uacute (U+00DA): L<<57.0,200.0>--<58.0,660.0>>
-
-	* Ubreve (U+016C): L<<529.0,660.0>--<530.0,200.0>>
-
-	* Ubreve (U+016C): L<<57.0,200.0>--<58.0,660.0>>
-
-	* Ucircumflex (U+00DB): L<<529.0,660.0>--<530.0,200.0>>
-
-	* Ucircumflex (U+00DB): L<<57.0,200.0>--<58.0,660.0>>
-
-	* Udieresis (U+00DC): L<<529.0,660.0>--<530.0,200.0>>
-
-	* Udieresis (U+00DC): L<<57.0,200.0>--<58.0,660.0>>
-
-	* Ugrave (U+00D9): L<<529.0,660.0>--<530.0,200.0>>
-
-	* Ugrave (U+00D9): L<<57.0,200.0>--<58.0,660.0>>
-
-	* Uhungarumlaut (U+0170): L<<529.0,660.0>--<530.0,200.0>>
-
-	* Uhungarumlaut (U+0170): L<<57.0,200.0>--<58.0,660.0>>
-
-	* Umacron (U+016A): L<<529.0,660.0>--<530.0,200.0>>
-
-	* Umacron (U+016A): L<<57.0,200.0>--<58.0,660.0>>
-
-	* Uogonek (U+0172): L<<529.0,660.0>--<530.0,200.0>>
-
-	* Uogonek (U+0172): L<<57.0,200.0>--<58.0,660.0>>
-
-	* Uring (U+016E): L<<529.0,660.0>--<530.0,200.0>>
-
-	* Uring (U+016E): L<<57.0,200.0>--<58.0,660.0>>
-
-	* Utilde (U+0168): L<<529.0,660.0>--<530.0,200.0>>
-
-	* Utilde (U+0168): L<<57.0,200.0>--<58.0,660.0>>
-
-	* b (U+0062): L<<48.0,0.0>--<47.0,660.0>>
-
-	* four (U+0034): L<<358.0,228.0>--<32.0,229.0>>
-
-	* g (U+0067): L<<502.0,472.0>--<503.0,-1.0>>
-
-	* gbreve (U+011F): L<<502.0,472.0>--<503.0,-1.0>>
-
-	* gcaron (U+01E7): L<<502.0,472.0>--<503.0,-1.0>>
-
-	* gcircumflex (U+011D): L<<502.0,472.0>--<503.0,-1.0>>
-
-	* gdotaccent (U+0121): L<<502.0,472.0>--<503.0,-1.0>>
-
-	* onequarter (U+00BC): L<<582.0,138.0>--<384.0,139.0>>
-
-	* p (U+0070): L<<47.0,-189.0>--<48.0,472.0>>
-
-	* q (U+0071): L<<502.0,472.0>--<503.0,-189.0>>
-
-	* thorn (U+00FE): L<<34.0,-224.0>--<35.0,762.0>>
-
-	* threequarters (U+00BE): L<<582.0,138.0>--<384.0,139.0>>
-
-	* uni0123 (U+0123): L<<502.0,472.0>--<503.0,-1.0>>
-
-	* uni0156 (U+0156): L<<220.0,368.0>--<93.0,367.0>>
-
-	* uni1E21 (U+1E21): L<<502.0,472.0>--<503.0,-1.0>>
-
-	* uni1E5A (U+1E5A): L<<220.0,368.0>--<93.0,367.0>>
-
-	* uni1E78 (U+1E78): L<<529.0,660.0>--<530.0,200.0>>
-
-	* uni1E78 (U+1E78): L<<57.0,200.0>--<58.0,660.0>>
-
-	* uni1E7A (U+1E7A): L<<529.0,660.0>--<530.0,200.0>>
-
-	* uni1E7A (U+1E7A): L<<57.0,200.0>--<58.0,660.0>>
-
-	* uni1EE4 (U+1EE4): L<<529.0,660.0>--<530.0,200.0>>
-
-	* uni1EE4 (U+1EE4): L<<57.0,200.0>--<58.0,660.0>>
-
-	* uni2074 (U+2074): L<<217.0,510.0>--<19.0,511.0>>
-
-	* uni2084 (U+2084): L<<217.0,138.0>--<19.0,139.0>>
-
-	* yen (U+00A5): L<<298.0,313.0>--<446.0,312.0>>
-
-	* yen (U+00A5): L<<91.0,312.0>--<241.0,313.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] Panamera-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** Current FontBakery version is 0.10.2, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
-
-
-* ⚠ **WARN** The following codepoints supported by the font are not covered by
-    any subsets defined in the font's metadata file, and will never
-    be served. You can solve this by either manually adding additional
-    subset declarations to METADATA.pb, or by editing the glyphset
-    definitions.
-
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
- * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, math, tifinagh, malayalam, syriac, old-permic, tai-le, canadian-aboriginal
- * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
- * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
- * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
- * U+0327 COMBINING CEDILLA: not included in any glyphset definition
- * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+032E COMBINING BREVE BELOW: try adding syriac
- * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac
- * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, caucasian-albanian, gothic, syriac, tifinagh
- * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: greek, math, elbasan
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, math, elbasan
- * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi
- * U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese
- * U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese
- * U+1EB8 LATIN CAPITAL LETTER E WITH DOT BELOW: try adding vietnamese
- * U+1EB9 LATIN SMALL LETTER E WITH DOT BELOW: try adding vietnamese
- * U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese
- * U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese
- * U+1ECA LATIN CAPITAL LETTER I WITH DOT BELOW: try adding vietnamese
- * U+1ECB LATIN SMALL LETTER I WITH DOT BELOW: try adding vietnamese
- * U+1ECC LATIN CAPITAL LETTER O WITH DOT BELOW: try adding vietnamese
- * U+1ECD LATIN SMALL LETTER O WITH DOT BELOW: try adding vietnamese
- * U+1EE4 LATIN CAPITAL LETTER U WITH DOT BELOW: try adding vietnamese
- * U+1EE5 LATIN SMALL LETTER U WITH DOT BELOW: try adding vietnamese
- * U+2007 FIGURE SPACE: not included in any glyphset definition
- * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
- * U+200A HAIR SPACE: not included in any glyphset definition
- * U+2010 HYPHEN: try adding one of: yi, lisu, sora-sompeng, kayah-li, syloti-nagri, coptic, sundanese, kharoshthi, kaithi, cham
- * U+2012 FIGURE DASH: not included in any glyphset definition
- * U+2015 HORIZONTAL BAR: try adding adlam
- * U+2021 DOUBLE DAGGER: try adding adlam
- * U+2030 PER MILLE SIGN: try adding adlam
- * U+2070 SUPERSCRIPT ZERO: not included in any glyphset definition
- * U+2075 SUPERSCRIPT FIVE: not included in any glyphset definition
- * U+2076 SUPERSCRIPT SIX: not included in any glyphset definition
- * U+2077 SUPERSCRIPT SEVEN: not included in any glyphset definition
- * U+2078 SUPERSCRIPT EIGHT: not included in any glyphset definition
- * U+2079 SUPERSCRIPT NINE: not included in any glyphset definition
- * U+2080 SUBSCRIPT ZERO: not included in any glyphset definition
- * U+2081 SUBSCRIPT ONE: not included in any glyphset definition
- * U+2082 SUBSCRIPT TWO: not included in any glyphset definition
- * U+2083 SUBSCRIPT THREE: not included in any glyphset definition
- * U+2084 SUBSCRIPT FOUR: not included in any glyphset definition
- * U+2085 SUBSCRIPT FIVE: not included in any glyphset definition
- * U+2086 SUBSCRIPT SIX: not included in any glyphset definition
- * U+2087 SUBSCRIPT SEVEN: not included in any glyphset definition
- * U+2088 SUBSCRIPT EIGHT: not included in any glyphset definition
- * U+2089 SUBSCRIPT NINE: not included in any glyphset definition
- * U+2105 CARE OF: not included in any glyphset definition
- * U+2106 CADA UNA: not included in any glyphset definition
- * U+2116 NUMERO SIGN: try adding cyrillic
- * U+2126 OHM SIGN: not included in any glyphset definition
- * U+212E ESTIMATED SYMBOL: not included in any glyphset definition
- * U+21E7 UPWARDS WHITE ARROW: try adding symbols
- * U+2202 PARTIAL DIFFERENTIAL: try adding math
- * U+2205 EMPTY SET: try adding math
- * U+2206 INCREMENT: try adding math
- * U+220F N-ARY PRODUCT: try adding math
- * U+2211 N-ARY SUMMATION: try adding math
- * U+2219 BULLET OPERATOR: try adding one of: math, yi, symbols, tai-tham
- * U+221A SQUARE ROOT: try adding math
- * U+221E INFINITY: try adding math
- * U+222B INTEGRAL: try adding math
- * U+2248 ALMOST EQUAL TO: try adding math
- * U+2260 NOT EQUAL TO: try adding math
- * U+2264 LESS-THAN OR EQUAL TO: try adding math
- * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+2317 VIEWDATA SQUARE: try adding symbols
- * U+2318 PLACE OF INTEREST SIGN: try adding symbols
- * U+2325 OPTION KEY: try adding symbols
- * U+25A0 BLACK SQUARE: try adding symbols
- * U+25A1 WHITE SQUARE: try adding symbols
- * U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols
- * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols
- * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols
- * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols
- * U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols
- * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols
- * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols
- * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols
- * U+25C6 BLACK DIAMOND: try adding symbols
- * U+25C7 WHITE DIAMOND: try adding symbols
- * U+25CA LOZENGE: try adding one of: math, symbols
- * U+25CB WHITE CIRCLE: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: bassa-vah, soyombo, khudawadi, lepcha, lao, modi, hanifi-rohingya, batak, old-permic, sundanese, brahmi, new-tai-lue, limbu, grantha, coptic, tai-le, pahawh-hmong, buginese, bengali, sharada, masaram-gondi, oriya, siddham, adlam, chakma, tirhuta, takri, marchen, meetei-mayek, math, telugu, kannada, dogra, miao, gunjala-gondi, myanmar, buhid, kayah-li, syloti-nagri, tagalog, music, sinhala, kharoshthi, zanabazar-square, cham, psalter-pahlavi, tamil, wancho, tai-viet, javanese, manichaean, caucasian-albanian, khmer, kaithi, symbols, mandaic, thai, tibetan, newa, gurmukhi, sogdian, mongolian, khojki, osage, bhaiksuki, malayalam, devanagari, tagbanwa, phags-pa, mahajani, syriac, gujarati, elbasan, balinese, duployan, mende-kikakui, hebrew, thaana, nko, hanunoo, yi, tifinagh, ahom, rejang
+ * U+25CC DOTTED CIRCLE: try adding one of: sharada, gujarati, marchen, kharoshthi, khudawadi, mende-kikakui, kaithi, soyombo, tai-le, chakma, balinese, caucasian-albanian, buginese, mongolian, khmer, tamil, bengali, nko, tagbanwa, mandaic, gurmukhi, old-permic, rejang, sundanese, dogra, syloti-nagri, lao, ahom, khojki, phags-pa, wancho, kannada, psalter-pahlavi, new-tai-lue, batak, mahajani, osage, pahawh-hmong, tifinagh, math, meetei-mayek, tai-viet, takri, malayalam, hanunoo, tibetan, gunjala-gondi, limbu, brahmi, bhaiksuki, sogdian, kayah-li, telugu, thaana, javanese, buhid, tagalog, syriac, elbasan, symbols, newa, manichaean, zanabazar-square, oriya, myanmar, siddham, masaram-gondi, miao, lepcha, yi, grantha, hebrew, tirhuta, duployan, coptic, hanifi-rohingya, devanagari, bassa-vah, adlam, music, modi, sinhala, thai, cham
  * U+25CF BLACK CIRCLE: try adding symbols
  * U+2B1B BLACK LARGE SQUARE: try adding symbols
  * U+2B1C WHITE LARGE SQUARE: try adding symbols
@@ -3216,7 +3300,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 6 | 38 | 716 | 43 | 631 | 0 |
+| 6 | 6 | 38 | 716 | 43 | 625 | 0 |
 | 0% | 0% | 3% | 50% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
