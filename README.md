@@ -2,15 +2,15 @@
 
 [![][Fontbakery]](https://noirblancrouge.github.io/Panamera/fontbakery/fontbakery-report.html)
 [![][Universal]](https://noirblancrouge.github.io/Panamera/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://noirblancrouge.github.io/Panamera/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://noirblancrouge.github.io/Panamera/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://noirblancrouge.github.io/Panamera/fontbakery/fontbakery-report.html)
+[![][Outline Checks]](https://noirblancrouge.github.io/Panamera/fontbakery/fontbakery-report.html)
+[![][Font File Checks]](https://noirblancrouge.github.io/Panamera/fontbakery/fontbakery-report.html)
+[![][OpenType Specification Checks]](https://noirblancrouge.github.io/Panamera/fontbakery/fontbakery-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/fontbakery/overall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/fontbakery/GoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/fontbakery/OutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/fontbakery/ShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/fontbakery/Universal.json
+[Fontbakery]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/badges/overall.json
+[Outline Checks]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/badges/OutlineChecks.json
+[Font File Checks]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/badges/FontFileChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/badges/UniversalProfileChecks.json
+[OpenType Specification Checks]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Panamera/badges/OpenTypeSpecificationChecks.json
 
 ![Cover](https://raw.githubusercontent.com/noirblancrouge/Panamera/master/documentation/images/panamera.jpg)
 
